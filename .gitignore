@@ -1,0 +1,81 @@
+# ============================================================
+# COMPSCI 760 Legal Retrieval Project
+# ============================================================
+
+# ------------------------------------------------------------
+# Raw Kaggle competition data
+# Each team member should download these directly from Kaggle.
+# DO NOT upload large competition data to GitHub.
+# ------------------------------------------------------------
+
+court_considerations.csv
+laws_de.csv
+train.csv
+val.csv
+test.csv
+sample_submission.csv
+
+# ------------------------------------------------------------
+# Generated files containing competition data / labels
+# These can be reproduced by the preprocessing scripts.
+# ------------------------------------------------------------
+
+processed/train_clean.csv
+processed/val_clean.csv
+processed/test_clean.csv
+processed/gold_train.json
+processed/gold_val.json
+processed/val_perfect_predictions.csv
+
+# ------------------------------------------------------------
+# Local audit sample derived from the large court corpus
+# ------------------------------------------------------------
+
+court_sample.csv
+
+# ------------------------------------------------------------
+# Python cache
+# ------------------------------------------------------------
+
+__pycache__/
+*.pyc
+*.pyo
+
+# ------------------------------------------------------------
+# Virtual environments
+# ------------------------------------------------------------
+
+.venv/
+venv/
+env/
+
+# ------------------------------------------------------------
+# IDE / OS files
+# ------------------------------------------------------------
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------
+# Large generated ML artifacts
+# Store these in OneDrive if they need to be shared.
+# ------------------------------------------------------------
+
+*.npy
+*.npz
+*.faiss
+*.index
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# ------------------------------------------------------------
+# Temporary files
+# ------------------------------------------------------------
+
+*.tmp
+*.log

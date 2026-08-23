@@ -1,0 +1,30 @@
+{
+  "logical_schema": {
+    "doc_id": "Unique row-level internal identifier",
+    "citation": "Canonical Kaggle prediction ID",
+    "text": "Text used for retrieval",
+    "title": "Law title when available; empty for court rows",
+    "source_type": "law or court"
+  },
+  "source_mapping": {
+    "laws_de.csv": {
+      "citation": "citation",
+      "text": "text",
+      "title": "title",
+      "source_type": "law"
+    },
+    "court_considerations.csv": {
+      "citation": "citation",
+      "text": "text",
+      "title": null,
+      "source_type": "court"
+    }
+  },
+  "important_rules": [
+    "Do not drop rows solely because citation values repeat.",
+    "Each corpus row remains a retrieval unit.",
+    "Predicted citations must be deduplicated at citation level before evaluation.",
+    "Do not modify canonical citation strings.",
+    "BM25-specific tokenisation, stemming and stopword removal belong to the modelling stage."
+  ]
+}

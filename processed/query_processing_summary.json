@@ -1,0 +1,13 @@
+{
+  "train_queries": 1139,
+  "validation_queries": 10,
+  "test_queries": 40,
+  "train_unique_gold_citations": 2695,
+  "validation_unique_gold_citations": 222,
+  "train_gold_occurrences": 4659,
+  "validation_gold_occurrences": 251,
+  "train_mean_gold_per_query": 4.090430201931519,
+  "train_median_gold_per_query": 2.0,
+  "validation_mean_gold_per_query": 25.1,
+  "validation_median_gold_per_query": 22.0
+}
