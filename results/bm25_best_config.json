@@ -1,0 +1,29 @@
+{
+  "system": "Split Lucene BM25",
+  "mode": "citation_aware",
+  "k1": 1.8,
+  "b": 0.75,
+  "law_weight": 1.5,
+  "court_weight": 1.0,
+  "rrf_k": 60,
+  "source_k": 300,
+  "prediction_top_k": 20,
+  "candidate_output_k": 100,
+  "macro_precision": 0.025,
+  "macro_recall": 0.02142857142857143,
+  "macro_f1": 0.022241086587436332,
+  "grid_avg_latency_ms": 89.97239002492279,
+  "final_avg_latency_ms": 87.19923002645373,
+  "indexing": {
+    "law_index": "results/lucene_bm25_law",
+    "court_index": "results/lucene_bm25_court",
+    "analyzer": "WhitespaceAnalyzer",
+    "tokenization": "language-neutral regex",
+    "citation_weighting": "canonical citation repeated 5 times in document representation"
+  },
+  "query_processing": {
+    "raw": "language-neutral tokenisation only",
+    "citation_aware": "explicit citations extracted and repeated in query",
+    "citation_hybrid": "citation-aware BM25 plus verified exact corpus citation candidates"
+  }
+}

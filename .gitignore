@@ -72,6 +72,8 @@ Thumbs.db
 *.pt
 *.pth
 *.ckpt
+# Local Lucene BM25 indexes
+results/lucene_bm25_*/
 
 # ------------------------------------------------------------
 # Temporary files
