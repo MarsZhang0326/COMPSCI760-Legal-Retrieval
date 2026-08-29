@@ -102,6 +102,48 @@ The common evaluator reports:
 - per-query TP / FP / FN
 - per-query Precision / Recall / F1
 
+## BM25 Baseline
+
+The BM25 lexical retrieval baseline has been implemented using Pyserini/Lucene.
+
+The system builds separate indexes for:
+
+- Federal laws
+- Federal court considerations
+
+The two retrieval sources are combined using weighted Reciprocal Rank Fusion (RRF).
+
+### Main scripts
+
+- `bm25_build_index.py` — builds the Lucene BM25 indexes
+- `bm25_run_experiments.py` — runs parameter search, validation evaluation, and candidate generation
+
+### Best validation configuration
+
+The best configuration on the provided validation set is:
+
+- BM25 `k1`: **1.8**
+- BM25 `b`: **0.75**
+- Law weight: **1.5**
+- Court weight: **1.0**
+- Prediction Top-K: **20**
+- Macro Precision: **0.0250**
+- Macro Recall: **0.0214**
+- Macro F1: **0.0222**
+
+The validation set contains only 10 queries, so these results should be interpreted as baseline validation results rather than a universal optimum.
+
+### BM25 outputs
+
+The main output files are stored in `results/`:
+
+- `bm25_best_config.json` — selected BM25 configuration
+- `bm25_best_predictions.csv` — validation predictions using the best configuration
+- `bm25_candidates_top100.csv` — Top-100 BM25 candidates for downstream retrieval/re-ranking
+- `bm25_ablation_summary.csv` — comparison of BM25 query-processing variants
+- `bm25_final_grid_summary.csv` — full BM25 parameter-search results
+
+The generated Lucene indexes are not stored in GitHub because they can be reproduced locally using `bm25_build_index.py`.
 ## Repository Structure
 
 ```text
@@ -120,6 +162,9 @@ COMPSCI760-Legal-Retrieval/
 ├── prepare_corpus.py
 ├── test_evaluation_csv.py
 ├── final_preflight.py
+│
+├── bm25_build_index.py
+├── bm25_run_experiments.py
 │
 ├── processed/
 │   ├── query_processing_summary.json
