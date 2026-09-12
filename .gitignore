@@ -75,6 +75,9 @@ Thumbs.db
 # Local Lucene BM25 indexes
 results/lucene_bm25_*/
 
+# Local dense retrieval indexes and metadata
+results/faiss_dense_*/
+
 # ------------------------------------------------------------
 # Temporary files
 # ------------------------------------------------------------

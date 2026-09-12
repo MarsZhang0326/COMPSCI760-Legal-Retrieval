@@ -144,6 +144,62 @@ The main output files are stored in `results/`:
 - `bm25_final_grid_summary.csv` — full BM25 parameter-search results
 
 The generated Lucene indexes are not stored in GitHub because they can be reproduced locally using `bm25_build_index.py`.
+
+## Full Dense Retrieval
+
+The full-corpus dense retrieval module uses multilingual sentence embeddings and FAISS vector search over the same law and court corpora used by BM25.
+
+### Main scripts
+
+- `dense_build_index.py` - encodes `laws_de.csv` and `court_considerations.csv`, then writes a FAISS index and row metadata
+- `dense_run_experiments.py` - searches the dense index for validation or test queries and writes prediction/candidate files
+
+### Default model
+
+The default embedding model is:
+
+```text
+intfloat/multilingual-e5-base
+```
+
+For E5 models, documents are encoded as `passage: citation title text` and queries are encoded as `query: text`.
+
+### Build the full dense index
+
+Install the dense dependencies first:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Run a small smoke test before the full build:
+
+```bash
+python dense_build_index.py --index-dir results/faiss_dense_smoke --max-docs 1000 --overwrite
+python dense_run_experiments.py --index-dir results/faiss_dense_smoke --top-k-values 10,20 --output-prefix dense_smoke
+```
+
+Then build the full law plus court index:
+
+```bash
+python dense_build_index.py --overwrite
+```
+
+Run validation experiments:
+
+```bash
+python dense_run_experiments.py
+```
+
+Dense outputs are stored in `results/`:
+
+- `dense_full_grid_summary.csv`
+- `dense_full_best_predictions.csv`
+- `dense_full_candidates_top100.csv`
+- `dense_full_config.json`
+
+The generated FAISS index and metadata are stored under `results/faiss_dense_full/` and are not committed to GitHub.
+
 ## Repository Structure
 
 ```text
@@ -165,6 +221,8 @@ COMPSCI760-Legal-Retrieval/
 │
 ├── bm25_build_index.py
 ├── bm25_run_experiments.py
+├── dense_build_index.py
+├── dense_run_experiments.py
 │
 ├── processed/
 │   ├── query_processing_summary.json
