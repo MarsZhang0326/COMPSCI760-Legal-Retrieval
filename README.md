@@ -10,15 +10,34 @@ This project studies **cross-lingual Swiss legal citation retrieval** using the 
 
 The core experimental pipeline is:
 
-**BM25 → Multilingual Dense Retrieval → Cross-Encoder Re-ranking**
-
-An optional lightweight LLM agent may be tested after the core retrieval pipeline is stable.
+**BM25 + Multilingual Dense Retrieval → Fine-tuned Cross-Encoder Re-ranking**
 
 ## Research Questions
 
 1. Does multilingual dense retrieval outperform a lexical BM25 baseline?
 2. How much additional improvement does cross-encoder re-ranking provide?
 3. If time permits, can lightweight LLM query reformulation improve retrieval recall?
+
+## Final Results
+
+Validation set (10 queries), same corpus and same `evaluation.py` for every system:
+
+| System | Candidate pool | Macro P | Macro R | Macro F1 | Latency / query |
+|---|---|---|---|---|---|
+| BM25 (Top-20) | BM25 | 0.0250 | 0.0214 | 0.0222 | 90 ms (CPU) |
+| Dense E5-base (Top-10) | Dense | 0.0100 | 0.0100 | 0.0100 | 381 ms (Mac MPS) |
+| BM25 + dense fusion, no re-ranker (alpha = 0) | Both | 0.0143 | 0.0314 | 0.0186 | n/a |
+| mMiniLM cross-encoder, not fine-tuned | Both | 0.0160 | 0.0267 | 0.0188 | 18.2 s (Mac MPS) |
+| bge-reranker-v2-m3, not fine-tuned | Both | 0.0400 | 0.0372 | 0.0376 | 3.8 s (A100) |
+| **bge-reranker-v2-m3, fine-tuned** | Both | **0.1559** | **0.0472** | **0.0676** | 3.8 s (A100) |
+
+Kaggle test set, fine-tuned bge-reranker-v2-m3: **private F1 0.07505, public F1 0.00666** (submitted after the deadline).
+
+Key findings:
+
+- Fine-tuning raises validation macro F1 by about 80% over the same model without fine-tuning, and to about 3x the BM25 baseline. Most of the gain is precision: the fine-tuned model returns about 3 to 4 citations per query.
+- **Candidate recall is the bottleneck.** The union of BM25 and dense top-100 holds only 5.1% (macro recall) of the validation gold citations (BM25 alone: 3.7%, dense alone: 1.4%). No re-ranker can score above this recall.
+- Alpha and the cutoff are tuned on the same 10 validation queries, so validation scores are optimistic. The Kaggle private score is the fair estimate. The public and private scores differ a lot because each covers only part of the 40 test queries.
 
 ## Shared Data and Evaluation Layer
 
@@ -200,6 +219,217 @@ Dense outputs are stored in `results/`:
 
 The generated FAISS index and metadata are stored under `results/faiss_dense_full/` and are not committed to GitHub.
 
+## Cross-Encoder Re-ranking
+
+The re-ranking module takes the BM25 and dense candidates, scores each (query, passage) pair with a multilingual cross-encoder, and writes a new ranking. It can also fine-tune the cross-encoder on the training queries.
+
+### Main files
+
+- `rerank_cross_encoder.py` - loads candidates, gets passage text through `data_loader.py`, scores with the cross-encoder, and evaluates with `evaluation.py`
+- `finetune_cross_encoder.py` - fine-tunes the cross-encoder on the training queries with hard negatives
+
+### Method
+
+1. Take the union of the BM25 and dense candidates for each query (up to 200 citations).
+2. Look up the passage text for each candidate `doc_id`. The first run scans the court corpus once and caches the text in `results/ce_doc_text_cache.csv.gz`.
+3. Score each pair with the cross-encoder. Passage format: `citation title text`. If a citation has more than one passage, it keeps the highest score.
+4. Combine the scores:
+
+```text
+final = alpha * minmax(ce_score) + (1 - alpha) * minmax(first_stage_rrf)
+```
+
+`alpha = 1.0` is pure cross-encoder ranking. `alpha = 0.0` is the first-stage union with no re-ranker. The validation grid includes both, so one run gives the baseline and the re-ranker result.
+
+5. Choose how many citations to predict per query (the cutoff):
+
+| Mode | Keeps | Count per query |
+|---|---|---|
+| `topk` | the first N citations | same for every query |
+| `threshold` | citations with `ce_score >= value` (model output, 0 to 1) | changes per query |
+| `relative` | citations with `final_score >= value` (top citation = 1.0) | changes per query |
+
+`threshold` and `relative` keep at least `--min-k` (default 1) and at most `--max-k` (default 50) citations. The gold count changes a lot between queries (validation: 10 to 47), so a variable cutoff can give a higher macro F1 than a fixed Top-K.
+
+The validation grid tests every alpha with every cutoff setting and saves the best one.
+
+### Default model
+
+```text
+BAAI/bge-reranker-v2-m3
+```
+
+This model is multilingual, so it can score English queries against German, French and Italian passages. For a fast smoke test, use `cross-encoder/mmarco-mMiniLMv2-L12-H384-v1`.
+
+### Run the re-ranker
+
+Smoke test:
+
+```bash
+python rerank_cross_encoder.py --max-queries 2 --model cross-encoder/mmarco-mMiniLMv2-L12-H384-v1 --output-prefix ce_smoke
+```
+
+Validation grid:
+
+```bash
+python rerank_cross_encoder.py --max-length 1024
+```
+
+Test predictions (uses the best alpha and cutoff saved by the validation run):
+
+```bash
+python rerank_cross_encoder.py --split test \
+    --bm25-candidates results/bm25_test_candidates_top100.csv \
+    --dense-candidates results/dense_full_test_candidates_top100.csv
+```
+
+Useful options: `--sources bm25|dense|both`, `--first-stage-k`, `--alpha-values`, `--cutoff-modes`, `--top-k-values`, `--threshold-values`, `--relative-values`, `--min-k`, `--max-k`, `--max-length`, `--batch-size`, `--device cpu|cuda|mps`.
+
+### First-stage candidates for train and test
+
+Fine-tuning needs BM25 and dense candidates for the training queries, and test predictions need them for the test queries. Both first-stage scripts can now write them:
+
+```bash
+python bm25_run_experiments.py --candidates-split train     # or test, or val
+python dense_run_experiments.py --split train               # or test
+```
+
+- BM25 uses the saved `results/bm25_best_config.json`, skips the parameter search, and writes `results/bm25_<split>_candidates_top100.csv`. Add `--candidate-output-k 500` for deeper candidates.
+- Dense writes `results/dense_full_<split>_candidates_top100.csv`.
+- Without these flags, both scripts run the validation experiment exactly as before.
+
+### Fine-tuning
+
+Command used for the final model (Colab A100, 8.4 minutes for 2 epochs):
+
+```bash
+python finetune_cross_encoder.py --device cuda --epochs 2 --max-length 512 \
+    --groups-per-batch 4 --grad-accum 4 --output-dir results/ce_finetuned_bge
+python rerank_cross_encoder.py --model results/ce_finetuned_bge --output-prefix ce_bge_ft --device cuda
+```
+
+Training result: held-out dev MRR rose from 0.447 to 0.778 (acc@1 0.61), and the training loss fell from about 2.2 to about 0.8.
+
+Each training group is 1 gold passage plus 7 negatives. The loss is a softmax cross-entropy over the group.
+
+- **Hard negatives (4):** BM25 and dense candidates for the query that are not gold. They come from the train candidate files above. Without these files, the script prints a warning and uses the other two kinds.
+- **Neighbour negatives (2):** rows next to the gold row in the corpus, for example `Art. 221 Abs. 2 StPO` for the gold `Art. 221 Abs. 1 StPO`, or another consideration of the same court decision. They teach the exact-citation difference that the task scores.
+- **Random negatives (1):** random law and court rows.
+
+The script holds out 10% of the training queries and reports the gold passage's MRR within the held-out groups before training and after each epoch. It saves only the best epoch. It does not use the 10 official validation queries, so they stay a fair test.
+
+Training data facts: 999 of the 1,139 training queries have at least one gold citation in the corpus, which gives 3,319 training groups. 3,262 of the positives are laws and 57 are court decisions, but about 40% of the validation gold citations are court decisions.
+
+Hardware: fine-tuning `bge-reranker-v2-m3` needs a GPU with about 16 GB or more (Colab or a lab machine). On an Apple Silicon Mac, one training step took about 40 minutes, so we trained on Colab (see below). On a laptop, fine-tune `cross-encoder/mmarco-mMiniLMv2-L12-H384-v1` with `--base-model`.
+
+Safety checks in the training loop: a batch with a non-finite loss and a step with a non-finite gradient norm are skipped and reported, and a `nan` score gets the worst rank in the dev check. On CUDA the script uses bfloat16 (A100, L4) or float16 with a gradient scaler (T4).
+
+The fine-tuned model (about 2.3 GB) is not committed. Download link: `https://drive.google.com/drive/folders/1Lf1JR1amLI_HI-jm4Bl_VvJgzN9_tZHt?usp=sharing`.
+
+### Outputs
+
+Every file name starts with `--output-prefix` (default `ce_rerank`). The final runs used `ce_bge_zeroshot` and `ce_bge_ft`.
+
+- `ce_rerank_grid_summary.csv` - alpha x cutoff validation results, with the average number of predicted citations
+- `ce_rerank_best_predictions.csv` - validation predictions with the best setting
+- `ce_rerank_candidates_top100.csv` - re-ranked candidates with first-stage ranks and all scores
+- `ce_rerank_config.json` - best setting, metrics, candidate-pool recall, and latency
+- `ce_rerank_test_predictions.csv` and `ce_rerank_test_candidates_top100.csv` - test predictions (Kaggle format) and ranked test candidates (`--split test`)
+- `ce_finetuned*/` - fine-tuned model and `finetune_config.json` (not committed)
+
+`candidate_pool_recall` is the share of gold citations that appear anywhere in the candidate pool. No re-ranker can score above this recall.
+
+## Setup Notes
+
+### BM25 (Pyserini and Java)
+
+Pyserini needs Java 21. Install both inside the project environment:
+
+```bash
+conda activate legal-ir
+conda install -c conda-forge openjdk=21 -y
+python -m pip install pyserini
+conda env config vars set JAVA_HOME="$CONDA_PREFIX/lib/jvm" \
+    JVM_PATH="$CONDA_PREFIX/lib/jvm/lib/server/libjvm.dylib" OPENAI_API_KEY=not-used
+conda deactivate && conda activate legal-ir
+```
+
+- Run these after `conda activate legal-ir`. In `(base)`, `$CONDA_PREFIX` points to the wrong environment.
+- `JVM_PATH` fixes `Unable to find libjvm.so` from `pyjnius` (the path above is for macOS; on Linux use `libjvm.so`).
+- `OPENAI_API_KEY=not-used` works around a Pyserini import bug: it creates an OpenAI client at import time and stops if no key is set. No OpenAI call is made.
+- Pyserini can upgrade numpy to 2.x. If faiss or torch then fails, run `python -m pip install "numpy>=1.26,<2.0"`.
+- Some training queries have more than 1,024 unique terms. `bm25_run_experiments.py` raises Lucene's clause limit to 16,384 so these queries keep every term.
+
+### Running on Google Colab (GPU)
+
+The dense index build and cross-encoder fine-tuning are too slow on a laptop (dense index: about 46 hours on a Mac, versus about 2 hours on a Colab A100). The BM25 indexes stay local: copy only the candidate CSV files to Colab.
+
+1. Zip the project without the large local folders and upload the zip to Google Drive:
+
+   ```bash
+   zip -r legal-ir-colab.zip COMPSCI760-Legal-Retrieval-main \
+       -x "*/results/lucene_*" "*/results/faiss_*" "*/results/ce_finetuned*" "*/__pycache__/*" "*.bak"
+   ```
+
+2. In Colab, choose **Runtime > Change runtime type > A100 GPU** (or T4 on the free tier) and turn on High RAM for the dense index.
+3. Mount Drive, unzip, install and check the GPU:
+
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
+   ```
+
+   ```bash
+   !unzip -o -q /content/drive/MyDrive/legal-ir-colab.zip -d /content/data
+   %cd /content/data/COMPSCI760-Legal-Retrieval-main
+   !pip install -q sentence-transformers faiss-cpu
+   !nvidia-smi
+   ```
+
+4. Dense index with float16 (`--fp16`, CUDA only). Use the default `--index-dir`:
+
+   ```bash
+   !python dense_build_index.py --device cuda --fp16 --batch-size 256 --overwrite
+   !python dense_run_experiments.py --split train
+   !python dense_run_experiments.py --split test
+   ```
+
+5. Fine-tuning and re-ranking: the commands in the sections above, with `--device cuda`. Write models and results to `/content/drive/MyDrive/...`, because `/content` is deleted when the session ends.
+6. Copy the result files back into `results/` on your computer.
+
+## Reproducing the Final Results
+
+Run in this order. Steps 5 to 8 need a GPU.
+
+| Step | Command | Output |
+|---|---|---|
+| 1 | `python prepare_queries.py`, `python prepare_corpus.py`, `python final_preflight.py` | `processed/` |
+| 2 | `python bm25_build_index.py` | `results/lucene_bm25_*` |
+| 3 | `python bm25_run_experiments.py` | BM25 val results and val candidates |
+| 4 | `python bm25_run_experiments.py --candidates-split train` (and `test`) | BM25 train and test candidates |
+| 5 | `python dense_build_index.py --device cuda --fp16` | `results/faiss_dense_full/` |
+| 6 | `python dense_run_experiments.py` (and `--split train`, `--split test`) | dense val, train and test candidates |
+| 7 | `python rerank_cross_encoder.py --model BAAI/bge-reranker-v2-m3 --output-prefix ce_bge_zeroshot` | zero-shot baseline |
+| 8 | `python finetune_cross_encoder.py ...` then `rerank_cross_encoder.py --model results/ce_finetuned_bge --output-prefix ce_bge_ft` (val, then `--split test`) | final re-ranker results and test predictions |
+
+## Code Contributions and External Sources
+
+| Member | Contribution |
+|---|---|
+| Qiyu Zhang | Data processing, corpus audit, shared data loader and evaluator (`prepare_*.py`, `audit_court.py`, `data_loader.py`, `evaluation.py`, `final_preflight.py`) |
+| Yuting Shen | BM25 indexes, query processing, tuning and candidate pools (`bm25_*.py`) |
+| Yi Zong | Dense retrieval with E5 and FAISS (`dense_*.py`) |
+| Simon Lin | Cross-encoder re-ranking, fine-tuning, candidate pools for train and test, Colab workflow (`rerank_cross_encoder.py`, `finetune_cross_encoder.py`) |
+| Xirui Liu | Integration and final comparison |
+
+External sources used (not our work):
+
+- Data: Kaggle competition *LLM Agentic Legal Information Retrieval*.
+- Pretrained models from Hugging Face: `intfloat/multilingual-e5-base`, `BAAI/bge-reranker-v2-m3`, `cross-encoder/mmarco-mMiniLMv2-L12-H384-v1`.
+- Libraries: Pyserini / Apache Lucene (BM25), FAISS, sentence-transformers, Hugging Face transformers, PyTorch, pandas, NumPy.
+- Methods: BM25 (Robertson and Zaragoza, 2009), reciprocal rank fusion (Cormack et al., 2009), cross-encoder re-ranking (Nogueira and Cho, 2019).
+- Generative AI helped with code debugging, script drafting and documentation. The group checked all code, numbers and conclusions.
+
 ## Repository Structure
 
 ```text
@@ -223,6 +453,8 @@ COMPSCI760-Legal-Retrieval/
 ├── bm25_run_experiments.py
 ├── dense_build_index.py
 ├── dense_run_experiments.py
+├── rerank_cross_encoder.py
+├── finetune_cross_encoder.py
 │
 ├── processed/
 │   ├── query_processing_summary.json

@@ -78,9 +78,26 @@ results/lucene_bm25_*/
 # Local dense retrieval indexes and metadata
 results/faiss_dense_*/
 
+# Cross-encoder passage-text cache (contains corpus text)
+results/*_doc_text_cache.csv.gz
+
+# Fine-tuned cross-encoder models
+results/ce_finetuned*/
+
 # ------------------------------------------------------------
 # Temporary files
 # ------------------------------------------------------------
 
 *.tmp
 *.log
+
+# ------------------------------------------------------------
+# Local backups, smoke tests and Colab uploads
+# ------------------------------------------------------------
+
+*.bak
+.ipynb_checkpoints/
+results/ce_smoke*/
+results/ce_finetuned*/
+results/_*_temporary_predictions.csv
+*.zip

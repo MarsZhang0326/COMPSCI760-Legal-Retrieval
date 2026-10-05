@@ -99,6 +99,12 @@ def parse_args():
     )
 
     parser.add_argument(
+        "--fp16",
+        action="store_true",
+        help="Encode in half precision (CUDA only). About 2x faster on a GPU.",
+    )
+
+    parser.add_argument(
         "--faiss-threads",
         type=int,
         default=None,
@@ -251,7 +257,7 @@ def main():
             args.faiss_threads
         )
 
-    index_dir = args.index_dir
+    index_dir = args.index_dir.resolve()
     index_file = index_dir / "dense.faiss"
     metadata_file = index_dir / "metadata.csv.gz"
     config_file = index_dir / "dense_index_config.json"
@@ -286,6 +292,12 @@ def main():
         args.model,
         device=args.device,
     )
+
+    if args.fp16:
+        if model.device.type != "cuda":
+            raise SystemExit("--fp16 needs a CUDA GPU. Remove --fp16 on CPU or MPS.")
+        model.half()
+        print("Precision: float16")
 
     probe_text = (
         "passage: dimension probe"
@@ -449,10 +461,10 @@ def main():
             ),
 
         "metadata_file":
-            str(metadata_file.relative_to(ROOT)),
+            str(metadata_file),
 
         "index_file":
-            str(index_file.relative_to(ROOT)),
+            str(index_file),
 
         "elapsed_minutes":
             elapsed / 60,
