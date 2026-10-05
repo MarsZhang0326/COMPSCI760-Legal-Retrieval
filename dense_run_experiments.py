@@ -7,7 +7,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from data_loader import load_test, load_val
+from data_loader import load_test, load_train, load_val
 from evaluation import evaluate_csv
 
 
@@ -87,9 +87,13 @@ def parse_args():
 
     parser.add_argument(
         "--split",
-        choices=["val", "test"],
+        choices=["val", "test", "train"],
         default="val",
-        help="Run validation evaluation or produce test predictions.",
+        help=(
+            "val: run the validation grid. test: write test predictions "
+            "and test candidates. train: write training-query candidates "
+            "(for cross-encoder fine-tuning)."
+        ),
     )
 
     parser.add_argument(
@@ -638,6 +642,11 @@ def main():
             max(args.top_k_values),
             args.candidate_output_k,
         )
+    elif args.split == "train":
+        queries = load_train().reset_index(
+            drop=True
+        )
+        target_k = args.candidate_output_k
     else:
         queries = load_test().reset_index(
             drop=True
@@ -670,6 +679,25 @@ def main():
         sum(query_latencies_ms)
         / len(query_latencies_ms)
     )
+
+    if args.split in {"test", "train"}:
+        split_candidates_file = (
+            RESULTS_DIR
+            / f"{args.output_prefix}_{args.split}_candidates_top{args.candidate_output_k}.csv"
+        )
+
+        save_candidate_file(
+            queries,
+            ranked_results,
+            args.candidate_output_k,
+            split_candidates_file,
+        )
+
+        print(f"\n{args.split} candidates: {split_candidates_file}")
+
+    if args.split == "train":
+        print(f"Average search latency: {avg_latency_ms:.2f} ms/query")
+        return
 
     if args.split == "test":
         write_prediction_file(

@@ -30,6 +30,11 @@ if java_exe:
 from pyserini.search.lucene import LuceneSearcher
 from pyserini.analysis import JWhiteSpaceAnalyzer
 
+# Long queries can have more than 1,024 unique terms. Lucene's default
+# limit is 1,024 clauses per query, so raise it to keep every term.
+from jnius import autoclass
+autoclass("org.apache.lucene.search.IndexSearcher").setMaxClauseCount(16384)
+
 import pandas as pd
 
 from data_loader import load_val
@@ -956,6 +961,155 @@ print(
 print(
     "============================================================"
 )
+
+
+# ============================================================
+# Candidate-only mode (train / val / test)
+# ------------------------------------------------------------
+# Writes first-stage candidates for any query split, for example
+# training queries for cross-encoder fine-tuning:
+#
+#   python bm25_run_experiments.py --candidates-split train
+#   python bm25_run_experiments.py --candidates-split test
+#   python bm25_run_experiments.py --candidates-split val --candidate-output-k 500
+#
+# This mode skips the parameter search. It uses the saved best
+# configuration in results/bm25_best_config.json, writes
+#   results/bm25_<split>_candidates_top<K>.csv
+# with the same columns as bm25_candidates_top100.csv, and exits.
+#
+# Without --candidates-split, the validation experiment below
+# runs exactly as before.
+# ============================================================
+
+import argparse
+import sys
+
+_cli = argparse.ArgumentParser(add_help=False)
+
+_cli.add_argument(
+    "--candidates-split",
+    choices=["train", "val", "test"],
+    default=None
+)
+
+_cli.add_argument(
+    "--candidate-output-k",
+    type=int,
+    default=CANDIDATE_OUTPUT_K
+)
+
+_cli_args, _ = _cli.parse_known_args()
+
+
+if _cli_args.candidates_split is not None:
+
+    from data_loader import load_train, load_test
+
+    split = _cli_args.candidates_split
+    output_k = _cli_args.candidate_output_k
+
+    if not BEST_CONFIG_FILE.exists():
+        sys.exit(
+            f"Missing {BEST_CONFIG_FILE}. "
+            "Run the validation experiment first."
+        )
+
+    with open(BEST_CONFIG_FILE, "r", encoding="utf-8") as file:
+        cfg = json.load(file)
+
+    split_queries = {
+        "train": load_train,
+        "val": load_val,
+        "test": load_test,
+    }[split]().reset_index(drop=True)
+
+    source_k = max(SOURCE_K, output_k)
+
+    print("============================================================")
+    print(f"BM25 CANDIDATES: {split} ({len(split_queries):,} queries)")
+    print(
+        f"mode={cfg['mode']} | k1={cfg['k1']} | b={cfg['b']} | "
+        f"law_weight={cfg['law_weight']} | "
+        f"court_weight={cfg['court_weight']} | top-{output_k}"
+    )
+    print("============================================================")
+
+    cand_law_searcher = LuceneSearcher(str(LAW_INDEX))
+    cand_court_searcher = LuceneSearcher(str(COURT_INDEX))
+
+    for searcher in [cand_law_searcher, cand_court_searcher]:
+        searcher.set_analyzer(JWhiteSpaceAnalyzer())
+        searcher.set_bm25(float(cfg["k1"]), float(cfg["b"]))
+
+    candidate_rows = []
+    start_all = time.perf_counter()
+
+    for i, row in split_queries.iterrows():
+
+        original_query = str(row["query"] or "")
+
+        if cfg["mode"] == MODE_RAW:
+            query = tokenize_neutral(original_query)
+        else:
+            query = tokenize_neutral(
+                build_citation_aware_query(original_query)
+            )
+
+        law_results = retrieve_unique(
+            cand_law_searcher, query, source_k
+        )
+
+        court_results = retrieve_unique(
+            cand_court_searcher, query, source_k
+        )
+
+        ranked = weighted_rrf(
+            law_results,
+            court_results,
+            float(cfg["law_weight"]),
+            float(cfg["court_weight"])
+        )
+
+        if cfg["mode"] == MODE_HYBRID:
+            ranked = prepend_exact_candidates(
+                find_exact_candidates(
+                    cand_law_searcher,
+                    cand_court_searcher,
+                    original_query
+                ),
+                ranked
+            )
+
+        for rank, item in enumerate(ranked[:output_k], start=1):
+            candidate_rows.append({
+                "query_id": row["query_id"],
+                "rank": rank,
+                "doc_id": item.get("doc_id", ""),
+                "citation": item["citation"],
+                "source_type": item.get("source_type", ""),
+                "source_rank": item.get("source_rank", ""),
+                "bm25_score": item.get("bm25_score", ""),
+                "fusion_score": item.get("fusion_score", ""),
+                "exact_match": item.get("exact_match", False),
+            })
+
+        if (i + 1) % 50 == 0 or i + 1 == len(split_queries):
+            print(
+                f"{i + 1:,}/{len(split_queries):,} queries | "
+                f"{time.perf_counter() - start_all:.0f} s"
+            )
+
+    output_file = (
+        RESULTS_DIR
+        / f"bm25_{split}_candidates_top{output_k}.csv"
+    )
+
+    pd.DataFrame(candidate_rows).to_csv(output_file, index=False)
+
+    print(f"\nCandidates saved: {output_file}")
+
+    sys.exit(0)
 
 
 val = load_val()

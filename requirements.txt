@@ -1,5 +1,22 @@
+# Install into a project environment, not the Anaconda base environment:
+#   conda create -n legal-ir python=3.11 -y
+#   conda activate legal-ir
+#   python -m pip install -r requirements.txt
+#
+# Apple Silicon Macs: use an Apple Silicon (arm64) conda, such as Miniforge.
+# An Intel conda runs under Rosetta, gets only PyTorch 2.2.2, and cannot use
+# the Mac GPU (MPS). Check with:
+#   python -c "import platform; print(platform.machine())"   # want arm64
+#
+# BM25 (Pyserini + Java) is installed separately.
+
 pandas>=2.0
-numpy>=1.26
+numpy>=1.26,<2.0
 torch>=2.0
-sentence-transformers>=3.0
 faiss-cpu>=1.8
+sentence-transformers>=3.0
+
+# PyTorch stops at 2.2.2 on Intel Macs. transformers 5 needs PyTorch 2.5,
+# so Intel Macs (and Rosetta) get the last transformers 4 release.
+transformers>=4.40,<4.58; sys_platform == "darwin" and platform_machine == "x86_64"
+transformers>=4.40; sys_platform != "darwin" or platform_machine != "x86_64"
