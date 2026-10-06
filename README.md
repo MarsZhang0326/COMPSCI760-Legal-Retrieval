@@ -31,6 +31,17 @@ Validation set (10 queries), same corpus and same `evaluation.py` for every syst
 | bge-reranker-v2-m3, not fine-tuned | Both | 0.0400 | 0.0372 | 0.0376 | 3.8 s (A100) |
 | **bge-reranker-v2-m3, fine-tuned** | Both | **0.1559** | **0.0472** | **0.0676** | 3.8 s (A100) |
 
+Exploratory Dense-only E5 comparison (newly executed retrieval):
+
+| Evaluation set / gold | Model | Citation Recall@20 | Citation Recall@50 | Citation Recall@100 | Macro F1@10 |
+|---|---|---|---|---|---|
+| Train-derived independent (114 queries), full gold | Original pretrained E5 | 0.010234 | 0.014620 | 0.032164 | 0.004161 |
+| Train-derived independent (114 queries), full gold | Fine-tuned E5 (epoch 2) | 0.078031 | 0.118239 | 0.139939 | 0.018003 |
+| Official English validation (10 queries), full gold | Original pretrained E5 | 0.010000 | 0.014000 | 0.014000 | 0.010000 |
+| Official English validation (10 queries), full gold | Fine-tuned E5 (epoch 2) | 0.000000 | 0.005159 | 0.005159 | 0.000000 |
+
+Both models use the same complete corpus, shared `evaluation.py`, 10,000 passage-row search depth and Top-100 citation budget. Citation Recall is macro recall at the stated cutoff; Macro F1@10 uses fixed Top-10 predictions. Full-gold scoring retains missing gold in the denominators. This is a Dense-only fine-tuning experiment; E5-plus-reranking has not been evaluated. The historical fine-tuning gains discussed below refer to the BGE cross-encoder.
+
 Kaggle test set, fine-tuned bge-reranker-v2-m3: **private F1 0.07505, public F1 0.00666** (submitted after the deadline).
 
 Key findings:
@@ -339,6 +350,87 @@ Every file name starts with `--output-prefix` (default `ce_rerank`). The final r
 
 `candidate_pool_recall` is the share of gold citations that appear anywhere in the candidate pool. No re-ranker can score above this recall.
 
+## Exploratory E5 Fine-Tuning Experiment
+
+### Motivation and research question
+
+The original Dense baseline had weak validation performance (Macro F1 0.0100 at Top-10), motivating an exploratory study of project-specific E5 fine-tuning for exact legal citations.
+
+**Research question:** Can project-specific fine-tuning of multilingual E5 improve exact legal citation retrieval compared with the original pretrained E5 model?
+
+This experiment is an optional branch, not a replacement for the original BM25, Dense and cross-encoder pipeline. E5 bi-encoder fine-tuning changes the query/document encoder; BGE cross-encoder fine-tuning changes the separate pair scorer.
+
+### Main scripts
+
+- `dense_e5_ft_run.py` - searches the completed fine-tuned E5 index and writes candidates/predictions using `data_loader.py` and `evaluation.py`
+
+### Method
+
+1. Split the original training queries into 911 train, 114 development and 114 independent evaluation queries (seed 760). All gold for one query stay together; duplicate/near-duplicate scenario groups stay in one split.
+2. Link gold citations to real legal-text passages for positives. Missing gold are skipped for training and counted; full-gold evaluation retains them.
+3. Train `intfloat/multilingual-e5-base` with contrastive learning, BM25/Dense hard negatives and random negatives. Known gold and other passages of a gold citation are excluded from negatives; known positives are protected in the batch loss. Unjudged negatives may still contain relevant citations.
+4. Select the checkpoint by development full-gold Recall@100, not training loss. Epoch 2 scored 0.073521 versus 0.050585 for pretrained E5. Independent evaluation labels were not used for selection.
+
+### Model and retrieval artifacts
+
+Reuse the selected epoch-2 model and its matching full-corpus FAISS index (2,652,248 rows). Copy the completed archive artifacts into the optional branch directory:
+
+- `e5_experiment/models/epoch_2/` contents → `results/dense_e5_ft_artifacts/model/`
+- `e5_experiment/indexes/epoch_2/` contents → `results/dense_e5_ft_artifacts/index/`
+- `e5_experiment/data/corpus.sqlite` → `results/dense_e5_ft_artifacts/corpus.sqlite`
+
+Keep the packaged `protocol.json` and `corpus_snapshot_sha256.json` there, with archived filenames and bytes unchanged. Content hashes verify model/index/map identity after relocation; do not search the pretrained index with fine-tuned query vectors. No retraining, corpus encoding or index conversion is needed. Full training scripts, splits and logs remain in the separate experiment archive.
+
+Retrieval preserves `query: text`, `passage: citation title text`, masked mean pooling, L2 normalization and 512-token truncation. It keeps 10,000 passage rows before deduplicating citations into at most 100 candidates per query. The existing encoder/search process separation resolves the OpenMP conflict; unset `KMP_DUPLICATE_LIB_OK`.
+
+### Run the optional branch
+
+Use the existing shared data preparation commands, then run in the E5 environment from the project root:
+
+```bash
+python dense_e5_ft_run.py --verify-only
+python dense_e5_ft_run.py --split val --index-dir results/dense_e5_ft_artifacts/index --device auto --output-prefix dense_e5_ft
+python dense_e5_ft_run.py --split test --index-dir results/dense_e5_ft_artifacts/index --device auto --output-prefix dense_e5_ft
+```
+
+Use a new `dense_e5_ft_` prefix for repeat runs. `--split train` uses the original shared train set, not the archive's derived independent evaluation set.
+
+Outputs are stored in `results/`:
+
+- `dense_e5_ft_val_candidates_top100.csv` and `dense_e5_ft_test_candidates_top100.csv` - Top-100 candidates for downstream re-ranking
+- `dense_e5_ft_<split>_predictions.csv` - Dense-only Top-K predictions (default 10), separate from candidates
+- `dense_e5_ft_val_summary.csv`, `dense_e5_ft_val_per_query.csv` and `dense_e5_ft_<split>_config.json` - evaluation and run records
+- `dense_e5_ft_verified_results.csv` and `dense_e5_ft_provenance.json` - saved comparison metrics and evidence fingerprints
+
+### Optional re-ranking follow-up
+
+The existing reranker can consume this branch's candidate CSV through `--dense-candidates`. It retains `query_id,rank,doc_id,citation,source_type`; additional `row_rank,dense_score` columns are ignored. Preserve canonical citations and the original corpus row order. The reranking owner uses their cross-encoder checkpoint and shared corpus text, not E5 weights.
+
+Run validation and then test in the existing CE environment with the same new output prefix; test reads that prefix's saved alpha/cutoff configuration. These are available follow-up commands, not completed combination results:
+
+```bash
+python rerank_cross_encoder.py --split val \
+    --model results/ce_finetuned_bge \
+    --dense-candidates results/dense_e5_ft_val_candidates_top100.csv \
+    --output-prefix dense_e5_ft_ce_followup
+python bm25_run_experiments.py --candidates-split test
+python rerank_cross_encoder.py --split test \
+    --model results/ce_finetuned_bge \
+    --bm25-candidates results/bm25_test_candidates_top100.csv \
+    --dense-candidates results/dense_e5_ft_test_candidates_top100.csv \
+    --output-prefix dense_e5_ft_ce_followup
+```
+
+Use the owner's actual checkpoint path if different. Validation uses the existing BM25 validation candidates by default; both commands retain the default BM25-plus-Dense Top-100 union. Historical CE output prefixes are preserved.
+
+### Results and discussion
+
+The comparison in Final Results shows improvement on the predominantly German train-derived independent set, but deterioration on the English official validation set. BM25 figures in the experiment archive are historical candidate reevaluation; the E5 comparison uses newly executed retrieval for both models.
+
+German-dominated training and its law-heavy positives (2,606 law versus 32 court passage pairs) differ from the English validation target, where 102 of 251 gold occurrences are court citations. These are possible explanations for limited transfer; their causal effects were not isolated. On derived evaluation, Top-100 court candidate share changed from 97.3% to 0%, replacing court dominance with law dominance rather than demonstrating that source bias was solved.
+
+Official validation contains only ten questions and has already informed historical project tuning; it is not an untouched test set. Only one E5 training seed was run. The results support a limited exploratory finding, not improved English retrieval, stable generalization or gains after reranking.
+
 ## Setup Notes
 
 ### BM25 (Pyserini and Java)
@@ -420,7 +512,7 @@ Run in this order. Steps 5 to 8 need a GPU.
 | Yuting Shen | BM25 indexes, query processing, tuning and candidate pools (`bm25_*.py`) |
 | Yi Zong | Dense retrieval with E5 and FAISS (`dense_*.py`) |
 | Simon Lin | Cross-encoder re-ranking, fine-tuning, candidate pools for train and test, Colab workflow (`rerank_cross_encoder.py`, `finetune_cross_encoder.py`) |
-| Xirui Liu | Integration and final comparison |
+| Xirui Liu | Integration and final comparison; exploratory E5 fine-tuning study, experiment evaluation and candidate handoff integration (`dense_e5_ft_run.py`) |
 
 External sources used (not our work):
 
@@ -453,6 +545,7 @@ COMPSCI760-Legal-Retrieval/
 ├── bm25_run_experiments.py
 ├── dense_build_index.py
 ├── dense_run_experiments.py
+├── dense_e5_ft_run.py
 ├── rerank_cross_encoder.py
 ├── finetune_cross_encoder.py
 │
