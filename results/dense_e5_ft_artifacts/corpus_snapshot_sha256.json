@@ -1,0 +1,7 @@
+{
+  "path": "data/corpus.sqlite",
+  "bytes": 3225661440,
+  "sha256": "f54ab91ec9b6e5ea0a2840e9afd148b653f5836eb8666cd2f968616271bb6e8b",
+  "input_manifest_sha256": "28948c23a8b0a3176b79b6364b796a36ef280f5c1c06bc5a74fb8e3414cc2005",
+  "role": "full frozen row-level passage text and corpus mapping"
+}

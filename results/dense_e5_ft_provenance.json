@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "selected_checkpoint": "epoch_2",
+  "selected_model_sha256": "02361aa47a9b16941bb0f431b8089c97143b9e5d9caf2a328c94ac7fedccc998",
+  "model": "intfloat/multilingual-e5-base",
+  "model_revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "protocol_sha256": "29b855cd1c119546083ccbc66ab3b5908fc88c074893bc26c495862a3ffc5ea8",
+  "corpus_snapshot_metadata_sha256": "0a6255b8f7d69a6bfda0850f47e259009cec07c9aac83f65c5e0f05aebd51b2a",
+  "shared_evaluator_sha256": "9d30f60c6148b25f4b0083ca164ad001029d55c41db1f6331e8a6acb7c739d8b",
+  "shared_data_loader_sha256": "6212515d171a2bb149b37fe57cc4eb5a3d98288c225251eee273a3310e808ebc",
+  "selection_used_eval_labels": false,
+  "dev_recall100": {
+    "base": 0.05058479532163742,
+    "epoch_1": 0.06730715678084098,
+    "epoch_2": 0.07352092352092351
+  },
+  "source_evidence_sha256": {
+    "models/selection.json": "bea689e2246cbba3af3f36964b1481f5e64c317b38ff4cf4690cde263b0bcf10",
+    "results/final_original_E5_summary.csv": "baea799ed05a7e4f19d14ba1a9893ba0a40b45d6acad69d22a61635cd34e4d1a",
+    "results/final_finetuned_E5_summary.csv": "d576cd600784f1a0605828a84456a80aa8db1261727b3bdf86155b9e53df1677",
+    "results/historical_BM25_summary.csv": "7c7336b028a3381886c7d15cf32081fe69b523ff516b651062c979939ddd6a05",
+    "results/paired_bootstrap.json": "8e0b85cdcbb5550e731193984b95207229573418ea3490ab76b5d5683ed1708c",
+    "indexes/epoch_2/manifest.json": "f02878025672c04b8666da4b366984fee4acbe67d64521a480f9b905f89b00bc",
+    "indexes/epoch_2/complete.json": "07b6097f7d8790e008590d37d08aaf353faf1514f1cdd72a36d3ca856461ff54",
+    "data/sample_statistics.json": "6c9f38d301f9c0cd97c8bd684172d03f153ab4182788d2439ce8beb64f7e15e1"
+  },
+  "archive_scope": "The complete experiment remains the research archive; no training, indexing or report orchestration is packaged."
+}

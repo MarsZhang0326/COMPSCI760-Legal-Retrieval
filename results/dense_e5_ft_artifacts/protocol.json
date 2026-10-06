@@ -1,0 +1,36 @@
+{
+  "config_sha256": "bd3a7459fbe5e33b4298e9e6f60b3c1788895c949cc36934cb4e35caa6af4d87",
+  "config": {
+    "source": "C:/Users/xrrig/Desktop/UoA/COMPSCI 760/4 - Summary/Code",
+    "model": "intfloat/multilingual-e5-base",
+    "revision": "main",
+    "seed": 760,
+    "split_ratios": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "similarity_threshold": 0.8,
+    "max_length": 512,
+    "epochs": 2,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "temperature": 0.01,
+    "groups_per_batch": 1,
+    "grad_accum": 8,
+    "hard_negatives": 2,
+    "random_negatives": 1,
+    "hard_depth": 50,
+    "encode_batch_size": 16,
+    "shard_size": 10000,
+    "row_search_depth": 10000,
+    "candidate_budget": 100,
+    "checkpoint_metric": "dev/full/macro_recall@100",
+    "device": "auto",
+    "gradient_checkpointing": true,
+    "amp": true,
+    "threads": 4
+  },
+  "created_utc": "2026-10-05T08:49:34Z",
+  "eval_policy": "Never use eval labels for training/mining/checkpoint selection; original validation is historical."
+}
