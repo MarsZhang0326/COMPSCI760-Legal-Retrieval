@@ -431,6 +431,81 @@ German-dominated training and its law-heavy positives (2,606 law versus 32 court
 
 Official validation contains only ten questions and has already informed historical project tuning; it is not an untouched test set. Only one E5 training seed was run. The results support a limited exploratory finding, not improved English retrieval, stable generalization or gains after reranking.
 
+## Query Expression Experiment
+
+This optional experiment checks whether the expression gap between English questions and legal materials limits the original E5 retrieval model. It changes query wording, not E5 weights, and is separate from the exploratory E5 fine-tuning experiment. The default reproduction workflow is unchanged.
+
+### Main script
+
+- `experiments/query_expression/run_experiment.py` - encodes frozen query variants, searches the existing pretrained E5 index in a separate process, and evaluates citation-level results
+
+### Run the experiment
+
+Copy the lightweight experiment package to `experiments/query_expression/`. Use its dependency instructions and configure `model_dir`, `index_dir` and `corpus_map` in its `config.json` to reference the archived **base** E5 model, matching full-corpus sharded FAISS index and corpus mapping. No model or index rebuild is needed.
+
+Check the saved results, then optionally reproduce the experiment:
+
+```bash
+python experiments/query_expression/run_experiment.py --verify-only
+python experiments/query_expression/run_experiment.py --device auto
+```
+
+Saved core results are under `experiments/query_expression/results/`. A new run writes to `experiments/query_expression/runs/reproduction/results/`, preserving those saved results:
+
+- `main_comparison.csv`, `metrics.csv` and `per_query_metrics.csv`
+- `all_candidates.csv` and new `query_expr_<group>_candidates_top100.csv`
+- new `query_expr_<group>_predictions_top<K>.csv`
+
+### Results and limitations
+
+All six groups use the same complete law/court corpus, pretrained multilingual E5, citation evaluator and final budget of 100 unique citations. The expression views are original English, full German translation, and German legal concepts plus the complete original English question. Equal-weight RRF combines the English and German Top-100 pools (k=60). Single views search 1,000 passage rows; controls use the original query at depth 2,000 or perform its search twice before fusion, keeping the final Top-100 budget fixed.
+
+The following saved results come from the original query-expression study's newly executed full-corpus retrieval on all ten official English validation questions, using full gold. Citation Recall and F1 are query-macro averages; these are not historical BM25 scores or fine-tuned E5 scores.
+
+| Query expression | Citation Recall@20 | Citation Recall@50 | Citation Recall@100 | Macro F1@10 |
+|---|---|---|---|---|
+| Original English | 0.0100 | 0.0140 | 0.0140 | 0.0100 |
+| German translation | 0.0000 | 0.0040 | 0.0040 | 0.0000 |
+| Legal concepts + original | 0.0100 | 0.0140 | 0.0140 | 0.0100 |
+| English + German RRF | 0.0040 | 0.0140 | 0.0140 | 0.0057 |
+| Original English, depth 2,000 | 0.0100 | 0.0140 | 0.0140 | 0.0100 |
+| Original English, two searches | 0.0100 | 0.0140 | 0.0140 | 0.0100 |
+
+No variant improves the aggregate scores. For `val_010`, German improves one correct citation from rank 40 to 25 and fusion moves it to rank 9. For `val_004`, German loses a French gold citation originally at rank 9; fusion moves it to rank 29. The remaining eight queries retrieve no gold in Top-100. All groups remain court-only, with no law-gold hits; source bias has not been resolved. These mixed changes do not establish a causal language explanation.
+
+This is an exploratory Dense-only comparison: official validation has only ten questions and already informed historical project tuning. Offline query variants were assistant-authored and self-reviewed; per-query translation latency was not measured. All groups share the archived pretrained index because the original monolithic project index was unavailable. Cross-Encoder scoring was not executed because its fine-tuned checkpoint was unavailable; Top-K metrics above score Dense rankings only. The existing E5 fine-tuning findings and historical pipeline results remain separate.
+
+## Retrieval Stability and Generalisation
+
+### Purpose
+
+This separate study asks: are the current retrieval results stable, and can they generalise to other questions? It checks whether gains depend on individual queries, cutoff choices, data boundaries or training randomness. Query-expression sensitivity is reported above; repeating a deterministic search is not a generalisation test.
+
+### Setup
+
+Historical predictions, candidates and parameter grids were rescored on the ten official English validation questions. The archived E5 experiment provides a predominantly German 114-query evaluation set, separated from its 911-query training and 114-query development sets. This is independent of E5 training/selection, not of BGE training. Full-gold results retain missing citations; corpus-covered diagnostics are separate. Matched BGE comparisons use the same candidate input, alpha=0.8 and fixed Top-20. Three E5 seeds use the same frozen BM25 Top-100 plus original Dense Top-100 union, without added gold, and identical fixed output cutoffs.
+
+### Procedure
+
+The study recomputed citation-level Precision, Recall and Macro F1, paired query differences, leave-one-query/scenario-out sensitivity, parameter neighbourhoods, paired tests and 20,000 query/scenario bootstrap samples (statistics seed 76026). Leave-one-out is a sensitivity analysis, not retraining cross-validation. Seeds 761 and 762 completed two training epochs alongside archived seed 760; epoch 2 was frozen for the replicas. New inference scored the frozen pool only. No new full-corpus index or Cross-Encoder inference was run.
+
+Saved-result checks require no weights or index:
+
+```bash
+python experiments/retrieval_stability/scripts/final_verify.py
+python experiments/retrieval_stability/scripts/test_stability.py
+```
+
+### Findings
+
+On English validation, BGE Macro F1 rose from 0.0376 to 0.0443 at matched Top-20, but only `val_004` improved; removing it eliminates the mean gain. The historical selected-cutoff comparison reaches 0.0676 with four improvements and six ties; cutoff changes account for about 77.8% of that specific gain. Nine neighbouring settings score 0.0584-0.0676, all on the same tuned questions.
+
+Archived full-corpus E5 Recall@100 on derived evaluation increased from 0.0322 to 0.1399: 26 queries improved, 84 tied and four worsened. The gain stays positive after removing any one query or identified scenario group; its scenario-bootstrap interval is +0.0431 to +0.1770. English F1@10 instead fell from 0.0100 to zero. In the frozen pool, derived F1@10 was 0.0337/0.0366/0.0334 across seeds 760/761/762; only 21/114 queries improved under all three seeds.
+
+### Conclusion and limitations
+
+Evidence supports limited gains beyond a single derived query, not improvement for most queries or broad English transfer. Similar seed averages establish conditional-pool stability only: one seed has full-corpus evaluation. Official validation is small and historically tuned; multiple comparisons and confidence intervals do not remove selection bias. No independent English whole-pipeline test, BGE seed replication or verified local labelled test result exists; Kaggle figures remain unverified README claims. See `experiments/retrieval_stability/README.md` for saved evidence and optional reproduction.
+
 ## Setup Notes
 
 ### BM25 (Pyserini and Java)
@@ -512,7 +587,7 @@ Run in this order. Steps 5 to 8 need a GPU.
 | Yuting Shen | BM25 indexes, query processing, tuning and candidate pools (`bm25_*.py`) |
 | Yi Zong | Dense retrieval with E5 and FAISS (`dense_*.py`) |
 | Simon Lin | Cross-encoder re-ranking, fine-tuning, candidate pools for train and test, Colab workflow (`rerank_cross_encoder.py`, `finetune_cross_encoder.py`) |
-| Xirui Liu | Integration and final comparison; exploratory E5 fine-tuning study, experiment evaluation and candidate handoff integration (`dense_e5_ft_run.py`) |
+| Xirui Liu | Integration and final comparison; exploratory E5 fine-tuning study, experiment evaluation and candidate handoff integration (`dense_e5_ft_run.py`); query expression experiments, retrieval stability/generalisation analysis, and experiment packaging and project integration |
 
 External sources used (not our work):
 
@@ -548,6 +623,10 @@ COMPSCI760-Legal-Retrieval/
 ├── dense_e5_ft_run.py
 ├── rerank_cross_encoder.py
 ├── finetune_cross_encoder.py
+│
+├── experiments/
+│   ├── query_expression/         # run_experiment.py, config.json, inputs and results
+│   └── retrieval_stability/      # scripts/, config.json, inputs and results
 │
 ├── processed/
 │   ├── query_processing_summary.json
