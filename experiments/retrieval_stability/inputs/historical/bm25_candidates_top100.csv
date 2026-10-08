@@ -1,0 +1,1001 @@
+query_id,rank,doc_id,citation,source_type
+val_001,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_001,2,law_0050367,Art. 197e Abs. 2 AVO,law
+val_001,3,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_001,4,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_001,5,law_0023311,Art. 13 414.205.1,law
+val_001,6,law_0032969,Art. 1 811.115.4,law
+val_001,7,law_0023308,Art. 11 Abs. 1 414.205.1,law
+val_001,8,law_0023310,Art. 12 414.205.1,law
+val_001,9,law_0066297,Art. 1 EHSM-V,law
+val_001,10,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_001,11,law_0023288,Art. 5 Abs. 1 414.205.1,law
+val_001,12,law_0022802,Art. 5 Abs. 3 414.134.1,law
+val_001,13,law_0022862,Art. 2 Abs. 1 414.134.2,law
+val_001,14,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_001,15,law_0154211,Art. 43 Abs. 4 VNF,law
+val_001,16,law_0131559,Art. 221 Abs. 1 StPO,law
+val_001,17,law_0131560,Art. 221 Abs. 1bis StPO,law
+val_001,18,law_0154210,Art. 43 Abs. 3 VNF,law
+val_001,19,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_001,20,law_0131561,Art. 221 Abs. 2 StPO,law
+val_001,21,law_0126508,Art. 63 Abs. 1 SpoFöV,law
+val_001,22,law_0027293,Art. 3 632.324.27,law
+val_001,23,law_0094091,Art. 15 Abs. 1 KreV-FINMA,law
+val_001,24,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_001,25,law_0022827,Art. 11 Abs. 1 414.134.1,law
+val_001,26,law_0149370,Art. 59 Abs. 2 V-HFKG,law
+val_001,27,law_0022805,Art. 6 Abs. 2 414.134.1,law
+val_001,28,law_0120939,Art. 25 Abs. 6 RelV-FINMA,law
+val_001,29,law_0022837,Art. 13 Abs. 1 414.134.1,law
+val_001,30,law_0104304,Art. 70f Abs. 1 MIV,law
+val_001,31,law_0032971,Art. 3 811.115.4,law
+val_001,32,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_001,33,law_0022845,Art. 14 414.134.1,law
+val_001,34,court_01332737,4A_301/2018 E. 4.3,court
+val_001,35,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_001,36,law_0034512,Art. 3 Abs. 3 817.026.1,law
+val_001,37,court_02234659,4A_34/2015 E. 3.3.1,court
+val_001,38,law_0098482,Art. 28 Abs. 3 LGV,law
+val_001,39,court_00841105,4A_626/2020 E. 1,court
+val_001,40,law_0022843,Art. 13a Abs. 1 414.134.1,law
+val_001,41,law_0126503,Art. 62 Abs. 3 SpoFöV,law
+val_001,42,court_00580534,2C_498/2013 E. 5.6.1,court
+val_001,43,law_0021150,Art. 2 412.106.12,law
+val_001,44,court_00197930,4A_54/2019 E. 4.2.1,court
+val_001,45,law_0022401,Art. 3 414.131.7,law
+val_001,46,law_0022835,Art. 12 Abs. 5 414.134.1,law
+val_001,47,court_00032223,BGE 150 IV 121 E. 3.3,court
+val_001,48,law_0124439,Art. 221 Abs. 2 SchKG,law
+val_001,49,court_00800454,4A_476/2020 E. A,court
+val_001,50,law_0166235,Art. 6 Abs. 1 VZVM,law
+val_001,51,law_0022830,Art. 11 Abs. 4 414.134.1,law
+val_001,52,court_02357460,6B_964/2023 E. 3.3,court
+val_001,53,law_0022828,Art. 11 Abs. 2 414.134.1,law
+val_001,54,court_00837352,4A_240/2012 E. A,court
+val_001,55,law_0124438,Art. 221 Abs. 1 SchKG,law
+val_001,56,law_0142592,Art. 52 Abs. 2 VAM,law
+val_001,57,court_01346233,7B_107/2024 E. 3.4.1,court
+val_001,58,law_0173386,Art. 221 Abs. 1 ZPO,law
+val_001,59,court_01346253,7B_108/2024 E. 3.4.1,court
+val_001,60,law_0022841,Art. 13 Abs. 5 414.134.1,law
+val_001,61,law_0062419,Art. 84 ChemV,law
+val_001,62,court_02205038,4A_438/2013 E. A,court
+val_001,63,law_0146094,Art. 2 Abs. 1 VEAF,law
+val_001,64,court_01150606,4A_490/2017 E. 19,court
+val_001,65,law_0149379,Art. 62 Abs. 1 V-HFKG,law
+val_001,66,law_0022844,Art. 13a Abs. 2 414.134.1,law
+val_001,67,court_01968406,4A_94/2009 09.06.2009 E. B,court
+val_001,68,law_0153345,Art. 9 Abs. 1 VMILAK,law
+val_001,69,court_01219738,4A_491/2017 E. 1,court
+val_001,70,law_0031503,Art. 2 Abs. 1 748.127.7,law
+val_001,71,law_0033917,Art. 33 Abs. 3 817.022.12,law
+val_001,72,court_01323232,4A_284/2018 E. A,court
+val_001,73,law_0154102,Art. 3 Abs. 6 VNem,law
+val_001,74,court_01298493,4A_578/2017 E. B,court
+val_001,75,law_0022407,Art. 6 Abs. 1 414.131.7,law
+val_001,76,law_0022839,Art. 13 Abs. 3 414.134.1,law
+val_001,77,court_02312362,4A_609/2019 E. 5,court
+val_001,78,law_0022834,Art. 12 Abs. 4 414.134.1,law
+val_001,79,court_00122221,4A_542/2021 E. 5.3,court
+val_001,80,law_0022842,Art. 13 Abs. 6 414.134.1,law
+val_001,81,law_0022838,Art. 13 Abs. 2 414.134.1,law
+val_001,82,court_02360306,4A_574/2023 24.05.2024 E. 3.1,court
+val_001,83,law_0161585,Art. 221 Abs. 1 VTS,law
+val_001,84,court_01335510,2C_731/2017 E. 3.3,court
+val_001,85,law_0173387,Art. 221 Abs. 2 ZPO,law
+val_001,86,law_0022809,Art. 7 Abs. 2 414.134.1,law
+val_001,87,court_02162647,4A_244/2012 17.01.2013 E. 3,court
+val_001,88,law_0106654,Art. 221 Abs. 1 MStP,law
+val_001,89,court_00485620,4A_287/2022 E. 2,court
+val_001,90,law_0022831,Art. 12 Abs. 1 414.134.1,law
+val_001,91,law_0022833,Art. 12 Abs. 3 414.134.1,law
+val_001,92,court_01150605,4A_490/2017 E. 3,court
+val_001,93,law_0022408,Art. 6 Abs. 2 414.131.7,law
+val_001,94,court_00568111,4A_453/2019 E. B,court
+val_001,95,law_0175480,Art. 221 Abs. 1 ZV,law
+val_001,96,law_0110979,Art. 221 OR,law
+val_001,97,court_01648563,4C.172/2000 28.03.2001 E. A,court
+val_001,98,law_0151669,Art. 40 Abs. 3 VLBE,law
+val_001,99,court_00626645,4A_418/2019 E. 2,court
+val_001,100,law_0063369,Art. 221 Abs. 1 DBG,law
+val_002,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_002,2,law_0035043,Art. 2 830.22,law
+val_002,3,law_0154210,Art. 43 Abs. 3 VNF,law
+val_002,4,law_0050367,Art. 197e Abs. 2 AVO,law
+val_002,5,law_0154211,Art. 43 Abs. 4 VNF,law
+val_002,6,law_0027293,Art. 3 632.324.27,law
+val_002,7,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_002,8,law_0007250,Art. 3 Abs. 2 221.434,law
+val_002,9,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_002,10,law_0147955,Art. 28 Abs. 2 VFSD,law
+val_002,11,law_0142890,Art. 1 Abs. 1 VAPF,law
+val_002,12,law_0142507,Art. 17 Abs. 1 VAM,law
+val_002,13,law_0022401,Art. 3 414.131.7,law
+val_002,14,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_002,15,law_0070922,Art. 65a Abs. 1 ERV,law
+val_002,16,law_0046831,Art. 3 Abs. 1 ASV-RAB,law
+val_002,17,law_0092330,Art. 10 KKV-FINMA,law
+val_002,18,law_0154195,Art. 38 VNF,law
+val_002,19,law_0071069,Art. 92 Abs. 1 ERV,law
+val_002,20,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_002,21,law_0041112,Art. 2 Abs. 1 956.124,law
+val_002,22,law_0032969,Art. 1 811.115.4,law
+val_002,23,law_0161990,Art. 4 VUKBK,law
+val_002,24,law_0022738,Art. 3 Abs. 3 414.133.2,law
+val_002,25,law_0120939,Art. 25 Abs. 6 RelV-FINMA,law
+val_002,26,law_0022867,Art. 3 Abs. 3 414.134.2,law
+val_002,27,law_0062419,Art. 84 ChemV,law
+val_002,28,law_0051653,Art. 25 Abs. 1 BankV,law
+val_002,29,law_0143329,Art. 1 Abs. 1 VASR,law
+val_002,30,law_0121026,Art. 66 RelV-FINMA,law
+val_002,31,law_0121023,Art. 64 RelV-FINMA,law
+val_002,32,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_002,33,law_0022461,Art. 4 414.132.2,law
+val_002,34,court_01323232,4A_284/2018 E. A,court
+val_002,35,law_0041136,Art. 2 Abs. 2 956.126,law
+val_002,36,law_0108135,Art. 10 Abs. 1 NagV,law
+val_002,37,court_01219738,4A_491/2017 E. 1,court
+val_002,38,law_0066297,Art. 1 EHSM-V,law
+val_002,39,court_02162647,4A_244/2012 17.01.2013 E. 3,court
+val_002,40,law_0161793,Art. 3 Abs. 2 VtVtH,law
+val_002,41,law_0022027,Art. 11 Abs. 3 414.110.422.3,law
+val_002,42,court_01335510,2C_731/2017 E. 3.3,court
+val_002,43,law_0121028,Art. 68 RelV-FINMA,law
+val_002,44,court_02137613,4A_10/2012 02.10.2012 E. 2,court
+val_002,45,law_0149459,Art. 17 Abs. 2 VHIS,law
+val_002,46,law_0120871,Art. 3 Abs. 4 RelV-FINMA,law
+val_002,47,court_00485620,4A_287/2022 E. 2,court
+val_002,48,law_0056968,Art. 16b Abs. 1 BPI,law
+val_002,49,court_01150604,4A_490/2017 E. 2,court
+val_002,50,law_0158236,Art. 6 Abs. 1 VSFK,law
+val_002,51,law_0074186,Art. 94 Abs. 3 FinfraG,law
+val_002,52,court_00133491,4A_406/2021 E. 4.3.3,court
+val_002,53,law_0090657,Art. 17 KEV,law
+val_002,54,court_02234659,4A_34/2015 E. 3.3.1,court
+val_002,55,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_002,56,law_0119116,Art. 5 Abs. 1 PublG,law
+val_002,57,court_02175319,4A_388/2012 18.03.2013 E. B,court
+val_002,58,law_0104304,Art. 70f Abs. 1 MIV,law
+val_002,59,court_01332737,4A_301/2018 E. 4.3,court
+val_002,60,law_0103333,Art. 2 Abs. 1 MindStV,law
+val_002,61,law_0039616,Art. 17 Abs. 1 946.231.116.9,law
+val_002,62,court_01178812,6B_730/2017 E. 2.6,court
+val_002,63,law_0121024,Art. 65 Abs. 1 RelV-FINMA,law
+val_002,64,court_00616653,4A_446/2022 E. 6,court
+val_002,65,law_0051654,Art. 25 Abs. 2 BankV,law
+val_002,66,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_002,67,court_00612449,4A_532/2016 E. B,court
+val_002,68,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_002,69,court_01330916,4A_308/2018 E. B,court
+val_002,70,law_0084881,Art. 22 Abs. 2 HyV,law
+val_002,71,law_0051633,Art. 17 BankV,law
+val_002,72,court_00568111,4A_453/2019 E. B,court
+val_002,73,law_0040600,Art. 35 Abs. 10 946.231.176.72,law
+val_002,74,court_00800454,4A_476/2020 E. A,court
+val_002,75,law_0087564,Art. 23 Abs. 1 ISLK-V,law
+val_002,76,law_0119180,Art. 7 PublV,law
+val_002,77,court_02360306,4A_574/2023 24.05.2024 E. 3.1,court
+val_002,78,law_0061243,Art. 62d BVV 2,law
+val_002,79,court_00282577,4A_462/2018 E. B,court
+val_002,80,law_0040617,Art. 35 Abs. 30 946.231.176.72,law
+val_002,81,law_0103188,Art. 106 MIG,law
+val_002,82,court_00807963,4A_152/2024 E. 3,court
+val_002,83,law_0040606,Art. 35 Abs. 17 946.231.176.72,law
+val_002,84,court_00652124,4A_258/2023 E. 5.3,court
+val_002,85,law_0020621,Art. 17 412.101.222.38,law
+val_002,86,law_0123545,Art. 17 SaV,law
+val_002,87,court_00818917,4A_430/2020 E. B,court
+val_002,88,law_0149406,Art. 4 Abs. 3 VHIS,law
+val_002,89,court_01743515,5P.330/2003 11.03.2004 E. A,court
+val_002,90,law_0149458,Art. 17 Abs. 1 VHIS,law
+val_002,91,law_0009472,Art. 4 Abs. 2 411.3,law
+val_002,92,court_02162639,4A_244/2012 17.01.2013 E. A,court
+val_002,93,law_0149409,Art. 5 VHIS,law
+val_002,94,court_00626645,4A_418/2019 E. 2,court
+val_002,95,law_0011697,Art. 17 Abs. 4 412.101.220.57,law
+val_002,96,law_0005052,Art. 17 Abs. 5 172.010.441,law
+val_002,97,court_00618309,4A_544/2013 E. A,court
+val_002,98,law_0103187,Art. 105 MIG,law
+val_002,99,court_00122221,4A_542/2021 E. 5.3,court
+val_002,100,law_0121015,Art. 58 Abs. 2 RelV-FINMA,law
+val_003,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_003,2,law_0050367,Art. 197e Abs. 2 AVO,law
+val_003,3,law_0032969,Art. 1 811.115.4,law
+val_003,4,law_0023308,Art. 11 Abs. 1 414.205.1,law
+val_003,5,law_0154211,Art. 43 Abs. 4 VNF,law
+val_003,6,law_0154210,Art. 43 Abs. 3 VNF,law
+val_003,7,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_003,8,law_0023311,Art. 13 414.205.1,law
+val_003,9,law_0023310,Art. 12 414.205.1,law
+val_003,10,law_0027293,Art. 3 632.324.27,law
+val_003,11,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_003,12,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_003,13,law_0066297,Art. 1 EHSM-V,law
+val_003,14,law_0022802,Art. 5 Abs. 3 414.134.1,law
+val_003,15,law_0023288,Art. 5 Abs. 1 414.205.1,law
+val_003,16,law_0022862,Art. 2 Abs. 1 414.134.2,law
+val_003,17,law_0126508,Art. 63 Abs. 1 SpoFöV,law
+val_003,18,law_0149370,Art. 59 Abs. 2 V-HFKG,law
+val_003,19,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_003,20,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_003,21,law_0032971,Art. 3 811.115.4,law
+val_003,22,law_0022827,Art. 11 Abs. 1 414.134.1,law
+val_003,23,law_0022805,Art. 6 Abs. 2 414.134.1,law
+val_003,24,law_0126503,Art. 62 Abs. 3 SpoFöV,law
+val_003,25,law_0034512,Art. 3 Abs. 3 817.026.1,law
+val_003,26,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_003,27,law_0154102,Art. 3 Abs. 6 VNem,law
+val_003,28,law_0166235,Art. 6 Abs. 1 VZVM,law
+val_003,29,law_0035043,Art. 2 830.22,law
+val_003,30,law_0142592,Art. 52 Abs. 2 VAM,law
+val_003,31,law_0022401,Art. 3 414.131.7,law
+val_003,32,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_003,33,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_003,34,court_00568111,4A_453/2019 E. B,court
+val_003,35,law_0062419,Art. 84 ChemV,law
+val_003,36,law_0022837,Art. 13 Abs. 1 414.134.1,law
+val_003,37,court_02205038,4A_438/2013 E. A,court
+val_003,38,law_0033917,Art. 33 Abs. 3 817.022.12,law
+val_003,39,court_00612449,4A_532/2016 E. B,court
+val_003,40,law_0022845,Art. 14 414.134.1,law
+val_003,41,law_0022828,Art. 11 Abs. 2 414.134.1,law
+val_003,42,court_00837352,4A_240/2012 E. A,court
+val_003,43,law_0021150,Art. 2 412.106.12,law
+val_003,44,court_00282577,4A_462/2018 E. B,court
+val_003,45,law_0153345,Art. 9 Abs. 1 VMILAK,law
+val_003,46,law_0149379,Art. 62 Abs. 1 V-HFKG,law
+val_003,47,court_02162639,4A_244/2012 17.01.2013 E. A,court
+val_003,48,law_0022835,Art. 12 Abs. 5 414.134.1,law
+val_003,49,court_02360306,4A_574/2023 24.05.2024 E. 3.1,court
+val_003,50,law_0022830,Art. 11 Abs. 4 414.134.1,law
+val_003,51,law_0151669,Art. 40 Abs. 3 VLBE,law
+val_003,52,court_00230687,4A_80/2013 E. A,court
+val_003,53,law_0098482,Art. 28 Abs. 3 LGV,law
+val_003,54,court_00841105,4A_626/2020 E. 1,court
+val_003,55,law_0161990,Art. 4 VUKBK,law
+val_003,56,law_0007250,Art. 3 Abs. 2 221.434,law
+val_003,57,court_02162647,4A_244/2012 17.01.2013 E. 3,court
+val_003,58,law_0146094,Art. 2 Abs. 1 VEAF,law
+val_003,59,court_01332737,4A_301/2018 E. 4.3,court
+val_003,60,law_0022843,Art. 13a Abs. 1 414.134.1,law
+val_003,61,law_0031503,Art. 2 Abs. 1 748.127.7,law
+val_003,62,court_02353938,4A_172/2023 E. 1,court
+val_003,63,law_0022841,Art. 13 Abs. 5 414.134.1,law
+val_003,64,court_00580534,2C_498/2013 E. 5.6.1,court
+val_003,65,law_0022844,Art. 13a Abs. 2 414.134.1,law
+val_003,66,law_0151813,Art. 8 VLHb,law
+val_003,67,court_01648563,4C.172/2000 28.03.2001 E. A,court
+val_003,68,law_0022842,Art. 13 Abs. 6 414.134.1,law
+val_003,69,court_00935461,4A_72/2021 E. 6.2,court
+val_003,70,law_0126505,Art. 62 Abs. 5 SpoFöV,law
+val_003,71,law_0022809,Art. 7 Abs. 2 414.134.1,law
+val_003,72,court_01351489,4A_65/2018 E. B,court
+val_003,73,law_0022838,Art. 13 Abs. 2 414.134.1,law
+val_003,74,court_01335510,2C_731/2017 E. 3.3,court
+val_003,75,law_0022839,Art. 13 Abs. 3 414.134.1,law
+val_003,76,law_0022834,Art. 12 Abs. 4 414.134.1,law
+val_003,77,court_01219738,4A_491/2017 E. 1,court
+val_003,78,law_0022407,Art. 6 Abs. 1 414.131.7,law
+val_003,79,court_00485620,4A_287/2022 E. 2,court
+val_003,80,law_0022408,Art. 6 Abs. 2 414.131.7,law
+val_003,81,law_0022833,Art. 12 Abs. 3 414.134.1,law
+val_003,82,court_00197930,4A_54/2019 E. 4.2.1,court
+val_003,83,law_0022836,Art. 12 Abs. 6 414.134.1,law
+val_003,84,court_00485626,4A_287/2022 E. 3,court
+val_003,85,law_0149228,Art. 11 Abs. 5 VHBT,law
+val_003,86,law_0147955,Art. 28 Abs. 2 VFSD,law
+val_003,87,court_01150606,4A_490/2017 E. 19,court
+val_003,88,law_0142890,Art. 1 Abs. 1 VAPF,law
+val_003,89,court_00626645,4A_418/2019 E. 2,court
+val_003,90,law_0153346,Art. 9 Abs. 2 VMILAK,law
+val_003,91,law_0022831,Art. 12 Abs. 1 414.134.1,law
+val_003,92,court_00618309,4A_544/2013 E. A,court
+val_003,93,law_0153357,Art. 13 Abs. 2 VMILAK,law
+val_003,94,court_00800454,4A_476/2020 E. A,court
+val_003,95,law_0066390,Art. 38 EHSM-V,law
+val_003,96,law_0022840,Art. 13 Abs. 4 414.134.1,law
+val_003,97,court_01323232,4A_284/2018 E. A,court
+val_003,98,law_0120939,Art. 25 Abs. 6 RelV-FINMA,law
+val_003,99,court_02357460,6B_964/2023 E. 3.3,court
+val_003,100,law_0149912,Art. 23b Abs. 1 VIL,law
+val_004,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_004,2,law_0050367,Art. 197e Abs. 2 AVO,law
+val_004,3,law_0154210,Art. 43 Abs. 3 VNF,law
+val_004,4,law_0154211,Art. 43 Abs. 4 VNF,law
+val_004,5,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_004,6,law_0027293,Art. 3 632.324.27,law
+val_004,7,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_004,8,law_0035043,Art. 2 830.22,law
+val_004,9,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_004,10,law_0032969,Art. 1 811.115.4,law
+val_004,11,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_004,12,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_004,13,law_0022401,Art. 3 414.131.7,law
+val_004,14,law_0023308,Art. 11 Abs. 1 414.205.1,law
+val_004,15,law_0023311,Art. 13 414.205.1,law
+val_004,16,law_0023310,Art. 12 414.205.1,law
+val_004,17,law_0066297,Art. 1 EHSM-V,law
+val_004,18,law_0147955,Art. 28 Abs. 2 VFSD,law
+val_004,19,law_0149370,Art. 59 Abs. 2 V-HFKG,law
+val_004,20,law_0023288,Art. 5 Abs. 1 414.205.1,law
+val_004,21,law_0062419,Art. 84 ChemV,law
+val_004,22,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_004,23,law_0022802,Art. 5 Abs. 3 414.134.1,law
+val_004,24,law_0160157,Art. 2 Abs. 1 VSVB,law
+val_004,25,law_0007250,Art. 3 Abs. 2 221.434,law
+val_004,26,law_0121023,Art. 64 RelV-FINMA,law
+val_004,27,law_0126503,Art. 62 Abs. 3 SpoFöV,law
+val_004,28,law_0121028,Art. 68 RelV-FINMA,law
+val_004,29,law_0022862,Art. 2 Abs. 1 414.134.2,law
+val_004,30,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_004,31,law_0121026,Art. 66 RelV-FINMA,law
+val_004,32,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_004,33,law_0154195,Art. 38 VNF,law
+val_004,34,court_02162647,4A_244/2012 17.01.2013 E. 3,court
+val_004,35,law_0126508,Art. 63 Abs. 1 SpoFöV,law
+val_004,36,law_0051654,Art. 25 Abs. 2 BankV,law
+val_004,37,court_02205038,4A_438/2013 E. A,court
+val_004,38,law_0051653,Art. 25 Abs. 1 BankV,law
+val_004,39,court_00580534,2C_498/2013 E. 5.6.1,court
+val_004,40,law_0092330,Art. 10 KKV-FINMA,law
+val_004,41,law_0022828,Art. 11 Abs. 2 414.134.1,law
+val_004,42,court_00920503,5A_907/2019 E. 4,court
+val_004,43,law_0161990,Art. 4 VUKBK,law
+val_004,44,court_01323232,4A_284/2018 E. A,court
+val_004,45,law_0171185,Art. 328 Abs. 1 ZGB,law
+val_004,46,law_0142592,Art. 52 Abs. 2 VAM,law
+val_004,47,court_02137613,4A_10/2012 02.10.2012 E. 2,court
+val_004,48,law_0032971,Art. 3 811.115.4,law
+val_004,49,court_02234659,4A_34/2015 E. 3.3.1,court
+val_004,50,law_0149409,Art. 5 VHIS,law
+val_004,51,law_0041112,Art. 2 Abs. 1 956.124,law
+val_004,52,court_01178812,6B_730/2017 E. 2.6,court
+val_004,53,law_0022827,Art. 11 Abs. 1 414.134.1,law
+val_004,54,court_00197930,4A_54/2019 E. 4.2.1,court
+val_004,55,law_0022845,Art. 14 414.134.1,law
+val_004,56,law_0022805,Art. 6 Abs. 2 414.134.1,law
+val_004,57,court_00485620,4A_287/2022 E. 2,court
+val_004,58,law_0149379,Art. 62 Abs. 1 V-HFKG,law
+val_004,59,court_01332737,4A_301/2018 E. 4.3,court
+val_004,60,law_0021150,Art. 2 412.106.12,law
+val_004,61,law_0053544,Art. 2 BetmSV,law
+val_004,62,court_01298493,4A_578/2017 E. B,court
+val_004,63,law_0098482,Art. 28 Abs. 3 LGV,law
+val_004,64,court_01335510,2C_731/2017 E. 3.3,court
+val_004,65,law_0022738,Art. 3 Abs. 3 414.133.2,law
+val_004,66,law_0022461,Art. 4 414.132.2,law
+val_004,67,court_00837352,4A_240/2012 E. A,court
+val_004,68,law_0071069,Art. 92 Abs. 1 ERV,law
+val_004,69,court_01150605,4A_490/2017 E. 3,court
+val_004,70,law_0034512,Art. 3 Abs. 3 817.026.1,law
+val_004,71,law_0121024,Art. 65 Abs. 1 RelV-FINMA,law
+val_004,72,court_00133491,4A_406/2021 E. 4.3.3,court
+val_004,73,law_0008808,Art. 2 362.0,law
+val_004,74,court_00800454,4A_476/2020 E. A,court
+val_004,75,law_0022809,Art. 7 Abs. 2 414.134.1,law
+val_004,76,law_0149519,Art. 37 VHIS,law
+val_004,77,court_00652124,4A_258/2023 E. 5.3,court
+val_004,78,law_0166235,Art. 6 Abs. 1 VZVM,law
+val_004,79,court_01303072,4A_505/2017 E. 2,court
+val_004,80,law_0121015,Art. 58 Abs. 2 RelV-FINMA,law
+val_004,81,law_0108135,Art. 10 Abs. 1 NagV,law
+val_004,82,court_02162639,4A_244/2012 17.01.2013 E. A,court
+val_004,83,law_0142890,Art. 1 Abs. 1 VAPF,law
+val_004,84,court_02089701,2C_842/2010 13.01.2012 E. 1,court
+val_004,85,law_0046831,Art. 3 Abs. 1 ASV-RAB,law
+val_004,86,law_0149438,Art. 10 Abs. 4 VHIS,law
+val_004,87,court_02360308,4A_574/2023 24.05.2024 E. 3.3,court
+val_004,88,law_0022837,Art. 13 Abs. 1 414.134.1,law
+val_004,89,court_01351489,4A_65/2018 E. B,court
+val_004,90,law_0143329,Art. 1 Abs. 1 VASR,law
+val_004,91,law_0022838,Art. 13 Abs. 2 414.134.1,law
+val_004,92,court_02428415,4A_235/2025 E. A,court
+val_004,93,law_0041136,Art. 2 Abs. 2 956.126,law
+val_004,94,court_01150604,4A_490/2017 E. 2,court
+val_004,95,law_0121014,Art. 58 Abs. 1 RelV-FINMA,law
+val_004,96,law_0151813,Art. 8 VLHb,law
+val_004,97,court_00612438,4A_532/2016 E. 2,court
+val_004,98,law_0153345,Art. 9 Abs. 1 VMILAK,law
+val_004,99,court_01884291,4A_42/2007 13.07.2007 E. A,court
+val_004,100,law_0161793,Art. 3 Abs. 2 VtVtH,law
+val_005,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_005,2,law_0050367,Art. 197e Abs. 2 AVO,law
+val_005,3,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_005,4,law_0032969,Art. 1 811.115.4,law
+val_005,5,law_0027293,Art. 3 632.324.27,law
+val_005,6,law_0154210,Art. 43 Abs. 3 VNF,law
+val_005,7,law_0154211,Art. 43 Abs. 4 VNF,law
+val_005,8,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_005,9,law_0023308,Art. 11 Abs. 1 414.205.1,law
+val_005,10,law_0023311,Art. 13 414.205.1,law
+val_005,11,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_005,12,law_0023310,Art. 12 414.205.1,law
+val_005,13,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_005,14,law_0066297,Art. 1 EHSM-V,law
+val_005,15,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_005,16,law_0022802,Art. 5 Abs. 3 414.134.1,law
+val_005,17,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_005,18,law_0032971,Art. 3 811.115.4,law
+val_005,19,law_0023288,Art. 5 Abs. 1 414.205.1,law
+val_005,20,law_0149370,Art. 59 Abs. 2 V-HFKG,law
+val_005,21,law_0022862,Art. 2 Abs. 1 414.134.2,law
+val_005,22,law_0035043,Art. 2 830.22,law
+val_005,23,law_0126508,Art. 63 Abs. 1 SpoFöV,law
+val_005,24,law_0022401,Art. 3 414.131.7,law
+val_005,25,law_0022827,Art. 11 Abs. 1 414.134.1,law
+val_005,26,law_0062419,Art. 84 ChemV,law
+val_005,27,law_0126503,Art. 62 Abs. 3 SpoFöV,law
+val_005,28,law_0098482,Art. 28 Abs. 3 LGV,law
+val_005,29,law_0022805,Art. 6 Abs. 2 414.134.1,law
+val_005,30,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_005,31,law_0034512,Art. 3 Abs. 3 817.026.1,law
+val_005,32,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_005,33,law_0022828,Art. 11 Abs. 2 414.134.1,law
+val_005,34,court_01346233,7B_107/2024 E. 3.4.1,court
+val_005,35,law_0022845,Art. 14 414.134.1,law
+val_005,36,law_0142592,Art. 52 Abs. 2 VAM,law
+val_005,37,court_01346253,7B_108/2024 E. 3.4.1,court
+val_005,38,law_0021150,Art. 2 412.106.12,law
+val_005,39,court_00032223,BGE 150 IV 121 E. 3.3,court
+val_005,40,law_0022837,Art. 13 Abs. 1 414.134.1,law
+val_005,41,law_0022830,Art. 11 Abs. 4 414.134.1,law
+val_005,42,court_02357460,6B_964/2023 E. 3.3,court
+val_005,43,law_0149379,Art. 62 Abs. 1 V-HFKG,law
+val_005,44,court_00568111,4A_453/2019 E. B,court
+val_005,45,law_0147955,Art. 28 Abs. 2 VFSD,law
+val_005,46,law_0022809,Art. 7 Abs. 2 414.134.1,law
+val_005,47,court_02205038,4A_438/2013 E. A,court
+val_005,48,law_0022835,Art. 12 Abs. 5 414.134.1,law
+val_005,49,court_00133491,4A_406/2021 E. 4.3.3,court
+val_005,50,law_0022844,Art. 13a Abs. 2 414.134.1,law
+val_005,51,law_0022843,Art. 13a Abs. 1 414.134.1,law
+val_005,52,court_00841105,4A_626/2020 E. 1,court
+val_005,53,law_0153345,Art. 9 Abs. 1 VMILAK,law
+val_005,54,court_02360306,4A_574/2023 24.05.2024 E. 3.1,court
+val_005,55,law_0022839,Art. 13 Abs. 3 414.134.1,law
+val_005,56,law_0126505,Art. 62 Abs. 5 SpoFöV,law
+val_005,57,court_01323232,4A_284/2018 E. A,court
+val_005,58,law_0022841,Art. 13 Abs. 5 414.134.1,law
+val_005,59,court_02234659,4A_34/2015 E. 3.3.1,court
+val_005,60,law_0066390,Art. 38 EHSM-V,law
+val_005,61,law_0022838,Art. 13 Abs. 2 414.134.1,law
+val_005,62,court_00837352,4A_240/2012 E. A,court
+val_005,63,law_0022834,Art. 12 Abs. 4 414.134.1,law
+val_005,64,court_01150605,4A_490/2017 E. 3,court
+val_005,65,law_0022842,Art. 13 Abs. 6 414.134.1,law
+val_005,66,law_0146094,Art. 2 Abs. 1 VEAF,law
+val_005,67,court_00580534,2C_498/2013 E. 5.6.1,court
+val_005,68,law_0022833,Art. 12 Abs. 3 414.134.1,law
+val_005,69,court_02005387,5A_154/2010 29.04.2010 E. 6,court
+val_005,70,law_0031503,Art. 2 Abs. 1 748.127.7,law
+val_005,71,law_0153357,Art. 13 Abs. 2 VMILAK,law
+val_005,72,court_00618309,4A_544/2013 E. A,court
+val_005,73,law_0007250,Art. 3 Abs. 2 221.434,law
+val_005,74,court_01968406,4A_94/2009 09.06.2009 E. B,court
+val_005,75,law_0151813,Art. 8 VLHb,law
+val_005,76,law_0022407,Art. 6 Abs. 1 414.131.7,law
+val_005,77,court_02162639,4A_244/2012 17.01.2013 E. A,court
+val_005,78,law_0022408,Art. 6 Abs. 2 414.131.7,law
+val_005,79,court_00800454,4A_476/2020 E. A,court
+val_005,80,law_0022836,Art. 12 Abs. 6 414.134.1,law
+val_005,81,law_0092731,Art. 19 Abs. 1 KlinV,law
+val_005,82,court_00626645,4A_418/2019 E. 2,court
+val_005,83,law_0022840,Art. 13 Abs. 4 414.134.1,law
+val_005,84,court_01197693,4A_396/2017 E. 1,court
+val_005,85,law_0154102,Art. 3 Abs. 6 VNem,law
+val_005,86,law_0166235,Art. 6 Abs. 1 VZVM,law
+val_005,87,court_01323701,4A_398/2017 E. 1,court
+val_005,88,law_0022831,Art. 12 Abs. 1 414.134.1,law
+val_005,89,court_01219738,4A_491/2017 E. 1,court
+val_005,90,law_0033917,Art. 33 Abs. 3 817.022.12,law
+val_005,91,law_0070922,Art. 65a Abs. 1 ERV,law
+val_005,92,court_01862778,4P.172/2006 22.03.2007 E. 2,court
+val_005,93,law_0153346,Art. 9 Abs. 2 VMILAK,law
+val_005,94,court_00197930,4A_54/2019 E. 4.2.1,court
+val_005,95,law_0053544,Art. 2 BetmSV,law
+val_005,96,law_0041136,Art. 2 Abs. 2 956.126,law
+val_005,97,court_02162647,4A_244/2012 17.01.2013 E. 3,court
+val_005,98,law_0021153,Art. 4 Abs. 1 412.106.12,law
+val_005,99,court_00612438,4A_532/2016 E. 2,court
+val_005,100,law_0034530,Art. 3 Abs. 2 817.451,law
+val_006,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_006,2,law_0050367,Art. 197e Abs. 2 AVO,law
+val_006,3,law_0111747,Art. 364 Abs. 1 OR,law
+val_006,4,law_0111749,Art. 364 Abs. 3 OR,law
+val_006,5,law_0111031,Art. 248 Abs. 1 OR,law
+val_006,6,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_006,7,law_0111748,Art. 364 Abs. 2 OR,law
+val_006,8,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_006,9,law_0111032,Art. 248 Abs. 2 OR,law
+val_006,10,law_0154210,Art. 43 Abs. 3 VNF,law
+val_006,11,law_0154211,Art. 43 Abs. 4 VNF,law
+val_006,12,law_0110587,Art. 41 Abs. 1 OR,law
+val_006,13,law_0114030,Art. 1136 Abs. 1 OR,law
+val_006,14,law_0110827,Art. 158 Abs. 1 OR,law
+val_006,15,law_0112902,Art. 732 Abs. 1 OR,law
+val_006,16,law_0111724,Art. 362 Abs. 41 OR,law
+val_006,17,law_0110588,Art. 41 Abs. 2 OR,law
+val_006,18,law_0113568,Art. 962 Abs. 3 OR,law
+val_006,19,law_0113566,Art. 962 Abs. 1 OR,law
+val_006,20,law_0111722,Art. 362 Abs. 39 OR,law
+val_006,21,law_0110489,Art. 4 Abs. 1 OR,law
+val_006,22,law_0113999,Art. 1123 Abs. 1 OR,law
+val_006,23,law_0088301,Art. 18a Abs. 3 IVG,law
+val_006,24,law_0110840,Art. 164 Abs. 1 OR,law
+val_006,25,law_0112376,Art. 620 Abs. 1 OR,law
+val_006,26,law_0114004,Art. 1124 Abs. 1 OR,law
+val_006,27,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_006,28,law_0147955,Art. 28 Abs. 2 VFSD,law
+val_006,29,law_0113013,Art. 772 Abs. 1 OR,law
+val_006,30,law_0113213,Art. 839 Abs. 1 OR,law
+val_006,31,law_0110681,Art. 86 Abs. 1 OR,law
+val_006,32,court_01335510,2C_731/2017 E. 3.3,court
+val_006,33,law_0111355,Art. 327a Abs. 1 OR,law
+val_006,34,court_02205038,4A_438/2013 E. A,court
+val_006,35,law_0113577,Art. 963 Abs. 3 OR,law
+val_006,36,law_0113917,Art. 1081 Abs. 1 OR,law
+val_006,37,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_006,38,law_0112747,Art. 701a Abs. 3 OR,law
+val_006,39,court_00837352,4A_240/2012 E. A,court
+val_006,40,law_0113962,Art. 1105 Abs. 1 OR,law
+val_006,41,law_0113841,Art. 1050 Abs. 1 OR,law
+val_006,42,court_00568111,4A_453/2019 E. B,court
+val_006,43,law_0032969,Art. 1 811.115.4,law
+val_006,44,court_00618309,4A_544/2013 E. A,court
+val_006,45,law_0112105,Art. 499 Abs. 1 OR,law
+val_006,46,law_0113879,Art. 1063 Abs. 1 OR,law
+val_006,47,court_02357460,6B_964/2023 E. 3.3,court
+val_006,48,law_0112378,Art. 620 Abs. 3 OR,law
+val_006,49,court_00485620,4A_287/2022 E. 2,court
+val_006,50,law_0110770,Art. 130 Abs. 1 OR,law
+val_006,51,law_0112156,Art. 513 Abs. 1 OR,law
+val_006,52,court_00935461,4A_72/2021 E. 6.2,court
+val_006,53,law_0112745,Art. 701a Abs. 1 OR,law
+val_006,54,court_00032223,BGE 150 IV 121 E. 3.3,court
+val_006,55,law_0113727,Art. 1004 Abs. 1 OR,law
+val_006,56,law_0066297,Art. 1 EHSM-V,law
+val_006,57,court_02336166,4A_492/2021 E. 2,court
+val_006,58,law_0110631,Art. 60 Abs. 1 OR,law
+val_006,59,court_00133491,4A_406/2021 E. 4.3.3,court
+val_006,60,law_0113903,Art. 1074 Abs. 1 OR,law
+val_006,61,law_0113967,Art. 1108 Abs. 1 OR,law
+val_006,62,court_02162639,4A_244/2012 17.01.2013 E. A,court
+val_006,63,law_0111682,Art. 361 Abs. 27 OR,law
+val_006,64,court_00197930,4A_54/2019 E. 4.2.1,court
+val_006,65,law_0110785,Art. 137 Abs. 1 OR,law
+val_006,66,law_0110902,Art. 193 Abs. 1 OR,law
+val_006,67,court_01351489,4A_65/2018 E. B,court
+val_006,68,law_0111225,Art. 289a Abs. 1 OR,law
+val_006,69,court_01178812,6B_730/2017 E. 2.6,court
+val_006,70,law_0113868,Art. 1058 Abs. 1 OR,law
+val_006,71,law_0111283,Art. 312 OR,law
+val_006,72,court_01150606,4A_490/2017 E. 19,court
+val_006,73,law_0111967,Art. 440 Abs. 1 OR,law
+val_006,74,court_00677866,4A_108/2023 E. A,court
+val_006,75,law_0113052,Art. 785 Abs. 1 OR,law
+val_006,76,law_0113886,Art. 1066 Abs. 1 OR,law
+val_006,77,court_01393330,4P.40/2002 16.04.2002 E. A,court
+val_006,78,law_0113990,Art. 1119 Abs. 1 OR,law
+val_006,79,court_00485618,4A_287/2022 E. A,court
+val_006,80,law_0111114,Art. 264 Abs. 3 OR,law
+val_006,81,law_0143329,Art. 1 Abs. 1 VASR,law
+val_006,82,court_02353938,4A_172/2023 E. 1,court
+val_006,83,law_0110651,Art. 70 Abs. 1 OR,law
+val_006,84,court_02364795,4A_12/2025 E. A,court
+val_006,85,law_0113929,Art. 1087 Abs. 1 OR,law
+val_006,86,law_0113558,Art. 961 OR,law
+val_006,87,court_01323232,4A_284/2018 E. A,court
+val_006,88,law_0110936,Art. 208 Abs. 1 OR,law
+val_006,89,court_01862778,4P.172/2006 22.03.2007 E. 2,court
+val_006,90,law_0114113,Art. 1173 Abs. 1 OR,law
+val_006,91,law_0110845,Art. 167 OR,law
+val_006,92,court_00037247,BGE 147 III 586 E. 4.4.2,court
+val_006,93,law_0110854,Art. 171 Abs. 1 OR,law
+val_006,94,court_02325688,4A_166/2021 E. 4.4.2,court
+val_006,95,law_0110960,Art. 216 Abs. 1 OR,law
+val_006,96,law_0111826,Art. 398 Abs. 1 OR,law
+val_006,97,court_02360306,4A_574/2023 24.05.2024 E. 3.1,court
+val_006,98,law_0112255,Art. 557 Abs. 1 OR,law
+val_006,99,court_01150605,4A_490/2017 E. 3,court
+val_006,100,law_0112339,Art. 598 Abs. 1 OR,law
+val_007,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_007,2,law_0050367,Art. 197e Abs. 2 AVO,law
+val_007,3,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_007,4,law_0154210,Art. 43 Abs. 3 VNF,law
+val_007,5,law_0154211,Art. 43 Abs. 4 VNF,law
+val_007,6,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_007,7,law_0032969,Art. 1 811.115.4,law
+val_007,8,law_0023308,Art. 11 Abs. 1 414.205.1,law
+val_007,9,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_007,10,law_0023310,Art. 12 414.205.1,law
+val_007,11,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_007,12,law_0023311,Art. 13 414.205.1,law
+val_007,13,law_0035043,Art. 2 830.22,law
+val_007,14,law_0066297,Art. 1 EHSM-V,law
+val_007,15,law_0027293,Art. 3 632.324.27,law
+val_007,16,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_007,17,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_007,18,law_0149370,Art. 59 Abs. 2 V-HFKG,law
+val_007,19,law_0172589,Art. 936 Abs. 1 ZGB,law
+val_007,20,law_0172590,Art. 936 Abs. 2 ZGB,law
+val_007,21,law_0023288,Art. 5 Abs. 1 414.205.1,law
+val_007,22,law_0022802,Art. 5 Abs. 3 414.134.1,law
+val_007,23,law_0032971,Art. 3 811.115.4,law
+val_007,24,law_0172587,Art. 934 Abs. 3 ZGB,law
+val_007,25,law_0022862,Art. 2 Abs. 1 414.134.2,law
+val_007,26,law_0126508,Art. 63 Abs. 1 SpoFöV,law
+val_007,27,law_0172584,Art. 934 Abs. 1 ZGB,law
+val_007,28,law_0022827,Art. 11 Abs. 1 414.134.1,law
+val_007,29,law_0172586,Art. 934 Abs. 2 ZGB,law
+val_007,30,law_0126503,Art. 62 Abs. 3 SpoFöV,law
+val_007,31,law_0021150,Art. 2 412.106.12,law
+val_007,32,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_007,33,law_0172585,Art. 934 Abs. 1bis ZGB,law
+val_007,34,court_01323232,4A_284/2018 E. A,court
+val_007,35,law_0062419,Art. 84 ChemV,law
+val_007,36,law_0022401,Art. 3 414.131.7,law
+val_007,37,court_01323233,4A_284/2018 E. B,court
+val_007,38,law_0022805,Art. 6 Abs. 2 414.134.1,law
+val_007,39,court_01335510,2C_731/2017 E. 3.3,court
+val_007,40,law_0022845,Art. 14 414.134.1,law
+val_007,41,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_007,42,court_02205038,4A_438/2013 E. A,court
+val_007,43,law_0022835,Art. 12 Abs. 5 414.134.1,law
+val_007,44,court_01021979,4A_16/2024 E. 5.2,court
+val_007,45,law_0034512,Art. 3 Abs. 3 817.026.1,law
+val_007,46,law_0142592,Art. 52 Abs. 2 VAM,law
+val_007,47,court_01219738,4A_491/2017 E. 1,court
+val_007,48,law_0022828,Art. 11 Abs. 2 414.134.1,law
+val_007,49,court_00580534,2C_498/2013 E. 5.6.1,court
+val_007,50,law_0149379,Art. 62 Abs. 1 V-HFKG,law
+val_007,51,law_0022830,Art. 11 Abs. 4 414.134.1,law
+val_007,52,court_00612449,4A_532/2016 E. B,court
+val_007,53,law_0022809,Art. 7 Abs. 2 414.134.1,law
+val_007,54,court_02428415,4A_235/2025 E. A,court
+val_007,55,law_0022834,Art. 12 Abs. 4 414.134.1,law
+val_007,56,law_0126505,Art. 62 Abs. 5 SpoFöV,law
+val_007,57,court_00122221,4A_542/2021 E. 5.3,court
+val_007,58,law_0022837,Art. 13 Abs. 1 414.134.1,law
+val_007,59,court_00282577,4A_462/2018 E. B,court
+val_007,60,law_0008808,Art. 2 362.0,law
+val_007,61,law_0153345,Art. 9 Abs. 1 VMILAK,law
+val_007,62,court_02162639,4A_244/2012 17.01.2013 E. A,court
+val_007,63,law_0124155,Art. 106 Abs. 3 SchKG,law
+val_007,64,court_00485620,4A_287/2022 E. 2,court
+val_007,65,law_0022844,Art. 13a Abs. 2 414.134.1,law
+val_007,66,law_0022833,Art. 12 Abs. 3 414.134.1,law
+val_007,67,court_00800454,4A_476/2020 E. A,court
+val_007,68,law_0098482,Art. 28 Abs. 3 LGV,law
+val_007,69,court_02137613,4A_10/2012 02.10.2012 E. 2,court
+val_007,70,law_0022839,Art. 13 Abs. 3 414.134.1,law
+val_007,71,law_0022843,Art. 13a Abs. 1 414.134.1,law
+val_007,72,court_00920503,5A_907/2019 E. 4,court
+val_007,73,law_0022841,Art. 13 Abs. 5 414.134.1,law
+val_007,74,court_01332737,4A_301/2018 E. 4.3,court
+val_007,75,law_0022842,Art. 13 Abs. 6 414.134.1,law
+val_007,76,law_0022836,Art. 12 Abs. 6 414.134.1,law
+val_007,77,court_02251394,4A_84/2015 E. 4.1,court
+val_007,78,law_0066390,Art. 38 EHSM-V,law
+val_007,79,court_01178812,6B_730/2017 E. 2.6,court
+val_007,80,law_0022838,Art. 13 Abs. 2 414.134.1,law
+val_007,81,law_0153357,Art. 13 Abs. 2 VMILAK,law
+val_007,82,court_01743515,5P.330/2003 11.03.2004 E. A,court
+val_007,83,law_0022831,Art. 12 Abs. 1 414.134.1,law
+val_007,84,court_00841105,4A_626/2020 E. 1,court
+val_007,85,law_0172594,Art. 938 Abs. 2 ZGB,law
+val_007,86,law_0053544,Art. 2 BetmSV,law
+val_007,87,court_00181278,2C_178/2019 E. 1.4,court
+val_007,88,law_0151813,Art. 8 VLHb,law
+val_007,89,court_02162647,4A_244/2012 17.01.2013 E. 3,court
+val_007,90,law_0022407,Art. 6 Abs. 1 414.131.7,law
+val_007,91,law_0022408,Art. 6 Abs. 2 414.131.7,law
+val_007,92,court_00837352,4A_240/2012 E. A,court
+val_007,93,law_0031503,Art. 2 Abs. 1 748.127.7,law
+val_007,94,court_00626645,4A_418/2019 E. 2,court
+val_007,95,law_0146094,Art. 2 Abs. 1 VEAF,law
+val_007,96,law_0022840,Art. 13 Abs. 4 414.134.1,law
+val_007,97,court_00568111,4A_453/2019 E. B,court
+val_007,98,law_0092330,Art. 10 KKV-FINMA,law
+val_007,99,court_02234659,4A_34/2015 E. 3.3.1,court
+val_007,100,law_0171178,Art. 327 Abs. 2 ZGB,law
+val_008,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_008,2,law_0050367,Art. 197e Abs. 2 AVO,law
+val_008,3,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_008,4,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_008,5,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_008,6,law_0154211,Art. 43 Abs. 4 VNF,law
+val_008,7,law_0154210,Art. 43 Abs. 3 VNF,law
+val_008,8,law_0032969,Art. 1 811.115.4,law
+val_008,9,law_0023311,Art. 13 414.205.1,law
+val_008,10,law_0023310,Art. 12 414.205.1,law
+val_008,11,law_0023308,Art. 11 Abs. 1 414.205.1,law
+val_008,12,law_0035043,Art. 2 830.22,law
+val_008,13,law_0022802,Art. 5 Abs. 3 414.134.1,law
+val_008,14,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_008,15,law_0027293,Art. 3 632.324.27,law
+val_008,16,law_0066297,Art. 1 EHSM-V,law
+val_008,17,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_008,18,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_008,19,law_0149370,Art. 59 Abs. 2 V-HFKG,law
+val_008,20,law_0023288,Art. 5 Abs. 1 414.205.1,law
+val_008,21,law_0008601,Art. 11 360.4,law
+val_008,22,law_0022805,Art. 6 Abs. 2 414.134.1,law
+val_008,23,law_0008603,Art. 12 Abs. 2 360.4,law
+val_008,24,law_0022862,Art. 2 Abs. 1 414.134.2,law
+val_008,25,law_0106835,Art. 1 MünzV,law
+val_008,26,law_0126508,Art. 63 Abs. 1 SpoFöV,law
+val_008,27,law_0032971,Art. 3 811.115.4,law
+val_008,28,law_0008808,Art. 2 362.0,law
+val_008,29,law_0147955,Art. 28 Abs. 2 VFSD,law
+val_008,30,law_0022827,Art. 11 Abs. 1 414.134.1,law
+val_008,31,law_0008602,Art. 12 Abs. 1 360.4,law
+val_008,32,court_01335510,2C_731/2017 E. 3.3,court
+val_008,33,law_0034512,Art. 3 Abs. 3 817.026.1,law
+val_008,34,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_008,35,law_0022809,Art. 7 Abs. 2 414.134.1,law
+val_008,36,law_0022401,Art. 3 414.131.7,law
+val_008,37,court_01219738,4A_491/2017 E. 1,court
+val_008,38,law_0062419,Art. 84 ChemV,law
+val_008,39,court_00568111,4A_453/2019 E. B,court
+val_008,40,law_0022407,Art. 6 Abs. 1 414.131.7,law
+val_008,41,law_0022837,Art. 13 Abs. 1 414.134.1,law
+val_008,42,court_01323232,4A_284/2018 E. A,court
+val_008,43,law_0022835,Art. 12 Abs. 5 414.134.1,law
+val_008,44,court_01240402,4A_13/2023 E. B,court
+val_008,45,law_0022845,Art. 14 414.134.1,law
+val_008,46,law_0126503,Art. 62 Abs. 3 SpoFöV,law
+val_008,47,court_00182965,5A_918/2021 E. 5,court
+val_008,48,law_0022830,Art. 11 Abs. 4 414.134.1,law
+val_008,49,court_02205038,4A_438/2013 E. A,court
+val_008,50,law_0098482,Art. 28 Abs. 3 LGV,law
+val_008,51,law_0022834,Art. 12 Abs. 4 414.134.1,law
+val_008,52,court_01363295,4A_460/2024 E. 3.1.2,court
+val_008,53,law_0022841,Art. 13 Abs. 5 414.134.1,law
+val_008,54,court_00800454,4A_476/2020 E. A,court
+val_008,55,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_008,56,law_0142592,Art. 52 Abs. 2 VAM,law
+val_008,57,court_00924613,4A_64/2015 E. 2,court
+val_008,58,law_0022842,Art. 13 Abs. 6 414.134.1,law
+val_008,59,court_00230687,4A_80/2013 E. A,court
+val_008,60,law_0021150,Art. 2 412.106.12,law
+val_008,61,law_0022844,Art. 13a Abs. 2 414.134.1,law
+val_008,62,court_02137613,4A_10/2012 02.10.2012 E. 2,court
+val_008,63,law_0022828,Art. 11 Abs. 2 414.134.1,law
+val_008,64,court_00894948,4A_684/2014 E. B,court
+val_008,65,law_0022833,Art. 12 Abs. 3 414.134.1,law
+val_008,66,law_0022839,Art. 13 Abs. 3 414.134.1,law
+val_008,67,court_02297220,5F_8/2018 E. 3,court
+val_008,68,law_0022838,Art. 13 Abs. 2 414.134.1,law
+val_008,69,court_00282577,4A_462/2018 E. B,court
+val_008,70,law_0022843,Art. 13a Abs. 1 414.134.1,law
+val_008,71,law_0022840,Art. 13 Abs. 4 414.134.1,law
+val_008,72,court_00935461,4A_72/2021 E. 6.2,court
+val_008,73,law_0008599,Art. 10 Abs. 3 360.4,law
+val_008,74,court_02234659,4A_34/2015 E. 3.3.1,court
+val_008,75,law_0022836,Art. 12 Abs. 6 414.134.1,law
+val_008,76,law_0043206,Art. 17 AIAG,law
+val_008,77,court_00892049,4A_624/2014 E. 3.2.3,court
+val_008,78,law_0146094,Art. 2 Abs. 1 VEAF,law
+val_008,79,court_00133491,4A_406/2021 E. 4.3.3,court
+val_008,80,law_0086450,Art. 149e Abs. 1 IPRG,law
+val_008,81,law_0046831,Art. 3 Abs. 1 ASV-RAB,law
+val_008,82,court_01298493,4A_578/2017 E. B,court
+val_008,83,law_0022408,Art. 6 Abs. 2 414.131.7,law
+val_008,84,court_00841105,4A_626/2020 E. 1,court
+val_008,85,law_0161990,Art. 4 VUKBK,law
+val_008,86,law_0154102,Art. 3 Abs. 6 VNem,law
+val_008,87,court_00447870,5A_767/2022 E. 5,court
+val_008,88,law_0149379,Art. 62 Abs. 1 V-HFKG,law
+val_008,89,court_00612449,4A_532/2016 E. B,court
+val_008,90,law_0022831,Art. 12 Abs. 1 414.134.1,law
+val_008,91,law_0031503,Art. 2 Abs. 1 748.127.7,law
+val_008,92,court_00618309,4A_544/2013 E. A,court
+val_008,93,law_0153357,Art. 13 Abs. 2 VMILAK,law
+val_008,94,court_02357460,6B_964/2023 E. 3.3,court
+val_008,95,law_0126505,Art. 62 Abs. 5 SpoFöV,law
+val_008,96,law_0078184,Art. 67 Abs. 2 GBV,law
+val_008,97,court_01021979,4A_16/2024 E. 5.2,court
+val_008,98,law_0153345,Art. 9 Abs. 1 VMILAK,law
+val_008,99,court_00924612,4A_64/2015 E. 1,court
+val_008,100,law_0033917,Art. 33 Abs. 3 817.022.12,law
+val_009,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_009,2,law_0154210,Art. 43 Abs. 3 VNF,law
+val_009,3,law_0154211,Art. 43 Abs. 4 VNF,law
+val_009,4,law_0050367,Art. 197e Abs. 2 AVO,law
+val_009,5,law_0035043,Art. 2 830.22,law
+val_009,6,law_0032969,Art. 1 811.115.4,law
+val_009,7,law_0027293,Art. 3 632.324.27,law
+val_009,8,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_009,9,law_0023308,Art. 11 Abs. 1 414.205.1,law
+val_009,10,law_0023311,Art. 13 414.205.1,law
+val_009,11,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_009,12,law_0023310,Art. 12 414.205.1,law
+val_009,13,law_0066297,Art. 1 EHSM-V,law
+val_009,14,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_009,15,law_0022802,Art. 5 Abs. 3 414.134.1,law
+val_009,16,law_0023288,Art. 5 Abs. 1 414.205.1,law
+val_009,17,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_009,18,law_0022862,Art. 2 Abs. 1 414.134.2,law
+val_009,19,law_0126508,Art. 63 Abs. 1 SpoFöV,law
+val_009,20,law_0149370,Art. 59 Abs. 2 V-HFKG,law
+val_009,21,law_0022401,Art. 3 414.131.7,law
+val_009,22,law_0062419,Art. 84 ChemV,law
+val_009,23,law_0032971,Art. 3 811.115.4,law
+val_009,24,law_0161990,Art. 4 VUKBK,law
+val_009,25,law_0022827,Art. 11 Abs. 1 414.134.1,law
+val_009,26,law_0092330,Art. 10 KKV-FINMA,law
+val_009,27,law_0022805,Art. 6 Abs. 2 414.134.1,law
+val_009,28,law_0120939,Art. 25 Abs. 6 RelV-FINMA,law
+val_009,29,law_0007250,Art. 3 Abs. 2 221.434,law
+val_009,30,law_0034512,Art. 3 Abs. 3 817.026.1,law
+val_009,31,law_0022845,Art. 14 414.134.1,law
+val_009,32,court_01219738,4A_491/2017 E. 1,court
+val_009,33,law_0126503,Art. 62 Abs. 3 SpoFöV,law
+val_009,34,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_009,35,law_0147955,Art. 28 Abs. 2 VFSD,law
+val_009,36,law_0071069,Art. 92 Abs. 1 ERV,law
+val_009,37,court_01330916,4A_308/2018 E. B,court
+val_009,38,law_0098482,Art. 28 Abs. 3 LGV,law
+val_009,39,court_01323232,4A_284/2018 E. A,court
+val_009,40,law_0022830,Art. 11 Abs. 4 414.134.1,law
+val_009,41,law_0022408,Art. 6 Abs. 2 414.131.7,law
+val_009,42,court_02175319,4A_388/2012 18.03.2013 E. B,court
+val_009,43,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_009,44,court_00568111,4A_453/2019 E. B,court
+val_009,45,law_0022837,Art. 13 Abs. 1 414.134.1,law
+val_009,46,law_0070922,Art. 65a Abs. 1 ERV,law
+val_009,47,court_01335510,2C_731/2017 E. 3.3,court
+val_009,48,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_009,49,court_02162639,4A_244/2012 17.01.2013 E. A,court
+val_009,50,law_0022835,Art. 12 Abs. 5 414.134.1,law
+val_009,51,law_0142592,Art. 52 Abs. 2 VAM,law
+val_009,52,court_00612449,4A_532/2016 E. B,court
+val_009,53,law_0021150,Art. 2 412.106.12,law
+val_009,54,court_02360306,4A_574/2023 24.05.2024 E. 3.1,court
+val_009,55,law_0022844,Art. 13a Abs. 2 414.134.1,law
+val_009,56,law_0022828,Art. 11 Abs. 2 414.134.1,law
+val_009,57,court_01346233,7B_107/2024 E. 3.4.1,court
+val_009,58,law_0022843,Art. 13a Abs. 1 414.134.1,law
+val_009,59,court_01346253,7B_108/2024 E. 3.4.1,court
+val_009,60,law_0022841,Art. 13 Abs. 5 414.134.1,law
+val_009,61,law_0154102,Art. 3 Abs. 6 VNem,law
+val_009,62,court_00230687,4A_80/2013 E. A,court
+val_009,63,law_0022834,Art. 12 Abs. 4 414.134.1,law
+val_009,64,court_01240402,4A_13/2023 E. B,court
+val_009,65,law_0022842,Art. 13 Abs. 6 414.134.1,law
+val_009,66,law_0121023,Art. 64 RelV-FINMA,law
+val_009,67,court_02162647,4A_244/2012 17.01.2013 E. 3,court
+val_009,68,law_0022809,Art. 7 Abs. 2 414.134.1,law
+val_009,69,court_00032223,BGE 150 IV 121 E. 3.3,court
+val_009,70,law_0031503,Art. 2 Abs. 1 748.127.7,law
+val_009,71,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_009,72,court_02357460,6B_964/2023 E. 3.3,court
+val_009,73,law_0033917,Art. 33 Abs. 3 817.022.12,law
+val_009,74,court_00179546,4A_672/2012 E. 2,court
+val_009,75,law_0149379,Art. 62 Abs. 1 V-HFKG,law
+val_009,76,law_0022833,Art. 12 Abs. 3 414.134.1,law
+val_009,77,court_00282577,4A_462/2018 E. B,court
+val_009,78,law_0041136,Art. 2 Abs. 2 956.126,law
+val_009,79,court_01743515,5P.330/2003 11.03.2004 E. A,court
+val_009,80,law_0022839,Art. 13 Abs. 3 414.134.1,law
+val_009,81,law_0153345,Art. 9 Abs. 1 VMILAK,law
+val_009,82,court_02205038,4A_438/2013 E. A,court
+val_009,83,law_0166235,Art. 6 Abs. 1 VZVM,law
+val_009,84,court_00580534,2C_498/2013 E. 5.6.1,court
+val_009,85,law_0121026,Art. 66 RelV-FINMA,law
+val_009,86,law_0126505,Art. 62 Abs. 5 SpoFöV,law
+val_009,87,court_02297220,5F_8/2018 E. 3,court
+val_009,88,law_0022738,Art. 3 Abs. 3 414.133.2,law
+val_009,89,court_01303072,4A_505/2017 E. 2,court
+val_009,90,law_0022838,Art. 13 Abs. 2 414.134.1,law
+val_009,91,law_0146094,Art. 2 Abs. 1 VEAF,law
+val_009,92,court_00335757,4A_721/2012 E. 2,court
+val_009,93,law_0051653,Art. 25 Abs. 1 BankV,law
+val_009,94,court_02137613,4A_10/2012 02.10.2012 E. 2,court
+val_009,95,law_0121028,Art. 68 RelV-FINMA,law
+val_009,96,law_0022407,Art. 6 Abs. 1 414.131.7,law
+val_009,97,court_00894948,4A_684/2014 E. B,court
+val_009,98,law_0022836,Art. 12 Abs. 6 414.134.1,law
+val_009,99,court_00807963,4A_152/2024 E. 3,court
+val_009,100,law_0151669,Art. 40 Abs. 3 VLBE,law
+val_010,1,law_0007249,Art. 3 Abs. 1 221.434,law
+val_010,2,law_0050367,Art. 197e Abs. 2 AVO,law
+val_010,3,law_0062462,Art. 6 Abs. 2 ChKV,law
+val_010,4,law_0154210,Art. 43 Abs. 3 VNF,law
+val_010,5,law_0154211,Art. 43 Abs. 4 VNF,law
+val_010,6,law_0118851,Art. 95 Abs. 2 PSMV,law
+val_010,7,law_0158742,Art. 7 Abs. 2 VSoTr,law
+val_010,8,law_0023308,Art. 11 Abs. 1 414.205.1,law
+val_010,9,law_0032969,Art. 1 811.115.4,law
+val_010,10,law_0035043,Art. 2 830.22,law
+val_010,11,law_0027293,Art. 3 632.324.27,law
+val_010,12,law_0080124,Art. 12 Abs. 2 GesBG,law
+val_010,13,law_0053479,Art. 8 Abs. 1 BetmPV,law
+val_010,14,law_0023311,Art. 13 414.205.1,law
+val_010,15,law_0023310,Art. 12 414.205.1,law
+val_010,16,law_0066297,Art. 1 EHSM-V,law
+val_010,17,law_0022862,Art. 2 Abs. 1 414.134.2,law
+val_010,18,law_0023288,Art. 5 Abs. 1 414.205.1,law
+val_010,19,law_0149370,Art. 59 Abs. 2 V-HFKG,law
+val_010,20,law_0022832,Art. 12 Abs. 2 414.134.1,law
+val_010,21,law_0022802,Art. 5 Abs. 3 414.134.1,law
+val_010,22,law_0126508,Art. 63 Abs. 1 SpoFöV,law
+val_010,23,law_0126503,Art. 62 Abs. 3 SpoFöV,law
+val_010,24,law_0147955,Art. 28 Abs. 2 VFSD,law
+val_010,25,law_0022401,Art. 3 414.131.7,law
+val_010,26,law_0022828,Art. 11 Abs. 2 414.134.1,law
+val_010,27,law_0062419,Art. 84 ChemV,law
+val_010,28,law_0032971,Art. 3 811.115.4,law
+val_010,29,law_0051653,Art. 25 Abs. 1 BankV,law
+val_010,30,law_0008808,Art. 2 362.0,law
+val_010,31,law_0022829,Art. 11 Abs. 3 414.134.1,law
+val_010,32,court_02304887,4A_294/2019 13.11.2019 E. 6,court
+val_010,33,law_0022827,Art. 11 Abs. 1 414.134.1,law
+val_010,34,court_00626645,4A_418/2019 E. 2,court
+val_010,35,law_0161990,Art. 4 VUKBK,law
+val_010,36,law_0142592,Art. 52 Abs. 2 VAM,law
+val_010,37,court_02205038,4A_438/2013 E. A,court
+val_010,38,law_0021150,Art. 2 412.106.12,law
+val_010,39,court_02360306,4A_574/2023 24.05.2024 E. 3.1,court
+val_010,40,law_0121028,Art. 68 RelV-FINMA,law
+val_010,41,law_0007250,Art. 3 Abs. 2 221.434,law
+val_010,42,court_00568111,4A_453/2019 E. B,court
+val_010,43,law_0022805,Art. 6 Abs. 2 414.134.1,law
+val_010,44,court_01219738,4A_491/2017 E. 1,court
+val_010,45,law_0149379,Art. 62 Abs. 1 V-HFKG,law
+val_010,46,law_0154102,Art. 3 Abs. 6 VNem,law
+val_010,47,court_00892049,4A_624/2014 E. 3.2.3,court
+val_010,48,law_0034512,Art. 3 Abs. 3 817.026.1,law
+val_010,49,court_00133491,4A_406/2021 E. 4.3.3,court
+val_010,50,law_0166235,Art. 6 Abs. 1 VZVM,law
+val_010,51,law_0098482,Art. 28 Abs. 3 LGV,law
+val_010,52,court_02234659,4A_34/2015 E. 3.3.1,court
+val_010,53,law_0033917,Art. 33 Abs. 3 817.022.12,law
+val_010,54,court_00197930,4A_54/2019 E. 4.2.1,court
+val_010,55,law_0022809,Art. 7 Abs. 2 414.134.1,law
+val_010,56,law_0022845,Art. 14 414.134.1,law
+val_010,57,court_02162639,4A_244/2012 17.01.2013 E. A,court
+val_010,58,law_0126505,Art. 62 Abs. 5 SpoFöV,law
+val_010,59,court_01335510,2C_731/2017 E. 3.3,court
+val_010,60,law_0022837,Art. 13 Abs. 1 414.134.1,law
+val_010,61,law_0151669,Art. 40 Abs. 3 VLBE,law
+val_010,62,court_01298493,4A_578/2017 E. B,court
+val_010,63,law_0153345,Art. 9 Abs. 1 VMILAK,law
+val_010,64,court_02297220,5F_8/2018 E. 3,court
+val_010,65,law_0022830,Art. 11 Abs. 4 414.134.1,law
+val_010,66,law_0120939,Art. 25 Abs. 6 RelV-FINMA,law
+val_010,67,court_01122861,4A_365/2017 E. A,court
+val_010,68,law_0022838,Art. 13 Abs. 2 414.134.1,law
+val_010,69,court_00982777,4A_240/2021 E. 5,court
+val_010,70,law_0022839,Art. 13 Abs. 3 414.134.1,law
+val_010,71,law_0022461,Art. 4 414.132.2,law
+val_010,72,court_00800454,4A_476/2020 E. A,court
+val_010,73,law_0022835,Art. 12 Abs. 5 414.134.1,law
+val_010,74,court_02162647,4A_244/2012 17.01.2013 E. 3,court
+val_010,75,law_0092731,Art. 19 Abs. 1 KlinV,law
+val_010,76,law_0066390,Art. 38 EHSM-V,law
+val_010,77,court_02360308,4A_574/2023 24.05.2024 E. 3.3,court
+val_010,78,law_0022844,Art. 13a Abs. 2 414.134.1,law
+val_010,79,court_01150605,4A_490/2017 E. 3,court
+val_010,80,law_0022843,Art. 13a Abs. 1 414.134.1,law
+val_010,81,law_0153357,Art. 13 Abs. 2 VMILAK,law
+val_010,82,court_00841105,4A_626/2020 E. 1,court
+val_010,83,law_0151813,Art. 8 VLHb,law
+val_010,84,court_01323232,4A_284/2018 E. A,court
+val_010,85,law_0022841,Art. 13 Abs. 5 414.134.1,law
+val_010,86,law_0070922,Art. 65a Abs. 1 ERV,law
+val_010,87,court_00837352,4A_240/2012 E. A,court
+val_010,88,law_0053544,Art. 2 BetmSV,law
+val_010,89,court_01240402,4A_13/2023 E. B,court
+val_010,90,law_0022834,Art. 12 Abs. 4 414.134.1,law
+val_010,91,law_0022842,Art. 13 Abs. 6 414.134.1,law
+val_010,92,court_01363295,4A_460/2024 E. 3.1.2,court
+val_010,93,law_0031503,Art. 2 Abs. 1 748.127.7,law
+val_010,94,court_00618309,4A_544/2013 E. A,court
+val_010,95,law_0146094,Art. 2 Abs. 1 VEAF,law
+val_010,96,law_0070940,Art. 69 Abs. 2 ERV,law
+val_010,97,court_00580534,2C_498/2013 E. 5.6.1,court
+val_010,98,law_0022833,Art. 12 Abs. 3 414.134.1,law
+val_010,99,court_02137613,4A_10/2012 02.10.2012 E. 2,court
+val_010,100,law_0083074,Art. 30 Abs. 2 HBEV-FINMA,law

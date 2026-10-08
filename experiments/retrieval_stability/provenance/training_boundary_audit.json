@@ -1,0 +1,21 @@
+{
+  "e5_training_queries_actually_sampled": 806,
+  "e5_positive_groups": 2638,
+  "e5_new_training_sample_ids_overlap_eval": [],
+  "e5_new_training_sample_ids_overlap_dev": [],
+  "e5_known_gold_negatives_rejected": true,
+  "e5_true_legal_text_inputs_checked": true,
+  "e5_query_split_sizes": {
+    "dev": 114,
+    "eval": 114,
+    "train": 911
+  },
+  "ce_documented_default_seed": 42,
+  "ce_reconstructed_train_queries": 899,
+  "ce_reconstructed_dev_queries": 100,
+  "ce_documented_split_cross_boundary_near_duplicate_pairs": 112,
+  "ce_reconstruction_actual_historical_split_verified": false,
+  "ce_scope": "Current documented defaults/source behavior imply this split; missing saved training config means exact historical seed/IDs cannot be certified. Current script groups by query ID, not detected shared scenarios.",
+  "current_python_files_statically_reviewed": 14,
+  "seed_policy": "760 archived + new 761/762; all keep the same samples, split and final epoch. This varies optimizer/dropout/order randomness, not split/mining seeds."
+}

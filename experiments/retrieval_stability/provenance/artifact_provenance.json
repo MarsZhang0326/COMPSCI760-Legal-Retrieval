@@ -1,0 +1,100 @@
+[
+  {
+    "path": "external_artifacts/e5_experiment/data/queries.json",
+    "bytes": 2500131,
+    "sha256": "62bb6e433670adcc7b50347aeed3424074d53a9805ca2beb26327f767491eee3",
+    "role": "Original frozen E5 input; not modified"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/data/train_samples.jsonl",
+    "bytes": 33574476,
+    "sha256": "20357dfc77e63ddd78b1a8d0ddf4f3522010b558552ce94ebdcafba18befab78",
+    "role": "Original frozen E5 input; not modified"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/data/gold_sources.json",
+    "bytes": 110867,
+    "sha256": "c2cec1811e02a52c05e7a3d8e42647d15e740bd61f8e5055435a8daa6d48742c",
+    "role": "Original frozen E5 input; not modified"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/data/split_audit.json",
+    "bytes": 417,
+    "sha256": "8a291f19d48d8bb78c91b8b9af310e626c9f2aa0a9c539ce21e7f03a7d4d36d0",
+    "role": "Original frozen E5 input; not modified"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/results/final_original_E5_candidates.csv",
+    "bytes": 1030981,
+    "sha256": "713d8a7928ed11c466b62fb9a04e7530010b42f619f379b4a3692e5a07bddd49",
+    "role": "Archived full-corpus E5 retrieval; rescored, not newly searched"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/results/final_original_E5_summary.csv",
+    "bytes": 4902,
+    "sha256": "baea799ed05a7e4f19d14ba1a9893ba0a40b45d6acad69d22a61635cd34e4d1a",
+    "role": "Archived full-corpus E5 retrieval; rescored, not newly searched"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/results/final_finetuned_E5_candidates.csv",
+    "bytes": 920478,
+    "sha256": "37002e07717000a89bf90f72f3423cc03b0e98fb740cb8e816374032a33f42e2",
+    "role": "Archived full-corpus E5 retrieval; rescored, not newly searched"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/results/final_finetuned_E5_summary.csv",
+    "bytes": 4554,
+    "sha256": "d576cd600784f1a0605828a84456a80aa8db1261727b3bdf86155b9e53df1677",
+    "role": "Archived full-corpus E5 retrieval; rescored, not newly searched"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/results/dev_base_candidates.csv",
+    "bytes": 948774,
+    "sha256": "bda284f8252731a7d1ecb3360d0005b50123938fd7504cc6a1556d407ee610c0",
+    "role": "Archived full-corpus E5 retrieval; rescored, not newly searched"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/results/dev_epoch_1_candidates.csv",
+    "bytes": 848301,
+    "sha256": "d9a246edb2689dcfd0f50b4b57797214604a22c9c43c58ef24147ea328121878",
+    "role": "Archived full-corpus E5 retrieval; rescored, not newly searched"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/results/dev_epoch_2_candidates.csv",
+    "bytes": 847716,
+    "sha256": "6ac1de5cab40962e759116369b31b34fcf6b4d9ed8c2d75b4e5d3324383a3885",
+    "role": "Archived full-corpus E5 retrieval; rescored, not newly searched"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/models/base",
+    "role": "Existing E5 checkpoint; no files modified",
+    "matching_index": "external_artifacts/e5_experiment/indexes/base"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/models/epoch_1",
+    "role": "Existing E5 checkpoint; no files modified",
+    "matching_index": "external_artifacts/e5_experiment/indexes/epoch_1"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/models/epoch_2",
+    "role": "Existing E5 checkpoint; no files modified",
+    "matching_index": "external_artifacts/e5_experiment/indexes/epoch_2"
+  },
+  {
+    "path": "external_artifacts/retrieval_stability/seed_runs/seed_761/models/epoch_2",
+    "role": "New real trained checkpoint; full corpus index not built",
+    "configuration": "external_artifacts/retrieval_stability/seed_runs/seed_761/config.json",
+    "training_log": "external_artifacts/retrieval_stability/seed_runs/seed_761/logs/train.jsonl"
+  },
+  {
+    "path": "external_artifacts/retrieval_stability/seed_runs/seed_762/models/epoch_2",
+    "role": "New real trained checkpoint; full corpus index not built",
+    "configuration": "external_artifacts/retrieval_stability/seed_runs/seed_762/config.json",
+    "training_log": "external_artifacts/retrieval_stability/seed_runs/seed_762/logs/train.jsonl"
+  },
+  {
+    "path": "external_artifacts/e5_experiment/data/corpus.sqlite",
+    "role": "Full corpus text/metadata reused",
+    "verified_sha256": "f54ab91ec9b6e5ea0a2840e9afd148b653f5836eb8666cd2f968616271bb6e8b"
+  }
+]

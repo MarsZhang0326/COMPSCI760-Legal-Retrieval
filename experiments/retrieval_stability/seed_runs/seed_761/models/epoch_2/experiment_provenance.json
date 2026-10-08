@@ -1,0 +1,43 @@
+{
+  "base": {
+    "model": "intfloat/multilingual-e5-base",
+    "revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+    "path": "external_artifacts/e5_experiment/models/base",
+    "weights_sha256": "a18a44fad1d0b46ded15928144138cff1135d5cc8233bdd90be5f18822de09a7"
+  },
+  "epoch": 2,
+  "protocol_sha256": "e80bedf969094c19bdf9fb9375da7af3da6d01f1114a8c4505ed1a97eb42a25b",
+  "samples_sha256": "20357dfc77e63ddd78b1a8d0ddf4f3522010b558552ce94ebdcafba18befab78",
+  "training_config": {
+    "source": "project",
+    "model": "intfloat/multilingual-e5-base",
+    "revision": "main",
+    "seed": 761,
+    "split_ratios": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "similarity_threshold": 0.8,
+    "max_length": 512,
+    "epochs": 2,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "temperature": 0.01,
+    "groups_per_batch": 1,
+    "grad_accum": 8,
+    "hard_negatives": 2,
+    "random_negatives": 1,
+    "hard_depth": 50,
+    "encode_batch_size": 16,
+    "shard_size": 10000,
+    "row_search_depth": 10000,
+    "candidate_budget": 100,
+    "checkpoint_metric": "dev/full/macro_recall@100",
+    "device": "auto",
+    "gradient_checkpointing": true,
+    "amp": true,
+    "threads": 4
+  },
+  "selection": "Not selected yet; full-corpus dev retrieval required."
+}

@@ -1,0 +1,45 @@
+{
+  "queries": 124,
+  "independent_e5_eval_queries": 114,
+  "historical_validation_queries": 10,
+  "unique_documents": 16183,
+  "candidate_pairs": 24386,
+  "gold_injected": false,
+  "candidate_budget": "Exactly the union of two historical Top-100 branches, maximum 200 per query; same pool for every encoder",
+  "final_budgets": [
+    10,
+    20,
+    50,
+    100
+  ],
+  "sources": [
+    {
+      "file": "bm25_train_candidates_top100.csv",
+      "sha256": "8558ae4373f73849c519ef8467d3308d40f71c4512e7ceea8d77f395da755fcb",
+      "archive_sha256": "8558ae4373f73849c519ef8467d3308d40f71c4512e7ceea8d77f395da755fcb",
+      "public_sha256": "3d143a2adebf133b83d15b3242374f25fe6589b20212a77ac29489ce8fbceab0"
+    },
+    {
+      "file": "bm25_candidates_top100.csv",
+      "sha256": "a84ea60d6bfdbd0ac76f5f005d89c671799dd2f889e0b7b2cff5d273d9e4ae9d",
+      "archive_sha256": "a84ea60d6bfdbd0ac76f5f005d89c671799dd2f889e0b7b2cff5d273d9e4ae9d",
+      "public_sha256": "0dfa014865de06f17d92f0f5a9caaaf39749f46426a07a63c6e062e664a9f25c"
+    },
+    {
+      "file": "dense_full_train_candidates_top100.csv",
+      "sha256": "5765a69b235b38e2a273112caffa374b35bec55551de56ecc588b105db4d20d5",
+      "archive_sha256": "5765a69b235b38e2a273112caffa374b35bec55551de56ecc588b105db4d20d5",
+      "public_sha256": "311aec3022b8316371db2e761b8caf242aad58df7f31d515f761c4f2f3a17a15"
+    },
+    {
+      "file": "dense_full_candidates_top100.csv",
+      "sha256": "61d8f0ed9d5cf58e7dbd7575f3997cc1cdc6466931d77b2a7e7237e36ea25fde",
+      "archive_sha256": "61d8f0ed9d5cf58e7dbd7575f3997cc1cdc6466931d77b2a7e7237e36ea25fde",
+      "public_sha256": "e3d055e02ee94ac39edb08d3efb35af8b455b0655d02d8904c269649699dfe7a"
+    }
+  ],
+  "pool_sha256": "449a560057bc5448b133538472af53d30c1d0d9d56f464b88ca31f91bf192e5b",
+  "passages_sha256": "c2fbcc40f8fb9571e299a5cb5b2668d48435c5f8b73ee0e474b7acd57c0aabc9",
+  "query_sha256": "dca013da9a09bbb018cab02fcc53616153cb284b9a90d4f984d5ae1b6f6c2446",
+  "scope": "New conditional candidate rescoring experiment, NOT full-corpus retrieval by the new seeds"
+}

@@ -1,0 +1,421 @@
+{
+  "passed": true,
+  "scope": "Packaging and saved-artifact consistency only",
+  "isolated_imports_passed": [
+    "analyze_generalization.py",
+    "analyze_parameters.py",
+    "analyze_seed_pool.py",
+    "analyze_stability.py",
+    "archived_bm25_rules.py",
+    "archived_experiment.py",
+    "archived_rerank_rules.py",
+    "compare_pool_rrf.py",
+    "encode_new_seed_pool.py",
+    "evaluation.py",
+    "extract_archived_vectors.py",
+    "final_verify.py",
+    "prepare_seed_pool.py",
+    "test_stability.py",
+    "train_seed.py"
+  ],
+  "cli_help_checks_passed": [
+    "analyze_stability.py",
+    "analyze_parameters.py",
+    "analyze_generalization.py",
+    "analyze_seed_pool.py",
+    "compare_pool_rrf.py",
+    "final_verify.py",
+    "train_seed.py",
+    "encode_new_seed_pool.py"
+  ],
+  "projected_csvs_every_row_and_retained_string_unchanged": [
+    {
+      "file": "inputs/historical/bm25_candidates_top100.csv",
+      "rows": 1000,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type"
+      ]
+    },
+    {
+      "file": "inputs/historical/bm25_train_candidates_top100.csv",
+      "rows": 113900,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type"
+      ]
+    },
+    {
+      "file": "inputs/historical/bm25_test_candidates_top100.csv",
+      "rows": 4000,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type"
+      ]
+    },
+    {
+      "file": "inputs/historical/dense_full_candidates_top100.csv",
+      "rows": 1000,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type"
+      ]
+    },
+    {
+      "file": "inputs/historical/dense_full_train_candidates_top100.csv",
+      "rows": 113900,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type"
+      ]
+    },
+    {
+      "file": "inputs/historical/dense_full_test_candidates_top100.csv",
+      "rows": 4000,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type"
+      ]
+    },
+    {
+      "file": "inputs/historical/ce_bge_zeroshot_candidates_top100.csv",
+      "rows": 1000,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type",
+        "ce_score",
+        "first_stage_rrf",
+        "final_score"
+      ]
+    },
+    {
+      "file": "inputs/historical/ce_bge_ft_candidates_top100.csv",
+      "rows": 1000,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type",
+        "ce_score",
+        "first_stage_rrf",
+        "final_score"
+      ]
+    },
+    {
+      "file": "inputs/historical/ce_mini_candidates_top100.csv",
+      "rows": 1000,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type",
+        "ce_score",
+        "first_stage_rrf",
+        "final_score"
+      ]
+    },
+    {
+      "file": "results/recomputed_per_query.csv",
+      "rows": 22990,
+      "columns": [
+        "query_id",
+        "system",
+        "split",
+        "gold_mode",
+        "k",
+        "scope",
+        "group_id",
+        "n_gold",
+        "n_predicted",
+        "tp",
+        "fp",
+        "fn",
+        "precision",
+        "recall",
+        "f1"
+      ]
+    },
+    {
+      "file": "results/seed_pool_per_query.csv",
+      "rows": 3728,
+      "columns": [
+        "query_id",
+        "system",
+        "split",
+        "gold_mode",
+        "k",
+        "scope",
+        "group_id",
+        "n_gold",
+        "n_predicted",
+        "tp",
+        "fp",
+        "fn",
+        "precision",
+        "recall",
+        "f1"
+      ]
+    },
+    {
+      "file": "results/seed_pool_rrf_per_query.csv",
+      "rows": 932,
+      "columns": [
+        "query_id",
+        "system",
+        "split",
+        "gold_mode",
+        "k",
+        "scope",
+        "group_id",
+        "n_gold",
+        "n_predicted",
+        "tp",
+        "fp",
+        "fn",
+        "precision",
+        "recall",
+        "f1"
+      ]
+    },
+    {
+      "file": "results/seed_pool_base_rankings.csv",
+      "rows": 24386,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type",
+        "score"
+      ]
+    },
+    {
+      "file": "results/seed_pool_seed_760_rankings.csv",
+      "rows": 24386,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type",
+        "score"
+      ]
+    },
+    {
+      "file": "results/seed_pool_seed_761_rankings.csv",
+      "rows": 24386,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type",
+        "score"
+      ]
+    },
+    {
+      "file": "results/seed_pool_seed_762_rankings.csv",
+      "rows": 24386,
+      "columns": [
+        "query_id",
+        "rank",
+        "doc_id",
+        "citation",
+        "source_type",
+        "score"
+      ]
+    },
+    {
+      "file": "results/seed_pool_rrf_rankings.csv",
+      "rows": 24386,
+      "columns": [
+        "query_id",
+        "rank",
+        "citation",
+        "first_stage_rrf"
+      ]
+    }
+  ],
+  "unchanged_csvs": [
+    "inputs/seed_queries.csv",
+    "inputs/seed_candidate_pool.csv",
+    "inputs/archived_e5_results/results/dev_base_candidates.csv",
+    "inputs/archived_e5_results/results/dev_epoch_1_candidates.csv",
+    "inputs/archived_e5_results/results/dev_epoch_2_candidates.csv",
+    "inputs/archived_e5_results/results/final_finetuned_E5_candidates.csv",
+    "inputs/archived_e5_results/results/final_finetuned_E5_summary.csv",
+    "inputs/archived_e5_results/results/final_original_E5_candidates.csv",
+    "inputs/archived_e5_results/results/final_original_E5_summary.csv",
+    "inputs/historical/bm25_best_predictions.csv",
+    "inputs/historical/bm25_final_grid_summary.csv",
+    "inputs/historical/dense_full_best_predictions.csv",
+    "inputs/historical/dense_full_grid_summary.csv",
+    "inputs/historical/ce_bge_zeroshot_best_predictions.csv",
+    "inputs/historical/ce_bge_zeroshot_grid_summary.csv",
+    "inputs/historical/ce_bge_ft_best_predictions.csv",
+    "inputs/historical/ce_bge_ft_grid_summary.csv",
+    "inputs/historical/ce_mini_best_predictions.csv",
+    "inputs/historical/ce_mini_grid_summary.csv",
+    "results/recomputed_metrics.csv",
+    "results/paired_statistics.csv",
+    "results/paired_query_deltas.csv",
+    "results/leave_one_query_out.csv",
+    "results/leave_one_scenario_out.csv",
+    "results/ce_matched_parameter_grid.csv",
+    "results/new_same_alpha_cutoff_grid.csv",
+    "results/cutoff_nine_query_selection_diagnostic.csv",
+    "results/parameter_robustness_summary.csv",
+    "results/dataset_distributions.csv",
+    "results/query_metadata.csv",
+    "results/recomputed_query_groups.csv",
+    "results/recomputed_near_duplicate_pairs.csv",
+    "results/query_language_distribution.csv",
+    "results/ce_documented_default_split.csv",
+    "results/ce_documented_split_near_duplicate_risk.csv",
+    "results/candidate_source_per_query.csv",
+    "results/dev_checkpoint_sensitivity.csv",
+    "results/seen_unseen_citation_recall.csv",
+    "results/frozen_baseline_train_pairs.csv",
+    "results/seed_pool_metrics.csv",
+    "results/seed_pool_rrf_baseline_metrics.csv",
+    "results/seed_pool_coverage_ceiling.csv",
+    "results/seed_query_consistency.csv",
+    "results/seed_variability.csv",
+    "results/seed_pool_paired_deltas.csv",
+    "results/seed_pool_sources_per_query.csv",
+    "results/seed_candidate_budgets.csv",
+    "results/seed_pool_scoring_times.csv",
+    "inputs/query_expression_candidates.csv"
+  ],
+  "exact_function_ast_checks": {
+    "archived_experiment.py": 14,
+    "archived_bm25_rules.py": 2,
+    "archived_rerank_rules.py": 4
+  },
+  "recomputed_tables_match_saved": [
+    "recomputed_metrics.csv",
+    "paired_statistics.csv",
+    "paired_query_deltas.csv",
+    "leave_one_query_out.csv",
+    "leave_one_scenario_out.csv",
+    "ce_matched_parameter_grid.csv",
+    "new_same_alpha_cutoff_grid.csv",
+    "cutoff_nine_query_selection_diagnostic.csv",
+    "parameter_robustness_summary.csv",
+    "dataset_distributions.csv",
+    "seen_unseen_citation_recall.csv",
+    "frozen_baseline_train_pairs.csv",
+    "seed_pool_metrics.csv",
+    "seed_pool_rrf_baseline_metrics.csv",
+    "seed_pool_coverage_ceiling.csv",
+    "seed_query_consistency.csv",
+    "seed_variability.csv",
+    "seed_pool_paired_deltas.csv",
+    "seed_pool_sources_per_query.csv",
+    "recomputed_per_query.csv",
+    "seed_pool_per_query.csv",
+    "seed_pool_rrf_per_query.csv",
+    "seed_pool_base_rankings.csv",
+    "seed_pool_seed_760_rankings.csv",
+    "seed_pool_seed_761_rankings.csv",
+    "seed_pool_seed_762_rankings.csv",
+    "seed_pool_rrf_rankings.csv"
+  ],
+  "saved_result_verification": {
+    "passed": true,
+    "scope": "Compact-package checks and saved-artifact rescoring; not new model inference",
+    "scores": {
+      "archived_full_corpus_and_seed_pool_configurations_rechecked": 96,
+      "historical_selected_predictions_rechecked": 5,
+      "scope": "Saved real-artifact rescoring only; no new encoding, retrieval or training"
+    },
+    "paired_contrasts": 8,
+    "saved_training_log_rows_checked": 1320,
+    "query_split_counts": {
+      "train": 911,
+      "dev": 114,
+      "eval": 114,
+      "official_val": 10
+    },
+    "external_identity_checks_executed": false,
+    "full_index_or_mapping_hash_scan": false,
+    "training_executed": false,
+    "full_retrieval_executed": false,
+    "cross_encoder_executed": false
+  },
+  "external_identity_verification": {
+    "passed": true,
+    "scope": "Compact-package checks and saved-artifact rescoring; not new model inference",
+    "scores": {
+      "archived_full_corpus_and_seed_pool_configurations_rechecked": 96,
+      "historical_selected_predictions_rechecked": 5,
+      "scope": "Saved real-artifact rescoring only; no new encoding, retrieval or training"
+    },
+    "paired_contrasts": 8,
+    "saved_training_log_rows_checked": 1320,
+    "query_split_counts": {
+      "train": 911,
+      "dev": 114,
+      "eval": 114,
+      "official_val": 10
+    },
+    "external_identity_checks_executed": true,
+    "full_index_or_mapping_hash_scan": false,
+    "training_executed": false,
+    "full_retrieval_executed": false,
+    "cross_encoder_executed": false
+  },
+  "tests_passed": 7,
+  "output_relocation_passed": true,
+  "delivered_inputs_and_results_preserved_during_runs": true,
+  "cached_vector_dot_product_rescoring_executed": true,
+  "training_executed": false,
+  "full_indexing_executed": false,
+  "full_retrieval_executed": false,
+  "cross_encoder_executed": false,
+  "query_or_passage_encoding_executed": false,
+  "not_executed": [
+    "Optional seed training/resume",
+    "Passage regeneration/FAISS extraction",
+    "PyTorch encoding",
+    "Full corpus/index hash scan",
+    "New independent evaluation"
+  ],
+  "privacy_scope": "Full text and package-member scan; no claim of exhaustive unknown/encoded-identifier detection",
+  "privacy_scan": {
+    "text_files_and_final_zip_members": "All payload members scanned",
+    "matched_private_identifiers_or_credential_signatures": 0,
+    "limits": "Pattern-based and targeted source review cannot exclude every unknown or encoded identifier. External artifacts are not part of the public payload."
+  },
+  "source_archive_preserved": true,
+  "default_external_resources_required": false,
+  "external_model_index_or_cache_included": false,
+  "source_size": {
+    "files": 206,
+    "zip_bytes": 18969369,
+    "uncompressed_bytes": 77114834
+  }
+}

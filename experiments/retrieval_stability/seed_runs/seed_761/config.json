@@ -1,0 +1,32 @@
+{
+  "source": "project",
+  "model": "intfloat/multilingual-e5-base",
+  "revision": "main",
+  "seed": 761,
+  "split_ratios": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "similarity_threshold": 0.8,
+  "max_length": 512,
+  "epochs": 2,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.01,
+  "temperature": 0.01,
+  "groups_per_batch": 1,
+  "grad_accum": 8,
+  "hard_negatives": 2,
+  "random_negatives": 1,
+  "hard_depth": 50,
+  "encode_batch_size": 16,
+  "shard_size": 10000,
+  "row_search_depth": 10000,
+  "candidate_budget": 100,
+  "checkpoint_metric": "dev/full/macro_recall@100",
+  "device": "auto",
+  "gradient_checkpointing": true,
+  "amp": true,
+  "threads": 4,
+  "public_copy_scope": "Descriptive cleaned metadata; runtime training/resume reads unchanged external archive files."
+}

@@ -1,0 +1,13 @@
+{
+  "groups": 693,
+  "counts": {
+    "train": 911,
+    "dev": 114,
+    "eval": 114
+  },
+  "max_cross_split_similarity": 0.7748661162224763,
+  "method": "exhaustive char_wb TF-IDF cosine 3-5 grams + normalized exact + common 180-character scenario prefix for texts >=260 chars; connected components",
+  "threshold": 0.8,
+  "semantic_paraphrase_guarantee": false,
+  "official_validation_similar_pairs": []
+}

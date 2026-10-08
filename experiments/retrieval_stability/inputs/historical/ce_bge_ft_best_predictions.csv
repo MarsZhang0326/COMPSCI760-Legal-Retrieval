@@ -1,0 +1,11 @@
+query_id,predicted_citations
+val_001,Art. 221 Abs. 1 StPO;Art. 221 Abs. 2 StPO;Art. 221 Abs. 1bis StPO;Art. 221 Abs. 1 ZPO;Art. 221 Abs. 2 ZPO
+val_002,Art. 5 Abs. 1 PublG;Art. 7 PublV
+val_003,9C_499/2024 E. I
+val_004,BGE 131 III 601 E. 3.1;BGE 140 V 50 E. 4.5.7a
+val_005,Art. 2 Abs. 2 956.126
+val_006,Art. 364 Abs. 1 OR;Art. 41 Abs. 1 OR;Art. 41 Abs. 2 OR;Art. 364 Abs. 2 OR;Art. 364 Abs. 3 OR;Art. 248 Abs. 1 OR;Art. 60 Abs. 1 OR;Art. 1123 Abs. 1 OR;Art. 398 Abs. 1 OR;Art. 499 Abs. 1 OR;Art. 248 Abs. 2 OR;Art. 158 Abs. 1 OR;Art. 1050 Abs. 1 OR
+val_007,Art. 934 Abs. 3 ZGB;Art. 936 Abs. 1 ZGB;Art. 934 Abs. 2 ZGB;Art. 938 Abs. 2 ZGB;Art. 934 Abs. 1 ZGB;Art. 936 Abs. 2 ZGB;Art. 934 Abs. 1bis ZGB
+val_008,Art. 1 MünzV
+val_009,BGE 140 V 50 E. 4.5.7b
+val_010,BGE 121 II 257 E. 1993bb

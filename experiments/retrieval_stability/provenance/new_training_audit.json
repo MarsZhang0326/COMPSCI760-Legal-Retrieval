@@ -1,0 +1,34 @@
+[
+  {
+    "seed": 761,
+    "attempted_optimizer_steps": 660,
+    "actual_optimizer_update_counts": [
+      656
+    ],
+    "epochs": 2,
+    "sampled_parameter": "encoder.layer.0.attention.self.query.weight",
+    "max_parameter_delta_from_base": 0.0008699465543031693,
+    "model_sha256": "14b82bb484042c33bc8071abfe4a95b19dc238bbd27726db84e60383259c96a9",
+    "samples_sha256": "20357dfc77e63ddd78b1a8d0ddf4f3522010b558552ce94ebdcafba18befab78",
+    "torch_version": "2.6.0+cu126",
+    "cuda": "12.6",
+    "checkpoint_selection": "Frozen final epoch 2; no new full-corpus dev selection",
+    "full_corpus_index_created": false
+  },
+  {
+    "seed": 762,
+    "attempted_optimizer_steps": 660,
+    "actual_optimizer_update_counts": [
+      656
+    ],
+    "epochs": 2,
+    "sampled_parameter": "encoder.layer.0.attention.self.query.weight",
+    "max_parameter_delta_from_base": 0.0009371340274810791,
+    "model_sha256": "12dbb21436ec97a75b46e385661e7169886c2f1347d63ff719475f5f3775616b",
+    "samples_sha256": "20357dfc77e63ddd78b1a8d0ddf4f3522010b558552ce94ebdcafba18befab78",
+    "torch_version": "2.6.0+cu126",
+    "cuda": "12.6",
+    "checkpoint_selection": "Frozen final epoch 2; no new full-corpus dev selection",
+    "full_corpus_index_created": false
+  }
+]

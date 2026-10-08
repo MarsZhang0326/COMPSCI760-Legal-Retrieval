@@ -1,0 +1,14 @@
+{
+  "model_sha256": "a443a9c94cc46be6ff510bb047f6940256a08f3a2d30604b23563b18f09cf1cb",
+  "model": "base",
+  "document_vectors_reconstructed": 16183,
+  "query_vectors_reused": 124,
+  "new_encoding": false,
+  "torch_imported": false,
+  "index_manifest_sha256": "fc43e445991872721fcbc6ed29391b7b4faeb875234f2c41bf1b5653c9669dbf",
+  "query_cache": "external_artifacts/e5_experiment/data/query_embeddings/base_d6a420841a23526fc2ed.json",
+  "document_order_sha256": "c2fbcc40f8fb9571e299a5cb5b2668d48435c5f8b73ee0e474b7acd57c0aabc9",
+  "query_order_sha256": "dca013da9a09bbb018cab02fcc53616153cb284b9a90d4f984d5ae1b6f6c2446",
+  "documents_vectors_sha256": "f0b9c185e8d1f13ac3a1b133fa8b2c1a37df65bac7ad954c80d08d1d072170e3",
+  "queries_vectors_sha256": "2c3429971b302757cc26188bc2f48b547646b0a49502ff9c3b76b22bb46446bc"
+}

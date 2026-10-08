@@ -1,0 +1,26 @@
+{
+  "e5_archive": "../../results/external_artifacts/e5_experiment",
+  "statistics_seed": 76026,
+  "bootstrap_samples": 20000,
+  "near_duplicate_threshold": 0.8,
+  "new_training_seeds": [
+    761,
+    762
+  ],
+  "fixed_archived_seed": 760,
+  "training_split": "Archived query/component split, unchanged",
+  "seed_experiment": "Fixed per-query BM25 Top-100 + original-E5 Top-100 union; no gold injection. Dot-product rescoring, not full-corpus retrieval.",
+  "epoch_policy": "Freeze epoch 2 for all three seeds. Only archived seed 760 was selected by full-corpus dev Recall@100.",
+  "cutoffs": [
+    10,
+    20,
+    50,
+    100
+  ],
+  "new_training": true,
+  "statistics_archive": "inputs/archived_e5_results",
+  "seed_artifact_root": "../../results/external_artifacts/retrieval_stability",
+  "query_candidates": "inputs/query_expression_candidates.csv",
+  "historical_inputs": "inputs/historical",
+  "default_output": "runs/reproduction/results"
+}

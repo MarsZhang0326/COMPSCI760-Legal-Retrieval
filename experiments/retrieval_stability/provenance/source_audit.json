@@ -1,0 +1,103 @@
+{
+  "fresh_audit": true,
+  "current_project_files": 55,
+  "missing_current_project_inputs": {
+    "train.csv": true,
+    "val.csv": true,
+    "test.csv": true,
+    "laws_de.csv": true,
+    "court_considerations.csv": true,
+    "processed/train_clean.csv": true,
+    "processed/val_clean.csv": true,
+    "processed/test_clean.csv": true,
+    "processed/gold_train.json": true,
+    "processed/gold_val.json": true,
+    "results/faiss_dense_full/dense.faiss": true,
+    "results/ce_finetuned/model.safetensors": true
+  },
+  "fallback_query_source": "external_artifacts/e5_experiment/data/queries.json",
+  "fallback_corpus_mapping": "external_artifacts/e5_experiment/data/corpus.sqlite",
+  "mapping_sha256_verified": "f54ab91ec9b6e5ea0a2840e9afd148b653f5836eb8666cd2f968616271bb6e8b",
+  "all_gold_source_records_recomputed": true,
+  "canonical_candidate_metadata_records_checked": 99068,
+  "corpus_counts": {
+    "court": 2476315,
+    "law": 175933
+  },
+  "index_manifest_identity_checks": {
+    "base": {
+      "model_sha256": "a443a9c94cc46be6ff510bb047f6940256a08f3a2d30604b23563b18f09cf1cb",
+      "manifest_sha256": "fc43e445991872721fcbc6ed29391b7b4faeb875234f2c41bf1b5653c9669dbf",
+      "shards": 266,
+      "rows": 2652248,
+      "format": "passage: citation title text",
+      "pooling": "attention-mask mean, L2 normalize"
+    },
+    "epoch_1": {
+      "model_sha256": "79db6daee62074f3ae7f87683a0c3e77e09c078872c6bcfedf5fcfad6eff21af",
+      "manifest_sha256": "8b219dd6de3f6bf1f5841fea09b6fb99a96ed16e6287747a2931ec3c5f3f3a4f",
+      "shards": 266,
+      "rows": 2652248,
+      "format": "passage: citation title text",
+      "pooling": "attention-mask mean, L2 normalize"
+    },
+    "epoch_2": {
+      "model_sha256": "02361aa47a9b16941bb0f431b8089c97143b9e5d9caf2a328c94ac7fedccc998",
+      "manifest_sha256": "f02878025672c04b8666da4b366984fee4acbe67d64521a480f9b905f89b00bc",
+      "shards": 266,
+      "rows": 2652248,
+      "format": "passage: citation title text",
+      "pooling": "attention-mask mean, L2 normalize"
+    }
+  },
+  "full_index_rescan": false,
+  "original_query_expression_full_scan_evidence": "research_archive/query_expression/validation/index_checks.json",
+  "current_scripts_compared_with_archive_inputs": [
+    {
+      "file": "data_loader.py",
+      "same_as_e5_archive_input": true
+    },
+    {
+      "file": "evaluation.py",
+      "same_as_e5_archive_input": true
+    },
+    {
+      "file": "results\\dense_full_config.json",
+      "same_as_e5_archive_input": true
+    },
+    {
+      "file": "results\\bm25_best_config.json",
+      "same_as_e5_archive_input": true
+    },
+    {
+      "file": "results\\dense_full_train_candidates_top100.csv",
+      "same_as_e5_archive_input": true
+    },
+    {
+      "file": "results\\bm25_train_candidates_top100.csv",
+      "same_as_e5_archive_input": true
+    },
+    {
+      "file": "results\\dense_full_candidates_top100.csv",
+      "same_as_e5_archive_input": true
+    },
+    {
+      "file": "results\\bm25_candidates_top100.csv",
+      "same_as_e5_archive_input": true
+    }
+  ],
+  "project_documents_hashes": {
+    "01 - Course Description.pdf": "0b130478f0288762a87fa1a3dc25643cedc5bc75c70952a85a6750f8fe5d8641",
+    "02 - Project Description.pdf": "a7a78b0ff9f79d87b90e6f13a59035a2e8515e4d8c667eb7235494eec9f39d15",
+    "03 - Proposal Slides.pdf": "3feab477ee4659218e077ad8693b292cc989d51a9eb598f6b8dfed9775100381",
+    "04 - Literature Survey.pdf": "a26ac230ae5fb2247b49f1ca87394cda44d1f722fab1a5db946b385fff767035",
+    "05 - Update Slides.pdf": "e71544c5585893c834df674792db9c57ee20105e99faaefffb5195fa50f828bf"
+  },
+  "documents_match_previous_reference_extract": true,
+  "reference_text": "private_archive/current_project_documents.txt",
+  "ce_finetuned_weights_found": false,
+  "ce_exact_split_seed_or_training_config_available": false,
+  "ce_model_versions": "Historical model names/configuration only; immutable HF revisions and local weights unavailable",
+  "kaggle_scores": "README assertions only; no Kaggle receipts, labels, score logs or leaderboard independently verified",
+  "test_predictions": "Unlabeled 40-query artifacts; no local scored test result; test text unavailable for near-duplicate audit"
+}

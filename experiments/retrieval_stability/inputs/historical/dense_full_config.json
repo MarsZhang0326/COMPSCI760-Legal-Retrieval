@@ -1,0 +1,16 @@
+{
+  "system": "Full-corpus dense retrieval",
+  "model": "intfloat/multilingual-e5-base",
+  "index_dir": "results/faiss_dense_full",
+  "index_document_count": 2652248,
+  "prediction_top_k": 10,
+  "candidate_output_k": 100,
+  "search_depth": 1000,
+  "max_search_depth": 10000,
+  "macro_precision": 0.01,
+  "macro_recall": 0.01,
+  "macro_f1": 0.010000000000000002,
+  "avg_latency_ms": 380.90306650847197,
+  "query_format": "query: text",
+  "passage_format": "passage: citation title text"
+}

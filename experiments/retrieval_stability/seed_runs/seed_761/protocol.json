@@ -1,0 +1,43 @@
+{
+  "kind": "New real E5 training; fixed archived samples/split; frozen final epoch, not new full-corpus checkpoint selection",
+  "seed": 761,
+  "config": {
+    "source": "project",
+    "model": "intfloat/multilingual-e5-base",
+    "revision": "main",
+    "seed": 761,
+    "split_ratios": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "similarity_threshold": 0.8,
+    "max_length": 512,
+    "epochs": 2,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "temperature": 0.01,
+    "groups_per_batch": 1,
+    "grad_accum": 8,
+    "hard_negatives": 2,
+    "random_negatives": 1,
+    "hard_depth": 50,
+    "encode_batch_size": 16,
+    "shard_size": 10000,
+    "row_search_depth": 10000,
+    "candidate_budget": 100,
+    "checkpoint_metric": "dev/full/macro_recall@100",
+    "device": "auto",
+    "gradient_checkpointing": true,
+    "amp": true,
+    "threads": 4
+  },
+  "samples_sha256": "20357dfc77e63ddd78b1a8d0ddf4f3522010b558552ce94ebdcafba18befab78",
+  "archive_protocol_sha256": "29b855cd1c119546083ccbc66ab3b5908fc88c074893bc26c495862a3ffc5ea8",
+  "split_files_sha256": {
+    "train": "4aba0db1ad50b1ca1503e952771580f04ddc4b35f84c0104b0a61698837c53da",
+    "dev": "70b8320832395ed832c5be584278f43f782a071433f633a44f9b460ffa5cb45c",
+    "eval": "c0d9c141016a56c7f6432daa1a246a58b228f3c903465bfc1a5a3ef03f7cb803"
+  },
+  "public_copy_scope": "Descriptive cleaned metadata; runtime training/resume reads unchanged external archive files."
+}

@@ -1,0 +1,37 @@
+{
+  "deployment_best": {
+    "name": "epoch_2",
+    "path": "external_artifacts/e5_experiment/models/epoch_2",
+    "dev_recall100": 0.07352092352092351,
+    "model_sha256": "02361aa47a9b16941bb0f431b8089c97143b9e5d9caf2a328c94ac7fedccc998"
+  },
+  "best_finetuned": {
+    "name": "epoch_2",
+    "path": "external_artifacts/e5_experiment/models/epoch_2",
+    "dev_recall100": 0.07352092352092351,
+    "model_sha256": "02361aa47a9b16941bb0f431b8089c97143b9e5d9caf2a328c94ac7fedccc998"
+  },
+  "trials": [
+    {
+      "name": "base",
+      "path": "external_artifacts/e5_experiment/models/base",
+      "dev_recall100": 0.05058479532163742,
+      "model_sha256": "a443a9c94cc46be6ff510bb047f6940256a08f3a2d30604b23563b18f09cf1cb"
+    },
+    {
+      "name": "epoch_1",
+      "path": "external_artifacts/e5_experiment/models/epoch_1",
+      "dev_recall100": 0.06730715678084098,
+      "model_sha256": "79db6daee62074f3ae7f87683a0c3e77e09c078872c6bcfedf5fcfad6eff21af"
+    },
+    {
+      "name": "epoch_2",
+      "path": "external_artifacts/e5_experiment/models/epoch_2",
+      "dev_recall100": 0.07352092352092351,
+      "model_sha256": "02361aa47a9b16941bb0f431b8089c97143b9e5d9caf2a328c94ac7fedccc998"
+    }
+  ],
+  "protocol_sha256": "29b855cd1c119546083ccbc66ab3b5908fc88c074893bc26c495862a3ffc5ea8",
+  "eval_labels_used": false,
+  "criterion": "dev/full/macro_recall@100"
+}

@@ -1,0 +1,15 @@
+{
+  "seed": 761,
+  "epoch_policy": "Frozen final epoch 2; no new retrieval-dev checkpoint choice",
+  "model_sha256": "14b82bb484042c33bc8071abfe4a95b19dc238bbd27726db84e60383259c96a9",
+  "document_vectors_newly_encoded": 16183,
+  "queries_encoded": 124,
+  "faiss_imported": false,
+  "seconds": 83.04733870003838,
+  "document_order_sha256": "c2fbcc40f8fb9571e299a5cb5b2668d48435c5f8b73ee0e474b7acd57c0aabc9",
+  "query_order_sha256": "dca013da9a09bbb018cab02fcc53616153cb284b9a90d4f984d5ae1b6f6c2446",
+  "documents_vectors_sha256": "baf89129e16e93abc7e5a0014bc2215dfbce90f2a3c461f22057a28648ccdb76",
+  "queries_vectors_sha256": "7caa11afee3d4c22a5aa304a86e0c29aace4a7beedc46b02adc9301e81af6c23",
+  "scope": "Real fixed-pool rescoring inputs; no full-corpus index or candidate search. All three tuned seeds use identical frozen-pool batching.",
+  "device": "configured"
+}

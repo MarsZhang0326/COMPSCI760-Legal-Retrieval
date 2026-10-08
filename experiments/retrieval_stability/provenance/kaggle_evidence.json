@@ -1,0 +1,10 @@
+{
+  "source": "Current project README.md only",
+  "reported_private_f1": 0.07505,
+  "reported_public_f1": 0.00666,
+  "independently_verified": false,
+  "submission_receipt_available": false,
+  "test_gold_available": false,
+  "model_selection_history_on_kaggle_available": false,
+  "conclusion": "Cannot certify independent testing, reproduce these scores locally, or use them as statistical generalization evidence."
+}
