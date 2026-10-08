@@ -1,0 +1,8 @@
+{
+  "historical_reference": "Saved current project rankings; not inserted into the new metric table",
+  "mean_candidate_overlap_top100": 0.991,
+  "historical_macro_f1_top10": 0.010000000000000002,
+  "new_macro_f1_top10": 0.010000000000000002,
+  "artifact_limit": "Original monolithic project index absent; archived pretrained base index is the common fresh baseline for every arm",
+  "dtype_limit": "New query encoding is float32 CUDA; archived document vectors retain original precision."
+}

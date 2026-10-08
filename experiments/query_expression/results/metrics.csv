@@ -1,0 +1,25 @@
+variant,split,gold_mode,k,n_queries,macro_precision,macro_recall,macro_f1,origin,candidate_budget,law_gold_occurrences,law_hits,law_micro_recall,law_macro_recall,law_candidate_share,court_gold_occurrences,court_hits,court_micro_recall,court_macro_recall,court_candidate_share
+en,official_val,full,10,10,0.01,0.01,0.010000000000000002,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.1,1.0
+en,official_val,full,20,10,0.005,0.01,0.006666666666666666,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.1,1.0
+en,official_val,full,50,10,0.004,0.014000000000000002,0.006,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+en,official_val,full,100,10,0.002,0.014000000000000002,0.003418181818181818,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+de,official_val,full,10,10,0.0,0.0,0.0,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,0,0.0,0.0,1.0
+de,official_val,full,20,10,0.0,0.0,0.0,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,0,0.0,0.0,1.0
+de,official_val,full,50,10,0.002,0.004,0.002666666666666667,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.00909090909090909,1.0
+de,official_val,full,100,10,0.001,0.004,0.0016,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.00909090909090909,1.0
+legal_original,official_val,full,10,10,0.01,0.01,0.010000000000000002,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.1,1.0
+legal_original,official_val,full,20,10,0.005,0.01,0.006666666666666666,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.1,1.0
+legal_original,official_val,full,50,10,0.004,0.014000000000000002,0.006,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+legal_original,official_val,full,100,10,0.002,0.014000000000000002,0.003418181818181818,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+en_de_rrf,official_val,full,10,10,0.01,0.004,0.005714285714285714,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.00909090909090909,1.0
+en_de_rrf,official_val,full,20,10,0.005,0.004,0.0044444444444444444,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.00909090909090909,1.0
+en_de_rrf,official_val,full,50,10,0.004,0.014000000000000002,0.006,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+en_de_rrf,official_val,full,100,10,0.002,0.014000000000000002,0.003418181818181818,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+en_deep2x,official_val,full,10,10,0.01,0.01,0.010000000000000002,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.1,1.0
+en_deep2x,official_val,full,20,10,0.005,0.01,0.006666666666666666,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.1,1.0
+en_deep2x,official_val,full,50,10,0.004,0.014000000000000002,0.006,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+en_deep2x,official_val,full,100,10,0.002,0.014000000000000002,0.003418181818181818,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+en_repeat2x,official_val,full,10,10,0.01,0.01,0.010000000000000002,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.1,1.0
+en_repeat2x,official_val,full,20,10,0.005,0.01,0.006666666666666666,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,1,0.00980392156862745,0.1,1.0
+en_repeat2x,official_val,full,50,10,0.004,0.014000000000000002,0.006,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0
+en_repeat2x,official_val,full,100,10,0.002,0.014000000000000002,0.003418181818181818,New full-corpus retrieval in this query-expression experiment,100,149,0,0.0,0.0,0.0,102,2,0.0196078431372549,0.10909090909090909,1.0

@@ -1,0 +1,7 @@
+variant,execution_failed_queries,queries_with_zero_gold_at100,zero_gold_query_fraction
+en,0,8,0.8
+de,0,9,0.9
+legal_original,0,8,0.8
+en_de_rrf,0,8,0.8
+en_deep2x,0,8,0.8
+en_repeat2x,0,8,0.8

@@ -1,0 +1,18 @@
+{
+  "all_passed": true,
+  "real_queries": 10,
+  "real_variants_and_controls": 6,
+  "real_candidates": 6000,
+  "corpus_vectors_checked": 2652248,
+  "probe_vectors": 16,
+  "shared_evaluator_exact_match": true,
+  "original_reranker_candidate_reader_accepted": true,
+  "deep_and_repeated_original_controls_identical": true,
+  "duplicate_query_id_negative_test_rejected": true,
+  "conversion_number_injection_detected": true,
+  "candidate_metadata_canonical": true,
+  "project_files_preserved": true,
+  "mock_results_used": false,
+  "cross_encoder_scoring_executed": false,
+  "ce_passage_cache_complete": true
+}

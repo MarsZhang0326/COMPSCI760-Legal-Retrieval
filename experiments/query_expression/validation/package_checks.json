@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "scope": "Lightweight packaging validation on saved real artifacts only",
+  "staging_directory": "private_archive/relocated_package",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "saved_result_checks": {
+    "passed": true,
+    "queries": 10,
+    "groups": 6,
+    "real_saved_candidates": 6000,
+    "metric_configurations_rechecked": 24,
+    "per_query_metrics_rechecked": 240,
+    "verification_scope": "Saved-result rescoring and packaging checks, not new retrieval",
+    "artifact_checks": "Not requested",
+    "full_index_hash_scan": false,
+    "encoder_executed": false,
+    "retrieval_executed": false,
+    "cross_encoder_executed": false
+  },
+  "relocated_external_artifact_checks": {
+    "passed": true,
+    "queries": 10,
+    "groups": 6,
+    "real_saved_candidates": 6000,
+    "metric_configurations_rechecked": 24,
+    "per_query_metrics_rechecked": 240,
+    "verification_scope": "Saved-result rescoring and packaging checks, not new retrieval",
+    "artifact_checks": "Model/tokenizer hashes; manifest/completion identity; shard presence; mapping size/record; all candidate row IDs",
+    "full_index_hash_scan": false,
+    "encoder_executed": false,
+    "retrieval_executed": false,
+    "cross_encoder_executed": false
+  },
+  "current_reranker_reader_sha256": "9e03f68c4b9151aece1bbdfeb918aeffd00ca4ff11e5b1310d2fc587d1f5b87b",
+  "current_reranker_reader_accepted_each_group": {
+    "en": 1000,
+    "de": 1000,
+    "legal_original": 1000,
+    "en_de_rrf": 1000,
+    "en_deep2x": 1000,
+    "en_repeat2x": 1000
+  },
+  "missing_candidate_column_rejected": true,
+  "original_archive_and_current_readme_unchanged": true,
+  "encoder_or_full_retrieval_executed": false,
+  "training_or_indexing_executed": false,
+  "cross_encoder_executed": false,
+  "full_mapping_hash_or_shard_hash_scan_executed": false,
+  "note": "External mapping size/provenance and candidate row metadata checked; full hashes/normalization scan remain original archived evidence.",
+  "commands": [
+    {
+      "arguments": [
+        "run_experiment.py",
+        "--help"
+      ],
+      "passed": true
+    },
+    {
+      "arguments": [
+        "encode_queries.py",
+        "--help"
+      ],
+      "passed": true
+    },
+    {
+      "arguments": [
+        "search_and_evaluate.py",
+        "--help"
+      ],
+      "passed": true
+    },
+    {
+      "arguments": [
+        "-c",
+        "import evaluation, encode_queries, run_experiment, sys; assert \"torch\" not in sys.modules and \"faiss\" not in sys.modules; print(\"Encoder/entry/evaluator imports passed without torch/FAISS\")"
+      ],
+      "passed": true
+    },
+    {
+      "arguments": [
+        "-c",
+        "import search_and_evaluate, sys; assert \"torch\" not in sys.modules; print(\"FAISS worker import passed without PyTorch\")"
+      ],
+      "passed": true
+    },
+    {
+      "arguments": [
+        "run_experiment.py",
+        "--verify-only"
+      ],
+      "passed": true
+    },
+    {
+      "arguments": [
+        "private_archive/run_experiment.py",
+        "--verify-only",
+        "--check-artifacts",
+        "--model-dir",
+        "external_artifacts/e5_experiment/models/base",
+        "--index-dir",
+        "external_artifacts/e5_experiment/indexes/base",
+        "--corpus-map",
+        "external_artifacts/e5_experiment/data/corpus.sqlite"
+      ],
+      "passed": true
+    }
+  ],
+  "readme_addition_checks": {
+    "passed": true,
+    "source_sha256": "3c6f672ecfc3f40bcba2e0ceb18b427d29a9c6e150cf52e9e049bb5bd451e249",
+    "delivered_sha256": "3b1c97b5dbb5d502b76eaae190cf21ca613d38cd0bd41f00107d4a320eec8731",
+    "insertion": "After Full Dense Retrieval, before Cross-Encoder Re-ranking",
+    "added_lines": 44,
+    "existing_bytes_preserved_exactly": true,
+    "existing_lines_removed_or_modified": 0,
+    "existing_fine_tuning_content_unchanged": true,
+    "default_workflow_and_contributions_unchanged": true,
+    "new_query_expression_section_count": 1
+  },
+  "entry_preflight_additions": "Pinned frozen gold, group list, candidate budgets, cutoffs and mapping; final entry imported/rescored again in relocated staging.",
+  "current_project_evaluator_matches_packaged_evaluator": true,
+  "readme_table_matches_saved_comparison": true
+}

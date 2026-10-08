@@ -1,0 +1,7 @@
+variant,queries,gold_mode,recall20,recall50,recall100,precision10,recall10,macro_f1_10,law_hits100,court_hits100
+en,10,full,0.01,0.014,0.014,0.01,0.01,0.01,0,2
+de,10,full,0.0,0.004,0.004,0.0,0.0,0.0,0,1
+legal_original,10,full,0.01,0.014,0.014,0.01,0.01,0.01,0,2
+en_de_rrf,10,full,0.004,0.014,0.014,0.01,0.004,0.0057142857142857,0,2
+en_deep2x,10,full,0.01,0.014,0.014,0.01,0.01,0.01,0,2
+en_repeat2x,10,full,0.01,0.014,0.014,0.01,0.01,0.01,0,2

@@ -1,0 +1,13 @@
+query_id,variant,citation,rank,original_rank,gold_language,source_type
+val_004,en,BGE 131 III 601 E. 3.1,9.0,9,fr,court
+val_004,de,BGE 131 III 601 E. 3.1,,9,fr,court
+val_004,legal_original,BGE 131 III 601 E. 3.1,2.0,9,fr,court
+val_004,en_de_rrf,BGE 131 III 601 E. 3.1,29.0,9,fr,court
+val_004,en_deep2x,BGE 131 III 601 E. 3.1,9.0,9,fr,court
+val_004,en_repeat2x,BGE 131 III 601 E. 3.1,9.0,9,fr,court
+val_010,en,4A_42/2015 E. 6.6,40.0,40,de,court
+val_010,de,4A_42/2015 E. 6.6,25.0,40,de,court
+val_010,legal_original,4A_42/2015 E. 6.6,38.0,40,de,court
+val_010,en_de_rrf,4A_42/2015 E. 6.6,9.0,40,de,court
+val_010,en_deep2x,4A_42/2015 E. 6.6,40.0,40,de,court
+val_010,en_repeat2x,4A_42/2015 E. 6.6,40.0,40,de,court

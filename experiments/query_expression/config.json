@@ -1,0 +1,41 @@
+{
+  "seed": 760,
+  "model_dir": "../../results/external_artifacts/e5_experiment/models/base",
+  "index_dir": "../../results/external_artifacts/e5_experiment/indexes/base",
+  "corpus_map": "../../results/external_artifacts/e5_experiment/data/corpus.sqlite",
+  "query_file": "inputs/query_variants.csv",
+  "gold_file": "inputs/gold_official_val.json",
+  "device": "auto",
+  "batch_size": 1,
+  "faiss_threads": 4,
+  "base_row_depth": 1000,
+  "deep_row_depth": 2000,
+  "candidate_budget": 100,
+  "cutoffs": [
+    10,
+    20,
+    50,
+    100
+  ],
+  "rrf_k": 60,
+  "fusion_weights": [
+    1.0,
+    1.0
+  ],
+  "encoder": "intfloat/multilingual-e5-base",
+  "encoder_revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "pooling": "attention-mask mean, L2 normalize",
+  "max_length": 512,
+  "evaluation_scope": "Exploratory paired official English validation, full gold; historically tuned, not untouched test",
+  "baseline_artifact_scope": "Archived complete pretrained base sharded index; original project dense.faiss absent",
+  "cross_encoder_status": "Fine-tuned BGE weights unavailable locally; owner confirmed unavailable. Not executed.",
+  "variants": [
+    "en",
+    "de",
+    "legal_original",
+    "en_de_rrf",
+    "en_deep2x",
+    "en_repeat2x"
+  ],
+  "expected_mapping_sha256": "f54ab91ec9b6e5ea0a2840e9afd148b653f5836eb8666cd2f968616271bb6e8b"
+}

@@ -1,0 +1,31 @@
+{
+  "model_sha256": "a443a9c94cc46be6ff510bb047f6940256a08f3a2d30604b23563b18f09cf1cb",
+  "manifest_sha256": "fc43e445991872721fcbc6ed29391b7b4faeb875234f2c41bf1b5653c9669dbf",
+  "mapping_sha256": "f54ab91ec9b6e5ea0a2840e9afd148b653f5836eb8666cd2f968616271bb6e8b",
+  "input_manifest_sha256": "28948c23a8b0a3176b79b6364b796a36ef280f5c1c06bc5a74fb8e3414cc2005",
+  "encoder": "intfloat/multilingual-e5-base",
+  "encoder_revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "corpus_rows": 2652248,
+  "corpus_counts": {
+    "court": 2476315,
+    "law": 175933
+  },
+  "locations": {
+    "model_dir": {
+      "default_config_path": "../../results/external_artifacts/e5_experiment/models/base",
+      "existing_source": "../../results/external_artifacts/e5_experiment/models/base"
+    },
+    "index_dir": {
+      "default_config_path": "../../results/external_artifacts/e5_experiment/indexes/base",
+      "existing_source": "../../results/external_artifacts/e5_experiment/indexes/base"
+    },
+    "corpus_map": {
+      "default_config_path": "../../results/external_artifacts/e5_experiment/data/corpus.sqlite",
+      "existing_source": "../../results/external_artifacts/e5_experiment/data/corpus.sqlite"
+    }
+  },
+  "mapping_companion": "Keep corpus_snapshot_sha256.json beside corpus.sqlite",
+  "large_artifacts_copied": false,
+  "relocation": "Runtime uses configured paths and content identities, not archived model_path strings. Keep original manifest.json, complete.json, shards and mapping snapshot unchanged.",
+  "archive": "research_archive/query_expression"
+}

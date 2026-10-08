@@ -1,0 +1,22 @@
+{
+  "train": {
+    "queries": 911,
+    "file_sha256": "4aba0db1ad50b1ca1503e952771580f04ddc4b35f84c0104b0a61698837c53da",
+    "overlap_with_official_english_ids": []
+  },
+  "dev": {
+    "queries": 114,
+    "file_sha256": "70b8320832395ed832c5be584278f43f782a071433f633a44f9b460ffa5cb45c",
+    "overlap_with_official_english_ids": []
+  },
+  "eval": {
+    "queries": 114,
+    "file_sha256": "c0d9c141016a56c7f6432daa1a246a58b228f3c903465bfc1a5a3ef03f7cb803",
+    "overlap_with_official_english_ids": []
+  },
+  "ce_log_train_queries": 899,
+  "ce_log_dev_queries": 100,
+  "ce_exact_split_ids_available": false,
+  "ce_checkpoint_available": false,
+  "main_evaluation_scope": "Official English validation; historically tuned, exploratory paired evaluation, not untouched independent test"
+}

@@ -1,0 +1,78 @@
+{
+  "scope": "Packaging only; no new neural experiment",
+  "changed_or_omitted_original_files": [
+    {
+      "file": "CHECKSUMS.json",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "a3a6542bdb6e8ea2ef94349914691a3906a20e43d372fcd42235862855599969",
+      "public_sha256": "a687983d1adecf8fada6dd19d88069f8351f3bfcc37b943da36a3f3ee7020348"
+    },
+    {
+      "file": "config.json",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "1eb4eb39382482908f010d90ad7c57053c0eeac9ecb2f09dff6098b357e88a26",
+      "public_sha256": "d8662b2077be6a88f1161cfd2499cfeb7072048823fbc4d5f368fcd74c8a3282"
+    },
+    {
+      "file": "encode_queries.py",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "2833e8cb696816293f8741d4cecbac0aa04e03db695893dc6036b15bae34ca95",
+      "public_sha256": "adf6eb2c67aa3fe7e4822f30d3214383ead3360dff450cc8417a51f722a53a0b"
+    },
+    {
+      "file": "inputs/variant_manifest.json",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "8e758ac969a75c872509ba900d816a441232b729f20a9c86897d2165583ce179",
+      "public_sha256": "363291452245d700393c36573f82f742f56757b5204a8d97612afd1267a02148"
+    },
+    {
+      "file": "provenance/artifacts.json",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "1a19b7c168cf61714bb3322ec769c7c20db112313df5725927c3c6b63fcac598",
+      "public_sha256": "ddf2286dd57fdb936841448c12b2d62ef1c8ec0bde7d07ad7f7eadd558e8a1ab"
+    },
+    {
+      "file": "provenance/encoder_record.json",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "b30df3ce1ca92116192fc2543efe442a3d50da3c9e8f5cbe1da2a18113405d50",
+      "public_sha256": "f4b2c2ac8531a41a532593aaaa135626ac03d0b2c78cb7923905be89727b42a9"
+    },
+    {
+      "file": "provenance/original_config.json",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "767c6eb1c3f64f880124cdd95d929165aca491b5f00bf218e061eebfae8cf838",
+      "public_sha256": "3b7cefc2c20d98bf07b6a55f3489782aa785f4bde9636015c89e79966d943529"
+    },
+    {
+      "file": "provenance/retained_sources.json",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "bd8302b43e1cd4567bfc20c82399d42598ec771c8d39963d74e8a9b54819d613",
+      "public_sha256": "c997b179314185e2e32a2c3513f42a86dc84d13b087adc61d13ad4057a9a0cff"
+    },
+    {
+      "file": "README.md",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "e65b9182870a7954f9e6c5dc67455705c89f96a8d188a71ac22099dd8a4aa755",
+      "public_sha256": "92c5bf474f785cb9dfe3583dcc292c9553843f763ae324cf0e4dd406ec1e1597"
+    },
+    {
+      "file": "run_experiment.py",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "f89396c90c92935fd4571bf7f988de7c7ee848d1838bcf88b76d4c77768d5d7a",
+      "public_sha256": "ac27c79721ce24adde1fc4b90aece7012187f3873fd1c639c963163584f3d115"
+    },
+    {
+      "file": "validation/package_checks.json",
+      "action": "Cleaned metadata, portable reference, integrity verification repair or documentation update",
+      "archive_sha256": "7a00cfd4b1ae1d5100b9e950ee71c5717c1658bbfaab3999b2cfb8680f810c37",
+      "public_sha256": "9c6b69d6e2742941eee4187ea504aecea23945284426d3ab5b1d2965f97c4618"
+    }
+  ],
+  "added_public_files": [
+    ".gitignore",
+    "provenance/archive_file_hashes.json",
+    "provenance/public_changes.json"
+  ],
+  "large_artifacts_included": false,
+  "experimental_scores_changed": false
+}

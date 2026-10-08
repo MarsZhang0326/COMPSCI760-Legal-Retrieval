@@ -1,0 +1,20 @@
+{
+  "device": "configured",
+  "model_sha256": "a443a9c94cc46be6ff510bb047f6940256a08f3a2d30604b23563b18f09cf1cb",
+  "encoder_revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "max_tokens": 493,
+  "vectors_sha256": "42f910c138c51e0018baf0fc526b527b8e9339be83f50eaad2c6e07ea28a015a",
+  "query_file_sha256": "2175b326c90fa8024bfd685bfcc88aefb3924db9774b678b980541232b3dc655",
+  "dtype": "float32; no autocast",
+  "faiss_imported": false,
+  "norm_min": 0.9999999403953552,
+  "dependencies": {
+    "torch": "2.6.0+cu126",
+    "transformers": "4.49.0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3"
+  },
+  "tokenizer_sha256": "62c24cdc13d4c9952d63718d6c9fa4c287974249e16b7ade6d5a85e7bbb75626",
+  "actual_query_batch_size": 1,
+  "timing_policy": "One query per forward pass for per-query timing; first query includes warm-up"
+}

@@ -1,0 +1,92 @@
+{
+  "complete_vector_and_global_id_check": true,
+  "corpus_vectors_checked": 2652248,
+  "all_finite": true,
+  "norm_min": 0.9999998211860657,
+  "norm_max": 1.0000001192092896,
+  "passage_probe_count": 16,
+  "probe_cosine_min": 0.9999890923500061,
+  "probe_details": [
+    {
+      "id": 41060,
+      "source_type": "law",
+      "cosine": 0.9999988079071045
+    },
+    {
+      "id": 66477,
+      "source_type": "law",
+      "cosine": 0.9999995231628418
+    },
+    {
+      "id": 62005,
+      "source_type": "law",
+      "cosine": 0.9999991655349731
+    },
+    {
+      "id": 74426,
+      "source_type": "law",
+      "cosine": 0.9999974966049194
+    },
+    {
+      "id": 76762,
+      "source_type": "law",
+      "cosine": 0.9999975562095642
+    },
+    {
+      "id": 151445,
+      "source_type": "law",
+      "cosine": 0.9999951124191284
+    },
+    {
+      "id": 153745,
+      "source_type": "law",
+      "cosine": 0.9999970197677612
+    },
+    {
+      "id": 166456,
+      "source_type": "law",
+      "cosine": 0.9999983310699463
+    },
+    {
+      "id": 199578,
+      "source_type": "court",
+      "cosine": 0.9999938011169434
+    },
+    {
+      "id": 555790,
+      "source_type": "court",
+      "cosine": 0.9999997019767761
+    },
+    {
+      "id": 746551,
+      "source_type": "court",
+      "cosine": 0.9999979138374329
+    },
+    {
+      "id": 1399016,
+      "source_type": "court",
+      "cosine": 0.9999890923500061
+    },
+    {
+      "id": 1608573,
+      "source_type": "court",
+      "cosine": 0.9999977350234985
+    },
+    {
+      "id": 2287244,
+      "source_type": "court",
+      "cosine": 0.9999987483024597
+    },
+    {
+      "id": 2384656,
+      "source_type": "court",
+      "cosine": 0.999995768070221
+    },
+    {
+      "id": 2437209,
+      "source_type": "court",
+      "cosine": 0.9999935030937195
+    }
+  ],
+  "scope": "Existing archived pretrained base index; no index rebuild or full corpus encoding"
+}

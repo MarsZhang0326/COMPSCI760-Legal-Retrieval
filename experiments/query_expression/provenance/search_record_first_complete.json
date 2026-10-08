@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "shards_searched": 266,
+  "corpus_rows": 2652248,
+  "model_sha256": "a443a9c94cc46be6ff510bb047f6940256a08f3a2d30604b23563b18f09cf1cb",
+  "manifest_sha256": "fc43e445991872721fcbc6ed29391b7b4faeb875234f2c41bf1b5653c9669dbf",
+  "mapping_sha256": "f54ab91ec9b6e5ea0a2840e9afd148b653f5836eb8666cd2f968616271bb6e8b",
+  "torch_imported": false,
+  "common_shard_checksum_and_io_seconds": 8.273650699178688,
+  "current_invocation_wall_seconds": 22.28164389997255,
+  "cross_encoder_executed": false,
+  "query_file_sha256": "2175b326c90fa8024bfd685bfcc88aefb3924db9774b678b980541232b3dc655"
+}
