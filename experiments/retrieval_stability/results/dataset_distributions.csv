@@ -1,0 +1,6 @@
+split,queries,scenario_groups,gold_occurrences,gold_mean,gold_median,gold_min,gold_max,covered_occurrences,missing_occurrences,no_covered_gold_queries,covered_law_gold,covered_court_gold,explicit_queries,explicit_query_share,character_median,criminal_marker_queries,insurance_marker_queries,private_marker_queries,environment_marker_queries
+all_original_train,1139,693,4659,4.090430201931519,2.0,1,44,3319,1340,140,3262,57,267,0.2344161545215101,1013.0,212,62,209,47
+dev,114,74,442,3.8771929824561404,2.0,1,23,287,155,20,284,3,26,0.22807017543859648,936.0,19,4,23,1
+eval,114,77,527,4.62280701754386,2.5,1,38,394,133,15,372,22,25,0.21929824561403508,904.5,16,4,20,8
+official_val,10,10,251,25.1,22.0,10,47,251,0,0,149,102,4,0.4,1554.0,3,2,4,1
+train,911,542,3690,4.050493962678376,2.0,1,44,2638,1052,105,2606,32,216,0.23710208562019758,1034.0,177,54,166,38

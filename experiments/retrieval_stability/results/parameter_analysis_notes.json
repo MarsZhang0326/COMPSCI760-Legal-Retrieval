@@ -1,0 +1,20 @@
+{
+  "matched_settings": 79,
+  "ft_better_same_rule_settings": 64,
+  "ft_same_settings": 15,
+  "ft_worse_settings": 0,
+  "near_best_nine_cells_f1_min": 0.0583838383838383,
+  "near_best_nine_cells_f1_max": 0.0676090667511395,
+  "best_no_ce_historical": {
+    "macro_f1": 0.0186080586080586,
+    "cutoff_mode": "relative",
+    "cutoff_value": 0.6
+  },
+  "nine_query_cutoff_choices": {
+    "relative:0.6": 9,
+    "relative:0.8": 1
+  },
+  "nine_query_selection_mean_held_out_f1": 0.04453214367421643,
+  "selection_bias_corrected": false,
+  "score_export_limit": "CE files only retain Top-100 after selected ranking. Full-input CE scores unavailable. Alpha grid statistics remain historical; new cutoff analysis uses stored full-input-normalized final_score at alpha 0.8."
+}

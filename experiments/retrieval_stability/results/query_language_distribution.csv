@@ -1,0 +1,6 @@
+split,detected_language,queries
+dev,de,114
+eval,de,114
+official_val,en,10
+train,de,909
+train,en,2

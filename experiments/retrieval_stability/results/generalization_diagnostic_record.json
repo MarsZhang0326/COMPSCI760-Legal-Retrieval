@@ -1,0 +1,12 @@
+{
+  "eval_queries": 114,
+  "unique_eval_gold": 451,
+  "unique_covered_eval_gold": 337,
+  "training_positive_citations": 1636,
+  "eval_covered_gold_citations_seen_in_training_positives": 158,
+  "eval_covered_gold_citations_unseen_in_training_positives": 179,
+  "eval_covered_gold_absent_positive_but_seen_as_negative": 5,
+  "eval_covered_gold_absent_both_positive_and_negative": 174,
+  "unseen_definition": "Absent from positive supervision only; some citations were encoded as negatives. Not a guarantee of absence from all training text or multilingual E5 pretraining.",
+  "query_independence_vs_citation_independence": "Unseen questions can still target previously supervised citations; same-corpus label reuse is allowed but does not prove unseen-citation transfer."
+}

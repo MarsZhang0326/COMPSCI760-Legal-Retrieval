@@ -1,0 +1,6 @@
+system,historical_settings,best_f1,settings_at_95pct_best,settings_at_90pct_best,f1_median_all_settings,f1_min_all_settings,scope
+BM25,648,0.0222410865874363,72,72,0.0080562659846547,0.0,Historical same-ten-query selection grid; not independent performance distribution
+Dense,3,0.01,1,1,0.0066666666666666,0.006,Historical same-ten-query selection grid; not independent performance distribution
+BGE_zero,79,0.0376257019720517,1,2,0.0102301790281329,0.0,Historical same-ten-query selection grid; not independent performance distribution
+BGE_ft,79,0.0676090667511395,4,19,0.0524489795918367,0.0,Historical same-ten-query selection grid; not independent performance distribution
+Mini,79,0.0188461538461538,3,7,0.0044444444444444,0.0,Historical same-ten-query selection grid; not independent performance distribution

@@ -1,0 +1,12 @@
+{
+  "queries": 1149,
+  "near_duplicate_pairs": 869,
+  "normalized_exact_pairs": 0,
+  "cross_split_identifiable_pairs": [],
+  "groups": 703,
+  "official_query_id_overlap_with_original_train": [],
+  "official_max_similarity_to_train": 0.4195327618983573,
+  "method": "Exhaustive normalized char_wb 3-5 gram TF-IDF; cosine >=0.8 or exact or 180-character shared prefix",
+  "semantic_paraphrase_guarantee": false,
+  "language_and_type_labels": "Transparent regex/lexical markers; not human or semantic classifications"
+}

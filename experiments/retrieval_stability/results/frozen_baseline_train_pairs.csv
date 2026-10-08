@@ -1,0 +1,4 @@
+split,queries,k,metric,mean_BM25_minus_Dense,BM25_better_queries,same_queries,Dense_better_queries,scope
+original_train_frozen,1139,10,f1,0.019397692892842083,140,978,21,Frozen historical candidates on original train labels; no project fine-tuning in either model. Historical run provenance limitations remain.
+original_train_frozen,1139,20,f1,0.01450902548847635,164,956,19,Frozen historical candidates on original train labels; no project fine-tuning in either model. Historical run provenance limitations remain.
+original_train_frozen,1139,100,f1,0.004408229297886767,199,905,35,Frozen historical candidates on original train labels; no project fine-tuning in either model. Historical run provenance limitations remain.

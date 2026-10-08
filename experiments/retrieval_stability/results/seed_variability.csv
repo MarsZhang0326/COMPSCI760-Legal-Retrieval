@@ -1,0 +1,25 @@
+split,k,metric,seeds_completed,minimum,maximum,mean,sample_std,scope
+eval,10,macro_precision,3,0.027192982456140356,0.02894736842105263,0.028070175438596492,0.0008771929824561379,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,10,macro_recall,3,0.08554171777497786,0.09986920315509484,0.0903944929878639,0.008206151434808708,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,10,macro_f1,3,0.033373656696534325,0.036610478354408615,0.03457442960783355,0.0017727148394391648,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,20,macro_precision,3,0.01842105263157895,0.0206140350877193,0.01929824561403509,0.0011604172416949962,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,20,macro_recall,3,0.10628858393210287,0.11169097880818196,0.1085767116588271,0.002794342026039362,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,20,macro_f1,3,0.02599861731137198,0.028997345212416523,0.027223114555939686,0.0015731329804732652,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,50,macro_precision,3,0.009824561403508772,0.010350877192982458,0.010058479532163744,0.0002679868827459561,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,50,macro_recall,3,0.12109259587767561,0.12304503444535922,0.12202860448156083,0.0009787005601777908,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,50,macro_f1,3,0.016378859138049238,0.017150868674354797,0.016707330054646585,0.00039866039841083797,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,100,macro_precision,3,0.005964912280701754,0.005964912280701754,0.005964912280701754,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,100,macro_recall,3,0.13483456574487235,0.13483456574487235,0.13483456574487235,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+eval,100,macro_f1,3,0.010747284136398319,0.010747284136398319,0.010747284136398319,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,10,macro_precision,3,0.07,0.08,0.07666666666666667,0.0057735026918962545,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,10,macro_recall,3,0.036399331662489556,0.0416624895572264,0.03990810359231412,0.003038685627313821,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,10,macro_f1,3,0.04577112542629784,0.05266767715043578,0.050368826575723134,0.003981725994411216,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,20,macro_precision,3,0.04,0.04,0.04,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,20,macro_recall,3,0.0416624895572264,0.0416624895572264,0.0416624895572264,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,20,macro_f1,3,0.03902921074398154,0.03902921074398154,0.03902921074398154,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,50,macro_precision,3,0.018,0.018,0.018,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,50,macro_recall,3,0.04721804511278196,0.04721804511278196,0.04721804511278196,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,50,macro_f1,3,0.025200341005967603,0.025200341005967603,0.025200341005967603,0.0,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,100,macro_precision,3,0.009,0.009999999999999998,0.009333333333333332,0.0005773502691896253,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,100,macro_recall,3,0.04721804511278196,0.05121804511278196,0.04855137844611529,0.0023094010767585054,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.
+official_val,100,macro_f1,3,0.014761845796067074,0.016361845796067077,0.015295179129400408,0.0009237604307034027,Three seeds; frozen samples/split/final epoch and fixed candidate pool. No seed-population CI claimed.

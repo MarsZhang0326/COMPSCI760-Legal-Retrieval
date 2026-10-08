@@ -1,0 +1,1150 @@
+query_id,split,group_id,characters,gold_count,covered_gold_count,missing_gold_count,covered_law_gold,covered_court_gold,full_law_gold_heuristic,explicit_citations,explicit_count,has_explicit,explicit_gold_exact_hits,language_marker,criminal_marker,insurance_marker,private_marker,environment_marker
+train_0001,train,train_0001,1493,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,True
+train_0002,dev,train_0002,1375,11,6,5,6,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_0003,eval,train_0003,1094,1,0,1,0,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0004,train,train_0004,2880,4,4,0,4,0,4,,0,False,0,German lexical markers,True,False,False,False
+train_0005,train,train_0005,5727,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0006,train,train_0006,3559,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0007,train,train_0007,622,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0008,train,train_0008,1095,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0009,train,train_0009,218,3,1,2,1,0,3,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_0010,train,train_0010,2572,14,8,6,8,0,14,,0,False,0,German lexical markers,True,False,False,False
+train_0011,train,train_0011,128,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0012,train,train_0012,266,3,1,2,1,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0013,train,train_0013,521,5,2,3,2,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0014,train,train_0014,640,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0015,train,train_0015,744,7,6,1,6,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0016,train,train_0016,2166,9,7,2,7,0,9,Art. 4 StromVV,1,True,1,German lexical markers,False,False,False,False
+train_0017,train,train_0017,1202,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0018,dev,train_0018,1769,5,3,2,3,0,5,Art. 9 SebG,1,True,1,German lexical markers,False,False,False,False
+train_0019,train,train_0019,753,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0020,dev,train_0020,139,5,3,2,3,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0021,train,train_0021,116,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0022,dev,train_0022,893,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0023,train,train_0023,554,5,4,1,4,0,5,Art. 15 Abs. 2 JStG,1,True,1,German lexical markers,False,False,False,False
+train_0024,eval,train_0024,1044,1,0,1,0,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0025,train,train_0025,676,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0026,dev,train_0026,4058,19,7,12,7,0,19,,0,False,0,German lexical markers,False,False,False,False
+train_0027,train,train_0027,5915,3,2,1,2,0,3,Art. 16 Abs;Art. 21 Die;Art. 22 Der;Art. 23 Gegen;Art. 1 Eidgen;Art. 41 Luftfahrthindernisse;Art. 63 Erstellung;Art. 64 Gesuch;Art. 66 Pr,9,True,0,German lexical markers,False,False,True,True
+train_0028,train,train_0028,1327,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0029,train,train_0029,2278,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0030,train,train_0030,3288,3,0,3,0,0,3,Art. 9 GwG;Art. 2 Geltungsbereich;Art. 9 Meldepflicht;Art. 260quinquies Abs. 1 StGB;Art. 37 Verletzung;Art. 305bis i;Art. 11 StGB,7,True,2,German lexical markers,True,False,True,False
+train_0031,train,train_0031,907,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0032,train,train_0032,2964,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,True
+train_0033,train,train_0033,181,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0034,eval,train_0034,1381,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0035,train,train_0035,1108,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0036,train,train_0036,1151,9,4,5,4,0,9,Art. 8a SchKG,1,True,1,German lexical markers,False,True,True,False
+train_0037,train,train_0037,1658,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0038,train,train_0038,230,1,1,0,1,0,1,4A_306/2009,1,True,0,German lexical markers,False,False,False,False
+train_0039,train,train_0039,1677,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0040,train,train_0040,936,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0041,dev,train_0041,273,3,2,1,2,0,3,Art. 49 OR,1,True,1,German lexical markers,False,False,True,False
+train_0042,train,train_0042,2065,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0043,train,train_0043,555,8,7,1,7,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_0044,eval,train_0044,2986,38,26,12,26,0,38,Art. 15 FIDLEG,1,True,1,German lexical markers,False,False,True,False
+train_0045,train,train_0045,3824,7,6,1,6,0,7,Art. 12 Abs. 1 DSG;Art. 13 DSG;Art. 13 Abs. 1 DSG;Art. 179 quater;BGE 142 III 263,5,True,3,German lexical markers,True,False,False,False
+train_0046,eval,train_0046,579,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0047,train,train_0047,915,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0048,train,train_0048,1523,4,2,2,2,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0049,train,train_0049,175,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0050,train,train_0050,438,3,1,2,1,0,3,Art. 35 Personalrecht,1,True,0,German lexical markers,False,False,False,False
+train_0051,train,train_0051,2432,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0052,dev,train_0052,1140,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0053,train,train_0053,1468,5,3,2,3,0,5,,0,False,0,English lexical markers,False,False,False,False
+train_0054,train,train_0054,350,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0055,train,train_0055,1434,1,1,0,1,0,1,Art. 41 Abs. 1 OR,1,True,1,German lexical markers,False,False,True,True
+train_0056,dev,train_0002,1054,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0057,train,train_0057,1072,3,2,1,2,0,3,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0058,train,train_0058,1183,12,10,2,8,2,10,,0,False,0,German lexical markers,True,False,False,False
+train_0059,train,train_0059,676,6,4,2,4,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0060,train,train_0060,660,10,7,3,7,0,10,,0,False,0,German lexical markers,False,False,False,False
+train_0061,train,train_0061,1070,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0062,eval,train_0062,693,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0063,train,train_0063,210,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0064,train,train_0064,478,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0065,train,train_0065,871,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,True,False
+train_0066,dev,train_0002,1089,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0067,train,train_0067,98,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0068,train,train_0068,247,11,10,1,10,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_0069,train,train_0069,1908,8,3,5,3,0,8,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0070,train,train_0070,391,11,11,0,11,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_0071,eval,train_0071,676,2,1,1,1,0,2,Art. 8 Abs. 1 PSyG,1,True,0,German lexical markers,False,False,False,False
+train_0072,train,train_0072,300,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0073,train,train_0073,100,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0074,dev,train_0074,247,3,3,0,3,0,3,Art. 14 Abs. 2 IPRG,1,True,1,German lexical markers,False,False,False,False
+train_0075,eval,train_0075,1013,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0076,train,train_0076,510,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0077,train,train_0077,17321,13,7,6,7,0,13,Art. 197 ff;Art. 201 OR;Art. 203 OR;Art. 20 Abs. 2 OR;Art. 8 ZGB;Art. 24 Abs. 1 Ziff;Art. 97 ff;Art. 23 ff;Art. 31 OR;Art. 25 und;Art. 24 OR;Art. 187 ff;Art. 187 Abs. 1 OR;Art. 187 OR;Art. 197 OR;Art. 205 OR;Art. 20 Abs. 1 OR;Art. 64 Abs. 1 OG;Art. 666 und;BGE 107 II 419;BGE 98 II 20;BGE 88 II 412;BGE 84 II 517;BGE 70 II 48;BGE 107 II 231;BGE 82 II 422;BGE 79 II 159;BGE 91 II 354;BGE 81 II 56;BGE 98 II 78;BGE 96 II 27 E. 2;BGE 95 II 146;BGE 99 II 309;BGE 96 II 106;BGE 80 II 334;BGE 78 II 217;BGE 107 II 218;BGE 86 II 187;BGE 80 III 57;BGE 76 II 15;BGE 79 II 217 E. 5;BGE 97 II 46;BGE 105 II 144,43,True,11,German lexical markers,False,False,True,False
+train_0078,train,train_0078,2646,3,3,0,3,0,3,Art. 37 Rechtsschutz;Art. 37a ETH-Beschwerdekommission,2,True,0,German lexical markers,False,False,False,False
+train_0079,train,train_0079,1431,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0080,train,train_0037,1685,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0081,train,train_0081,1912,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0082,train,train_0082,3721,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0083,train,train_0083,1129,9,8,1,8,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_0084,dev,train_0084,3866,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0085,train,train_0085,3622,1,1,0,0,1,0,,0,False,0,German lexical markers,False,False,True,False
+train_0086,train,train_0086,1451,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0087,train,train_0087,943,7,5,2,5,0,7,,0,False,0,German lexical markers,False,False,True,True
+train_0088,train,train_0088,800,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0089,train,train_0089,1044,14,11,3,10,1,13,,0,False,0,German lexical markers,False,False,False,False
+train_0090,train,train_0090,145,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0091,train,train_0091,1767,3,2,1,2,0,3,Art. 16 Abs. 1 Elektrizit,1,True,0,German lexical markers,False,False,False,False
+train_0092,train,train_0092,185,2,1,1,1,0,2,Art. 17 IPRG,1,True,1,German lexical markers,False,False,False,False
+train_0093,train,train_0093,2238,8,8,0,8,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_0094,train,train_0094,2230,9,6,3,6,0,9,Art. 24 RPG,1,True,1,German lexical markers,False,False,False,False
+train_0095,train,train_0095,1283,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0096,train,train_0096,253,1,1,0,1,0,1,BGE 105 II 75;BGE 120 II 331;BGE 130 III 345;4A_306/2009,4,True,0,German lexical markers,False,False,False,False
+train_0097,train,train_0097,409,1,0,1,0,0,1,4A_306/2009;4A_268/2018,2,True,0,German lexical markers,False,False,False,False
+train_0098,train,train_0098,963,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0099,train,train_0099,2224,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0100,train,train_0100,221,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0101,dev,train_0101,3445,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0102,train,train_0102,272,1,0,1,0,0,1,Art. 3 DSG,1,True,1,German lexical markers,False,False,False,False
+train_0103,train,train_0103,210,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0104,train,train_0078,1788,2,2,0,2,0,2,Art. 37 Rechtsschutz;Art. 37a ETH-Beschwerdekommission;Art. 37 Abs. 4 ETH-Gesetz,3,True,0,German lexical markers,False,False,False,False
+train_0105,train,train_0105,149,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0106,dev,train_0106,692,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0107,train,train_0107,258,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0108,eval,train_0108,1454,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0109,dev,train_0109,2265,7,3,4,3,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0110,train,train_0110,166,1,1,0,1,0,1,Art. 21 BV,1,True,1,German lexical markers,False,False,False,False
+train_0111,dev,train_0111,154,7,4,3,4,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0112,eval,train_0112,1514,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0113,train,train_0113,433,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0114,train,train_0114,353,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0115,eval,train_0115,30848,29,26,3,7,19,10,Art. 754 Abs. 1 und;Art. 757 Abs. 1 OR;Art. 754 OR;Art. 154 Abs. 1 und;Art. 155 IPRG;Art. 756 Abs. 1 OR;Art. 325 SchKG;Art. 285 Abs. 1 und;Art. 288 Abs. 1 SchKG;Art. 754 und;Art. 757 Abs. 1 Satz;Art. 757 Abs. 2 und;Art. 757 OR;Art. 288 Abs. 1 sowie;BGE 142 III 23;BGE 137 III 481 E. 2.1;BGE 122 III 166 E. 3;BGE 136 III 322 E. 3.;BGE 132 III 564 E. 6.2;BGE 139 V 176 E. 8.1;BGE 132 III 321 E. 2.2.1;BGE 129 III 331 E. 2.1;BGE 122 III 166 E. 2;BGE 132 III 564 E. 3.1.2;BGE 132 III 564 E. 3.1.3;BGE 132 III 342 E. 2.3.3;BGE 132 III 564 E. 3.2.2;BGE 117 II 432 E. 1;BGE 117 II 432;BGE 122 III 176 E. 7;BGE 125 III 86 E. 3;BGE 127 III 374 E. 3;BGE 128 III 180 E. 2;BGE 127 III 374;BGE 132 III 564 E. 3.2.3;BGE 141 III 112 E. 5.2.3;BGE 129 III 129;BGE 131 III 306;BGE 132 III 564;BGE 131 III 306 E. 3.1.1;BGE 132 III 564 E. 3.1;BGE 131 III 306 E. 3.1.2;BGE 132 III 564 E. 3.2.1;BGE 141 III 112 E. 5.2.1;BGE 132 III 342 E. 2.3.1;BGE 132 III 342 E. 4.1;BGE 101 III 92 E. 4;BGE 117 II 439;4A_425/2015;4A_77/2014;4A_410/2011,51,True,24,German lexical markers,False,False,True,False
+train_0116,train,train_0116,2117,5,3,2,3,0,5,,0,False,0,German lexical markers,True,False,False,False
+train_0117,train,train_0117,726,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0118,train,train_0118,338,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0119,train,train_0119,1528,11,11,0,11,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_0120,dev,train_0120,1889,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0121,train,train_0121,1209,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0122,train,train_0122,281,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0123,train,train_0123,156,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0124,train,train_0124,256,4,1,3,1,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0125,train,train_0125,725,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0126,eval,train_0126,1533,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0127,train,train_0127,3471,6,5,1,5,0,6,Art. 6 Schutzziel;Art. 7 eine;Art. 68 Sport,3,True,0,German lexical markers,False,False,False,False
+train_0128,train,train_0128,1723,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0129,train,train_0129,652,9,4,5,4,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_0130,eval,train_0130,21038,15,11,4,11,0,15,Art. 59 Abs. 1 und;Art. 59 Abs. 3 StGB;Art. 76 Abs. 2 StGB;Art. 59 StGB;Art. 64 StGB;Art. 19 Abs. 2 und;Art. 82 Abs. 1 StPO;Art. 60 Abs. 1 sowie;Art. 62a Abs. 1 und;Art. 62c Abs;Art. 63 Abs;Art. 64 Abs. 1 und;Art. 64c Abs. 3 sowie;Art. 65 StGB;Art. 62 Abs. 3 Satz;Art. 64 ff;Art. 64 Abs. 1 StGB;Art. 76 StGB;Art. 64 Abs. 1bis StGB;Art. 59 Abs. 1 StGB;Art. 59 Abs;Art. 62c Abs. 6 StGB;Art. 363 ff;Art. 59 Abs. 2 StGB;Art. 64 Abs. 4 StGB;Art. 90 Abs. 2bis i;Art. 77a Abs. 2 und;Art. 19 Abs. 2 StPO;Art. 439 Abs. 2 StPO;BGE 142 IV 1,30,True,14,English lexical markers,True,False,False,False
+train_0131,train,train_0131,441,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0132,eval,train_0132,2321,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0133,train,train_0133,910,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0134,train,train_0103,210,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0135,train,train_0135,1038,7,6,1,6,0,7,,0,False,0,German lexical markers,False,False,False,True
+train_0136,train,train_0005,4187,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0137,train,train_0137,10690,9,4,5,4,0,9,Art. 1 Abs. 1 und;Art. 7 Abs. 3 OR;Art. 24 Abs. 1 Ziff;Art. 26 OR;Art. 7 OR;Art. 1 Abs. 1 OR;Art. 1 OR;Art. 19 aOR;Art. 24 OR;Art. 25 OR;Art. 23 OR;Art. 64 Abs. 1 OG;BGE 105 II 23;BGE 34 II 531 E. 7;BGE 64 II 11 E. 3;BGE 39 II 579 E. 2;BGE 91 II 280 E. 3;BGE 69 II 239 E. 2,18,True,8,German lexical markers,False,False,True,False
+train_0138,train,train_0127,3594,9,7,2,7,0,9,Art. 24 des;Art. 6 Schutzziel;Art. 7 eine;Art. 68 Sport,4,True,0,German lexical markers,False,False,False,False
+train_0139,train,train_0139,1514,1,1,0,1,0,1,Art. 839 Abs. 2 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0140,train,train_0042,1245,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0141,train,train_0078,2621,2,2,0,2,0,2,Art. 37 Rechtsschutz;Art. 37a ETH-Beschwerdekommission,2,True,0,German lexical markers,False,False,False,False
+train_0142,train,train_0142,2229,1,1,0,1,0,1,Art. 2 Abs. 1 RPG,1,True,1,German lexical markers,False,False,False,False
+train_0143,train,train_0143,40,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0144,train,train_0144,2368,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0145,dev,train_0145,154,2,0,2,0,0,2,,0,False,0,Other/undetermined lexical markers,True,False,False,False
+train_0146,train,train_0146,136,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0147,eval,train_0147,90,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0148,train,train_0148,218,5,3,2,3,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0149,train,train_0149,912,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0150,train,train_0150,1351,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,True
+train_0151,dev,train_0018,4148,5,4,1,4,0,5,Art. 9 SebG,1,True,1,German lexical markers,True,False,False,False
+train_0152,train,train_0082,2268,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0153,train,train_0153,1361,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,True
+train_0154,train,train_0154,81,1,1,0,1,0,1,Art. 91 Abs. 1 IPRG,1,True,1,German lexical markers,False,False,False,False
+train_0155,train,train_0155,1618,3,2,1,2,0,3,Art. 837 Abs. 1 Ziff;Art. 839 ff,2,True,0,German lexical markers,False,False,True,False
+train_0156,train,train_0156,228,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0157,eval,train_0126,1695,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0158,train,train_0158,2018,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0159,train,train_0159,407,1,1,0,1,0,1,Art. 21 BV;Art. 5 Grundgesetz,2,True,1,German lexical markers,False,False,False,False
+train_0160,train,train_0160,3453,4,3,1,3,0,4,Art. 41 Abs. 1 Bst;Art. 118 Abs. 2 Bst;Art. 281 beziehungsweise;Art. 282 des,4,True,0,German lexical markers,True,False,False,False
+train_0161,train,train_0161,210,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0162,dev,train_0162,138,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0163,dev,train_0022,724,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0164,train,train_0164,1115,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0165,train,train_0165,1274,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0166,eval,train_0166,71,2,1,1,1,0,2,,0,False,0,Other/undetermined lexical markers,False,False,False,True
+train_0167,train,train_0167,654,4,3,1,3,0,4,Art. 134 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0168,train,train_0168,2678,9,6,3,6,0,9,Art. 60 ff,1,True,0,German lexical markers,False,False,True,False
+train_0169,eval,train_0169,1311,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0170,train,train_0170,270,12,11,1,11,0,12,,0,False,0,German lexical markers,False,False,False,False
+train_0171,train,train_0171,270,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0172,train,train_0006,1474,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0173,eval,train_0173,3867,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,True
+train_0174,train,train_0028,1312,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0175,train,train_0175,764,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0176,train,train_0176,1220,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0177,eval,train_0177,209,1,0,1,0,0,1,4A_74/2012,1,True,0,German lexical markers,False,False,False,False
+train_0178,train,train_0178,294,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0179,train,train_0179,1931,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0180,train,train_0180,272,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0181,train,train_0016,2262,2,1,1,1,0,2,Art. 4 StromVV,1,True,1,German lexical markers,False,False,False,False
+train_0182,train,train_0182,1464,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0183,train,train_0183,1996,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0184,train,train_0184,73,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0185,train,train_0185,950,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0186,train,train_0030,2989,2,0,2,0,0,2,Art. 9 GwG;Art. 2 Geltungsbereich;Art. 9 Meldepflicht;Art. 260quinquies Abs. 1 StGB;Art. 37 Verletzung,5,True,1,German lexical markers,True,False,True,False
+train_0187,train,train_0187,1432,1,1,0,1,0,1,Art. 4 Zul;Art. 12 Es,2,True,0,German lexical markers,False,False,False,False
+train_0188,eval,train_0126,2153,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0189,eval,train_0189,78,1,1,0,1,0,1,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_0190,train,train_0190,821,10,6,4,6,0,10,Art. 123 Ziff,1,True,0,German lexical markers,True,False,False,False
+train_0191,dev,train_0191,1238,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0192,train,train_0192,1904,5,5,0,5,0,5,Art. 4 UWG;Art. 6 UWG,2,True,2,German lexical markers,False,False,False,False
+train_0193,train,train_0149,846,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0194,train,train_0194,2260,8,8,0,8,0,8,,0,False,0,German lexical markers,False,False,True,False
+train_0195,train,train_0088,786,11,7,4,7,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_0196,eval,train_0196,1271,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0197,train,train_0197,105,7,3,4,3,0,7,Art. 59 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0198,train,train_0061,872,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0199,train,train_0199,306,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0200,train,train_0200,830,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0201,train,train_0201,242,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0202,eval,train_0173,2609,8,7,1,7,0,8,,0,False,0,German lexical markers,False,False,True,True
+train_0203,train,train_0203,130,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0204,train,train_0095,1263,9,6,3,6,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_0205,train,train_0205,789,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0206,train,train_0206,1882,15,7,8,7,0,15,,0,False,0,German lexical markers,False,False,False,False
+train_0207,train,train_0207,607,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0208,train,train_0030,3099,4,2,2,2,0,4,Art. 9 GwG;Art. 2 Geltungsbereich;Art. 9 Meldepflicht;Art. 260quinquies Abs. 1 StGB;Art. 37 Verletzung,5,True,1,German lexical markers,True,False,True,False
+train_0209,train,train_0209,753,1,0,1,0,0,1,,0,False,0,English lexical markers,False,False,False,False
+train_0210,train,train_0210,267,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0211,train,train_0069,2093,6,5,1,5,0,6,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0212,eval,train_0212,604,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,True,False
+train_0213,eval,train_0213,120,4,2,2,2,0,4,Art. 59 Abs. 3 StGB;Art. 64 Abs. 1 StGB,2,True,2,German lexical markers,True,False,False,False
+train_0214,eval,train_0214,259,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0215,train,train_0215,72,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0216,train,train_0216,534,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0217,train,train_0217,1688,1,0,1,0,0,1,Art. 18 OECD-MA;Art. 5 DBG,2,True,1,German lexical markers,False,False,True,False
+train_0218,train,train_0218,689,4,3,1,3,0,4,Art. 9 UVG,1,True,1,German lexical markers,False,True,False,False
+train_0219,eval,train_0219,325,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0220,train,train_0220,874,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0221,train,train_0156,243,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0222,train,train_0017,1106,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0223,train,train_0223,78,1,1,0,1,0,1,Art. 86 Abs. 2 IPRG,1,True,1,German lexical markers,False,False,False,False
+train_0224,train,train_0224,750,2,0,2,0,0,2,Art. 123 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0225,train,train_0094,2646,2,2,0,2,0,2,Art. 24 RPG,1,True,1,German lexical markers,False,False,False,False
+train_0226,train,train_0042,916,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0227,train,train_0047,859,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0228,train,train_0228,2432,4,0,4,0,0,4,,0,False,0,English lexical markers,False,False,False,False
+train_0229,dev,train_0229,1605,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0230,train,train_0047,854,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0231,train,train_0231,1657,17,14,3,14,0,17,,0,False,0,German lexical markers,False,False,False,False
+train_0232,dev,train_0232,3000,4,1,3,1,0,4,Art. 5 des;Art. 5 der,2,True,0,German lexical markers,False,False,True,False
+train_0233,train,train_0233,105,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0234,dev,train_0234,956,12,11,1,11,0,12,,0,False,0,German lexical markers,False,False,True,False
+train_0235,train,train_0055,1420,2,1,1,1,0,2,Art. 41 Abs. 1 OR,1,True,1,German lexical markers,False,False,True,True
+train_0236,dev,train_0236,1809,10,9,1,9,0,10,,0,False,0,German lexical markers,False,False,True,False
+train_0237,eval,train_0173,3807,12,11,1,11,0,12,,0,False,0,German lexical markers,False,False,True,True
+train_0238,train,train_0238,3043,4,2,2,2,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0239,train,train_0239,2671,3,3,0,3,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0240,train,train_0240,589,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0241,train,train_0241,111,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0242,train,train_0242,587,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0243,dev,train_0243,545,1,0,1,0,0,1,Art. 15 Abs. 1 des;Art. 17 DBG,2,True,1,German lexical markers,False,False,False,False
+train_0244,eval,train_0244,1347,1,1,0,1,0,1,Art. 8 Bei;Art. 8 Anwesenheitsbewilligung,2,True,0,German lexical markers,False,False,False,False
+train_0245,train,train_0245,2873,8,4,4,4,0,8,,0,False,0,German lexical markers,True,False,False,False
+train_0246,train,train_0246,1965,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0247,train,train_0247,283,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0248,train,train_0099,2487,5,2,3,2,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0249,train,train_0077,17374,15,9,6,9,0,15,Art. 197 ff;Art. 201 OR;Art. 203 OR;Art. 20 Abs. 2 OR;Art. 8 ZGB;Art. 24 Abs. 1 Ziff;Art. 97 ff;Art. 23 ff;Art. 31 OR;Art. 25 und;Art. 24 OR;Art. 187 ff;Art. 187 Abs. 1 OR;Art. 187 OR;Art. 197 OR;Art. 205 OR;Art. 20 Abs. 1 OR;Art. 64 Abs. 1 OG;Art. 666 und;BGE 107 II 419;BGE 98 II 20;BGE 88 II 412;BGE 84 II 517;BGE 70 II 48;BGE 107 II 231;BGE 82 II 422;BGE 79 II 159;BGE 91 II 354;BGE 81 II 56;BGE 98 II 78;BGE 96 II 27 E. 2;BGE 95 II 146;BGE 99 II 309;BGE 96 II 106;BGE 80 II 334;BGE 78 II 217;BGE 107 II 218;BGE 86 II 187;BGE 80 III 57;BGE 76 II 15;BGE 79 II 217 E. 5;BGE 97 II 46;BGE 105 II 144,43,True,11,German lexical markers,False,False,True,False
+train_0250,train,train_0250,1879,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0251,train,train_0251,972,4,4,0,4,0,4,,0,False,0,German lexical markers,True,False,False,False
+train_0252,dev,train_0106,934,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0253,train,train_0019,806,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0254,train,train_0254,368,3,3,0,3,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0255,train,train_0255,235,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0256,train,train_0004,6016,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0257,dev,train_0257,1151,18,13,5,13,0,18,,0,False,0,German lexical markers,False,False,False,False
+train_0258,train,train_0258,649,1,0,1,0,0,1,Art. 139 Ziff;Art. 123 Ziff,2,True,0,German lexical markers,True,False,False,False
+train_0259,train,train_0259,20161,8,6,2,6,0,8,Art. 101 Abs. 1 OR;Art. 399 Abs. 2 OR;Art. 44 und;Art. 1 Abs. 2 OR;Art. 39 Abs. 3 OR;Art. 101 OR;Art. 398 und;Art. 399 Abs;Art. 44 OR;Art. 8 ZGB;Art. 64 Abs. 1 OG;Art. 99 Abs. 2 OR;BGE 112 II 347;BGE 111 II 473 E. 2;BGE 82 IV 147 E. 2;BGE 107 II 245;BGE 110 II 373 E. 5,17,True,8,German lexical markers,False,False,True,False
+train_0260,dev,train_0052,1078,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0261,train,train_0069,1471,3,2,1,2,0,3,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0262,eval,train_0262,189,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0263,dev,train_0263,1619,3,3,0,3,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0264,train,train_0264,106,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0265,train,train_0265,1013,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0266,train,train_0266,3282,3,2,1,2,0,3,Art. 147 und;Art. 234 ZPO,2,True,1,German lexical markers,False,False,True,False
+train_0267,train,train_0144,2332,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0268,eval,train_0268,1443,5,3,2,3,0,5,Art. 146 Abs. 1 StGB;Art. 179 StGB;Art. 138 Ziff;Art. 399 Abs. 1 StPO,4,True,3,German lexical markers,True,False,False,False
+train_0269,train,train_0269,300,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0270,train,train_0270,1202,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0271,train,train_0271,1594,3,2,1,2,0,3,Art. 5d dahingehend;Art. 5d der,2,True,0,German lexical markers,False,False,False,False
+train_0272,train,train_0135,1466,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,True
+train_0273,train,train_0273,440,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0274,eval,train_0274,346,2,1,1,1,0,2,,0,False,0,German lexical markers,False,True,False,False
+train_0275,train,train_0194,2157,13,12,1,12,0,13,,0,False,0,German lexical markers,False,False,True,False
+train_0276,eval,train_0276,835,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0277,train,train_0277,212,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0278,train,train_0278,2824,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,True
+train_0279,train,train_0279,878,3,2,1,2,0,3,Art. 285 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0280,train,train_0280,1795,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0281,train,train_0281,1056,7,6,1,6,0,7,,0,False,0,German lexical markers,False,True,False,False
+train_0282,eval,train_0282,32737,10,3,7,3,0,10,Art. 33 Abs. 3 OR;Art. 32 OR;Art. 33 OR;Art. 1 OR;Art. 64 OG;Art. 34 Abs. 3 OR;Art. 458 ff;Art. 462 und;Art. 348b OR;Art. 462 OR;Art. 111 OR;Art. 2 ZGB;Art. 41 OR;BGE 120 II 197;BGE 53 III 171 E. 2;BGE 107 II 105 E. 6;BGE 69 II 319;BGE 100 II 200 E. 8;BGE 42 II 648 E. 1;BGE 85 II 22 E. 1;BGE 85 II 22;BGE 99 II 39 E. 1;BGE 74 II 149 E. 2;BGE 76 I 338 E. 5;BGE 39 II 91 E. 3;BGE 105 II 110;BGE 31 II 667 E. 3;BGE 120 II 331;BGE 115 II 474 E. 2;BGE 117 II 315 E. 4;BGE 115 II 15 E. 3,31,True,10,German lexical markers,False,False,True,False
+train_0283,train,train_0283,1218,1,0,1,0,0,1,Art. 66a StGB,1,True,1,German lexical markers,True,False,False,False
+train_0284,eval,train_0244,1364,1,1,0,1,0,1,Art. 8 Bei;Art. 8 Anwesenheitsbewilligung,2,True,0,German lexical markers,False,False,False,False
+train_0285,train,train_0285,4065,1,0,1,0,0,1,Art. 125 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0286,train,train_0286,1148,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0287,train,train_0287,2219,38,28,10,28,0,38,,0,False,0,German lexical markers,False,False,False,False
+train_0288,train,train_0224,782,4,2,2,2,0,4,Art. 123 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0289,train,train_0289,885,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0290,eval,train_0290,523,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0291,train,train_0291,2115,1,0,1,0,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0292,train,train_0292,1016,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0293,train,train_0293,534,6,3,3,3,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0294,train,train_0037,1469,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0295,train,train_0231,1624,17,12,5,12,0,17,,0,False,0,German lexical markers,False,False,False,False
+train_0296,eval,train_0296,203,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0297,train,train_0297,1056,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0298,train,train_0298,1184,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0299,eval,train_0196,1201,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0300,train,train_0300,694,8,7,1,7,0,8,,0,False,0,German lexical markers,False,False,True,False
+train_0301,train,train_0301,2714,3,3,0,3,0,3,Art. 3 Abs. 1 UN-Kinderrechtskonvention,1,True,0,German lexical markers,False,True,False,False
+train_0302,train,train_0144,2376,2,0,2,0,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0303,train,train_0303,181,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0304,train,train_0304,4151,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0305,train,train_0305,251,1,0,1,0,0,1,Art. 41 OR,1,True,1,German lexical markers,False,False,True,False
+train_0306,train,train_0306,1980,8,0,8,0,0,8,Art. 14 ISV;Art. 14 ISV-Statuten,2,True,0,German lexical markers,False,False,False,False
+train_0307,dev,train_0101,3051,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0308,train,train_0308,535,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0309,train,train_0309,100,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0310,train,train_0310,122,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0311,train,train_0311,1612,1,0,1,0,0,1,Art. 237 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0312,dev,train_0312,60,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0313,train,train_0313,2024,9,8,1,8,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_0314,train,train_0304,4083,10,8,2,8,0,10,,0,False,0,German lexical markers,False,False,True,False
+train_0315,dev,train_0315,555,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0316,train,train_0316,785,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0317,train,train_0317,2437,7,3,4,3,0,7,Art. 177 StGB;Art. 332 StGB;Art. 123 Ziff,3,True,2,German lexical markers,True,False,False,False
+train_0318,dev,train_0318,398,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0319,train,train_0319,776,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0320,train,train_0320,1214,38,27,11,27,0,38,,0,False,0,German lexical markers,False,False,False,False
+train_0321,train,train_0321,6904,1,0,1,0,0,1,Art. 1 Rechtsetzung;Art. 2 Vollzug;Art. 3 Die;Art. 4 Pr;Art. 5 Regulierungskostensch;Art. 6 Monitoring;Art. 7 Bereichsstudien;Art. 8 Berichterstattung;Art. 9 bis;Art. 20 Ausf;Art. 21 Referendum;Art. 21 Abs. 3 UEG,12,True,1,German lexical markers,False,False,False,False
+train_0322,train,train_0006,3604,3,3,0,3,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0323,train,train_0323,195,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0324,train,train_0324,956,8,5,3,5,0,8,Art. 27 AIG;Art. 34 Abs. 4 AIG,2,True,2,German lexical markers,False,False,False,False
+train_0325,train,train_0325,247,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0326,train,train_0326,1046,9,6,3,6,0,9,,0,False,0,German lexical markers,False,False,True,False
+train_0327,train,train_0158,2232,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0328,train,train_0270,2599,5,4,1,4,0,5,Art. 190 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0329,train,train_0329,205,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0330,dev,train_0330,3133,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0331,train,train_0331,1250,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0332,dev,train_0332,437,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0333,train,train_0308,666,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0334,eval,train_0334,171,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0335,train,train_0335,317,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0336,train,train_0336,254,2,2,0,2,0,2,Art. 66 Abs. 1 ATSG,1,True,1,German lexical markers,False,True,False,False
+train_0337,eval,train_0173,1626,11,11,0,11,0,11,,0,False,0,German lexical markers,False,False,True,False
+train_0338,train,train_0239,2341,4,3,1,3,0,4,,0,False,0,German lexical markers,True,False,False,False
+train_0339,train,train_0339,25152,13,7,6,5,2,11,Art. 19 und;Art. 906 Abs. 2 ZGB;Art. 315 f;Art. 322ter ff;Art. 1 OR;Art. 31 OR;Art. 20 OR;Art. 316 aStGB;Art. 322quinquies f;Art. 158 StGB;Art. 26 OR;Art. 28 OR;Art. 23 OR;Art. 320 Abs. 3 OR;Art. 25 Abs. 1 OR;Art. 20 Abs. 2 OR;Art. 63 Abs. 2 OG;BGE 129 III 320;BGE 121 IV 94 E. 1;BGE 115 II 300 E. 2;BGE 111 II 398 E. 2;BGE 119 II 380 E. 4;BGE 40 II 534 E. 4;BGE 105 II 23 E. 2;BGE 127 III 543 E. 2;BGE 114 II 131 E. 3;BGE 111 II 195 E. 3;BGE 119 II 437 E. 3;BGE 110 II 244 E. 2;BGE 107 II 419 E. 3;BGE 123 III 292 E. 2,31,True,11,German lexical markers,True,True,True,False
+train_0340,eval,train_0340,2039,2,2,0,2,0,2,Art. 34 Abs;Art. 35 Abs. 4 und;Art. 47 Abs. 2 SVG,3,True,1,German lexical markers,True,False,False,False
+train_0341,train,train_0341,353,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0342,train,train_0342,1699,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0343,eval,train_0343,135,5,4,1,4,0,5,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_0344,train,train_0321,6872,2,1,1,1,0,2,Art. 1 Rechtsetzung;Art. 2 Vollzug;Art. 3 Die;Art. 4 Pr;Art. 5 Regulierungskostensch;Art. 6 Monitoring;Art. 7 Bereichsstudien;Art. 8 Berichterstattung;Art. 9 bis;Art. 20 Ausf;Art. 21 Referendum;Art. 20 UEG,12,True,1,German lexical markers,False,False,False,False
+train_0345,train,train_0345,660,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0346,train,train_0346,206,2,1,1,1,0,2,Art. 37h BankG,1,True,1,German lexical markers,False,False,False,False
+train_0347,train,train_0006,1696,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0348,eval,train_0348,4271,2,0,2,0,0,2,Art. 183 StGB;Art. 184 StGB,2,True,2,German lexical markers,True,False,False,False
+train_0349,train,train_0349,486,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0350,train,train_0350,429,4,0,4,0,0,4,Art. 2 Abs. 3bis E-URG;Art. 2 E-URG,2,True,0,German lexical markers,False,False,False,False
+train_0351,dev,train_0263,2321,12,8,4,8,0,12,Art. 122 i;Art. 22 Abs. 1 StGB,2,True,1,German lexical markers,True,False,False,False
+train_0352,dev,train_0234,795,9,7,2,7,0,9,,0,False,0,German lexical markers,False,False,True,False
+train_0353,dev,train_0315,749,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0354,train,train_0298,1147,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0355,train,train_0355,478,2,1,1,1,0,2,Art. 21 Abs. 1 B,1,True,0,German lexical markers,False,False,False,False
+train_0356,train,train_0356,113,2,2,0,2,0,2,BGE 121 III 219,1,True,0,German lexical markers,False,False,False,False
+train_0357,train,train_0224,750,6,5,1,5,0,6,Art. 123 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0358,train,train_0358,2191,10,6,4,6,0,10,,0,False,0,German lexical markers,False,False,False,False
+train_0359,train,train_0055,1389,1,1,0,1,0,1,Art. 41 Abs. 1 OR,1,True,1,German lexical markers,False,False,True,True
+train_0360,train,train_0360,1154,5,4,1,4,0,5,,0,False,0,German lexical markers,True,False,False,False
+train_0361,eval,train_0361,906,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0362,train,train_0220,824,7,4,3,4,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0363,train,train_0363,1590,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0364,train,train_0364,658,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0365,train,train_0224,1092,7,5,2,5,0,7,Art. 123 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0366,train,train_0366,1850,8,7,1,7,0,8,Art. 279 ZGB;Art. 59 Abs. 2 ZPO,2,True,2,German lexical markers,False,False,True,False
+train_0367,train,train_0367,301,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0368,train,train_0036,1284,6,4,2,4,0,6,Art. 8a SchKG,1,True,1,German lexical markers,False,True,False,False
+train_0369,train,train_0369,3820,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0370,dev,train_0370,282,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0371,eval,train_0371,890,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0372,train,train_0060,657,11,9,2,9,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_0373,train,train_0238,1096,8,5,3,5,0,8,,0,False,0,German lexical markers,False,False,True,False
+train_0374,eval,train_0062,696,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0375,eval,train_0375,160,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0376,dev,train_0376,567,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0377,dev,train_0377,311,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0378,train,train_0013,575,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0379,dev,train_0379,192,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0380,train,train_0380,223,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0381,train,train_0381,522,3,3,0,3,0,3,,0,False,0,German lexical markers,False,True,False,False
+train_0382,train,train_0382,2580,2,1,1,1,0,2,Art. 61 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0383,train,train_0383,1127,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0384,train,train_0384,836,8,7,1,7,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_0385,train,train_0385,2529,8,7,1,7,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_0386,train,train_0386,112,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0387,eval,train_0173,2599,10,9,1,9,0,10,,0,False,0,German lexical markers,False,False,True,True
+train_0388,train,train_0388,1645,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0389,train,train_0285,4268,3,2,1,2,0,3,Art. 125 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0390,dev,train_0376,562,7,6,1,6,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0391,train,train_0391,29592,10,5,5,5,0,10,Art. 23 ff;Art. 24 Abs. 1 Ziff;Art. 31 OR;Art. 67 Abs. 1 OR;Art. 31 Abs. 3 OR;Art. 97 ff;Art. 197 ff;Art. 24 OR;Art. 25 und;Art. 41 ff;Art. 373 Abs. 2 OR;Art. 210 OR;Art. 23 OR;Art. 60 und;Art. 67 OR;Art. 62 OR;BGE 114 II 131;BGE 82 II 416 E. 3;BGE 109 II 322;BGE 107 II 421;BGE 110 II 70 E. 3;BGE 108 II 104 E. 2;BGE 42 II 497 E. 3;BGE 82 II 412;BGE 88 II 412;BGE 102 II 103;BGE 106 II 34;BGE 82 II 420;BGE 82 II 421;BGE 108 II 107 E. 2;BGE 82 II 422;BGE 90 II 88 E. 2;BGE 109 II 335;BGE 107 II 422;BGE 100 IV 255 E. 1;BGE 96 I 605 E. 4;BGE 111 II 310 E. 2;BGE 98 II 18;BGE 82 II 424 E. 7;BGE 56 II 426;BGE 52 II 145;BGE 113 II 29;BGE 101 II 210;BGE 101 II 209;BGE 102 II 99 E. 1;BGE 64 II 134 E. 2,46,True,9,German lexical markers,False,False,True,False
+train_0392,train,train_0392,735,1,1,0,1,0,1,Art. 26 OECD-MA,1,True,0,German lexical markers,False,False,False,False
+train_0393,train,train_0278,2517,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0394,eval,train_0394,159,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0395,train,train_0395,3374,20,15,5,15,0,20,,0,False,0,German lexical markers,False,False,True,False
+train_0396,train,train_0396,132,1,1,0,1,0,1,Art. 3 Abs. 2 BankG,1,True,1,German lexical markers,False,False,False,False
+train_0397,dev,train_0397,397,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0398,train,train_0369,3973,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0399,train,train_0246,2308,6,3,3,3,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0400,eval,train_0400,794,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0401,eval,train_0401,362,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0402,train,train_0402,598,7,3,4,3,0,7,,0,False,0,German lexical markers,True,False,False,False
+train_0403,train,train_0403,1449,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0404,eval,train_0404,1383,5,4,1,3,1,4,Art. 19 Abs. 2 BetmG,1,True,1,German lexical markers,True,False,False,False
+train_0405,eval,train_0034,1348,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0406,train,train_0321,7010,1,0,1,0,0,1,Art. 1 Rechtsetzung;Art. 2 Vollzug;Art. 3 Die;Art. 4 Pr;Art. 5 Regulierungskostensch;Art. 6 Monitoring;Art. 7 Bereichsstudien;Art. 8 Berichterstattung;Art. 9 bis;Art. 20 Ausf;Art. 21 Referendum;Art. 3 UEG,12,True,1,German lexical markers,False,False,False,False
+train_0407,train,train_0407,755,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0408,train,train_0088,797,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0409,dev,train_0409,272,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0410,train,train_0410,995,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0411,train,train_0411,1372,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0412,eval,train_0062,689,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0413,train,train_0413,76,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0414,train,train_0414,1282,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,True
+train_0415,train,train_0119,677,7,7,0,7,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0416,train,train_0029,1905,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0417,train,train_0077,17317,13,7,6,7,0,13,Art. 197 ff;Art. 201 OR;Art. 203 OR;Art. 20 Abs. 2 OR;Art. 8 ZGB;Art. 24 Abs. 1 Ziff;Art. 97 ff;Art. 23 ff;Art. 31 OR;Art. 25 und;Art. 24 OR;Art. 187 ff;Art. 187 Abs. 1 OR;Art. 187 OR;Art. 197 OR;Art. 205 OR;Art. 20 Abs. 1 OR;Art. 64 Abs. 1 OG;Art. 666 und;BGE 107 II 419;BGE 98 II 20;BGE 88 II 412;BGE 84 II 517;BGE 70 II 48;BGE 107 II 231;BGE 82 II 422;BGE 79 II 159;BGE 91 II 354;BGE 81 II 56;BGE 98 II 78;BGE 96 II 27 E. 2;BGE 95 II 146;BGE 99 II 309;BGE 96 II 106;BGE 80 II 334;BGE 78 II 217;BGE 107 II 218;BGE 86 II 187;BGE 80 III 57;BGE 76 II 15;BGE 79 II 217 E. 5;BGE 97 II 46;BGE 105 II 144,43,True,11,German lexical markers,False,False,True,False
+train_0418,train,train_0001,1554,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,True
+train_0419,train,train_0419,791,3,0,3,0,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0420,train,train_0420,614,22,15,7,14,1,21,,0,False,0,German lexical markers,False,False,False,False
+train_0421,train,train_0421,293,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0422,train,train_0422,502,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0423,train,train_0004,5658,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0424,train,train_0194,2123,13,13,0,13,0,13,,0,False,0,German lexical markers,False,False,True,False
+train_0425,train,train_0425,2150,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0426,train,train_0051,2741,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0427,train,train_0045,6826,15,12,3,11,1,14,Art. 191 ZPO;Art. 12 Abs. 1 DSG;Art. 13 DSG;Art. 13 Abs. 1 DSG;Art. 179 quater;BGE 142 III 263,6,True,4,German lexical markers,True,False,True,False
+train_0428,train,train_0428,2382,3,2,1,2,0,3,Art. 336 Abs. 1 OR;Art. 336a OR,2,True,2,German lexical markers,False,False,True,False
+train_0429,train,train_0429,344,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0430,train,train_0430,131,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0431,train,train_0431,240,3,0,3,0,0,3,Art. 121 a,1,True,0,German lexical markers,False,False,False,False
+train_0432,dev,train_0432,170,4,2,2,2,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0433,train,train_0433,154,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0434,train,train_0434,882,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,True,False
+train_0435,train,train_0027,5827,6,4,2,4,0,6,Art. 16 Abs;Art. 21 Die;Art. 22 Der;Art. 23 Gegen;Art. 1 Eidgen;Art. 41 Luftfahrthindernisse;Art. 63 Erstellung;Art. 64 Gesuch;Art. 66 Pr,9,True,0,German lexical markers,False,False,True,True
+train_0436,eval,train_0132,2494,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0437,train,train_0437,812,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0438,train,train_0179,2691,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0439,train,train_0439,585,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0440,train,train_0304,4404,24,19,5,19,0,24,,0,False,0,German lexical markers,False,False,True,False
+train_0441,train,train_0057,1177,3,2,1,2,0,3,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0442,train,train_0442,183,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0443,train,train_0443,280,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0444,train,train_0298,1168,8,4,4,4,0,8,,0,False,0,German lexical markers,False,False,True,False
+train_0445,train,train_0254,610,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0446,train,train_0446,1674,4,4,0,4,0,4,,0,False,0,German lexical markers,True,False,False,False
+train_0447,train,train_0447,133,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0448,train,train_0006,3584,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0449,train,train_0449,5197,6,3,3,3,0,6,Art. 1 Anspruch;Art. 2 Kostenbeteiligung;Art. 3 Vertr;Art. 4 Abgabeform;Art. 5 Sorgfaltspflicht;Art. 6 Gebrauchstraining;Art. 7 Inkrafttreten;Art. 1 Abs,8,True,0,German lexical markers,False,True,True,False
+train_0450,train,train_0450,299,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0451,train,train_0451,557,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0452,eval,train_0452,117,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0453,train,train_0453,1097,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0454,train,train_0454,267,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0455,train,train_0006,2267,10,8,2,8,0,10,,0,False,0,German lexical markers,True,False,False,False
+train_0456,train,train_0456,1456,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0457,train,train_0270,883,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0458,train,train_0458,701,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0459,train,train_0459,1237,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0460,train,train_0460,496,20,15,5,15,0,20,,0,False,0,German lexical markers,False,False,False,False
+train_0461,train,train_0461,557,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0462,dev,train_0462,707,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0463,train,train_0463,112,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0464,train,train_0139,1514,1,1,0,1,0,1,Art. 839 Abs. 2 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0465,train,train_0465,700,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0466,train,train_0192,2176,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0467,train,train_0467,1437,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0468,eval,train_0468,1171,1,0,1,0,0,1,Art. 715 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0469,train,train_0167,669,5,3,2,3,0,5,Art. 134 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0470,train,train_0058,1519,2,2,0,1,1,1,,0,False,0,German lexical markers,True,False,False,False
+train_0471,train,train_0471,131,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0472,train,train_0472,1493,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0473,train,train_0473,182,17,12,5,12,0,17,,0,False,0,German lexical markers,False,False,False,False
+train_0474,train,train_0258,781,5,3,2,2,1,4,Art. 139 Ziff;Art. 123 Ziff,2,True,0,German lexical markers,True,False,False,False
+train_0475,train,train_0271,1798,9,8,1,8,0,9,Art. 5d dahingehend;Art. 5d der,2,True,0,German lexical markers,False,False,False,False
+train_0476,train,train_0476,305,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0477,train,train_0477,209,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0478,dev,train_0315,606,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0479,eval,train_0479,555,3,2,1,2,0,3,Art. 141 StPO;Art. 177 Abs. 1 StPO;Art. 177 Abs. 3 StPO,3,True,3,German lexical markers,True,False,False,False
+train_0480,train,train_0480,2309,19,15,4,15,0,19,,0,False,0,German lexical markers,False,False,False,False
+train_0481,train,train_0194,2107,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0482,train,train_0482,2258,1,0,1,0,0,1,Art. 41 OR,1,True,1,German lexical markers,False,False,True,False
+train_0483,eval,train_0071,624,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0484,train,train_0484,237,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0485,eval,train_0485,568,19,15,4,15,0,19,,0,False,0,German lexical markers,False,False,False,False
+train_0486,train,train_0486,219,1,1,0,1,0,1,Art. 21 BV,1,True,1,German lexical markers,False,False,False,False
+train_0487,train,train_0487,153,9,4,5,4,0,9,,0,False,0,German lexical markers,True,False,False,False
+train_0488,train,train_0042,970,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0489,train,train_0489,1104,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0490,train,train_0490,2007,15,8,7,8,0,15,,0,False,0,English lexical markers,False,False,False,False
+train_0491,train,train_0491,843,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0492,train,train_0492,1955,2,2,0,2,0,2,Art. 685a ff,1,True,0,German lexical markers,False,False,True,False
+train_0493,train,train_0493,545,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0494,train,train_0494,2313,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0495,train,train_0266,2934,6,5,1,5,0,6,Art. 147 und;Art. 234 ZPO,2,True,1,German lexical markers,False,False,True,False
+train_0496,train,train_0155,1618,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0497,eval,train_0173,1617,10,9,1,9,0,10,,0,False,0,German lexical markers,False,False,True,False
+train_0498,train,train_0498,1847,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0499,train,train_0499,2040,5,4,1,4,0,5,Art. 5 ChemG;Art. 50 Abs. 1 Bst;Art. 50 Abs. 2 ChemG;Art. 51 ChemG;Art. 52 Abs. 1 ChemG,5,True,4,German lexical markers,True,False,False,False
+train_0500,eval,train_0500,447,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0501,dev,train_0501,23214,14,7,7,7,0,14,Art.721 CO;Art. 660 s;Art. 659 Abs. 5 OR;Art. 16 Abs. 2 der;Art. 534 Abs. 1 OR;Art. 112 OR;Art. 659 Abs. 1 OR;Art. 659 Abs. 2 OR;Art. 659 Abs. 3 OR;Art. 659 Abs. 2 Ziff;Art. 698 OR;Art. 698 Abs. 2 Ziff;Art. 15 der;Art. 55 Abs. 1 ZGB;Art. 721 Abs. 2 OR;Art. 652 OR;Art. 2 ZGB;Art. 736 Ziff;BGE 88 II 98;BGE 69 II 248,20,True,11,German lexical markers,False,False,True,False
+train_0502,train,train_0502,501,6,5,1,5,0,6,,0,False,0,German lexical markers,True,False,False,False
+train_0503,train,train_0030,3091,6,2,4,2,0,6,Art. 9 GwG;Art. 2 Geltungsbereich;Art. 9 Meldepflicht;Art. 260quinquies Abs. 1 StGB;Art. 37 Verletzung,5,True,1,German lexical markers,True,False,True,False
+train_0504,eval,train_0173,3765,8,7,1,7,0,8,,0,False,0,German lexical markers,False,False,True,True
+train_0505,train,train_0279,694,3,1,2,1,0,3,Art. 285 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0506,train,train_0506,297,1,0,1,0,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0507,train,train_0507,621,16,14,2,14,0,16,,0,False,0,German lexical markers,False,False,False,False
+train_0508,train,train_0008,1101,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0509,train,train_0509,164,1,1,0,1,0,1,Art. 21 BV,1,True,1,German lexical markers,False,False,False,False
+train_0510,train,train_0510,775,2,2,0,2,0,2,Art. 130 Bundesgerichtsgesetz;Art. 130 Abs. 4 BGG,2,True,1,German lexical markers,False,False,False,False
+train_0511,dev,train_0511,682,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0512,train,train_0512,355,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0513,train,train_0513,96,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0514,train,train_0027,5902,1,1,0,1,0,1,Art. 16 Abs;Art. 21 Die;Art. 22 Der;Art. 23 Gegen;Art. 1 Eidgen;Art. 41 Luftfahrthindernisse;Art. 63 Erstellung;Art. 64 Gesuch;Art. 66 Pr,9,True,0,German lexical markers,False,False,True,True
+train_0515,train,train_0515,1560,8,3,5,3,0,8,,0,False,0,German lexical markers,False,False,True,False
+train_0516,train,train_0516,746,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0517,train,train_0383,1169,6,6,0,6,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0518,train,train_0144,2327,1,0,1,0,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0519,train,train_0519,1294,12,9,3,9,0,12,,0,False,0,German lexical markers,False,False,False,False
+train_0520,dev,train_0109,2028,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0521,train,train_0329,181,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0522,train,train_0069,2089,2,1,1,1,0,2,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0523,train,train_0258,884,1,0,1,0,0,1,Art. 139 Ziff;Art. 123 Ziff,2,True,0,German lexical markers,True,False,False,False
+train_0524,train,train_0446,1041,5,4,1,4,0,5,,0,False,0,German lexical markers,True,False,False,False
+train_0525,train,train_0525,147,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0526,train,train_0526,1411,5,4,1,4,0,5,,0,False,0,German lexical markers,True,False,False,False
+train_0527,train,train_0527,2161,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0528,train,train_0526,1418,2,2,0,1,1,1,,0,False,0,German lexical markers,True,False,False,False
+train_0529,train,train_0036,2369,3,2,1,2,0,3,Art. 8a SchKG,1,True,1,German lexical markers,False,True,False,False
+train_0530,train,train_0530,159,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0531,train,train_0531,838,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0532,train,train_0039,1518,8,8,0,8,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_0533,train,train_0533,902,5,5,0,4,1,4,,0,False,0,German lexical markers,False,False,False,False
+train_0534,train,train_0210,105,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0535,train,train_0535,191,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0536,train,train_0536,268,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0537,train,train_0004,6045,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0538,train,train_0538,283,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0539,train,train_0355,510,1,1,0,1,0,1,Art. 21 Abs. 1 B,1,True,0,German lexical markers,False,False,False,False
+train_0540,train,train_0006,3528,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0541,train,train_0190,1278,3,3,0,3,0,3,Art. 123 Ziff;Art. 140 Ziff,2,True,0,German lexical markers,True,False,False,False
+train_0542,train,train_0015,1393,7,6,1,6,0,7,,0,False,0,German lexical markers,True,False,False,False
+train_0543,train,train_0543,879,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0544,train,train_0544,596,13,9,4,9,0,13,,0,False,0,German lexical markers,False,False,False,False
+train_0545,train,train_0304,4321,6,4,2,4,0,6,,0,False,0,German lexical markers,False,False,True,False
+train_0546,eval,train_0546,1312,3,3,0,3,0,3,Art. 39d eine;Art. 39d E-URG;Art. 62 E-URG,3,True,0,German lexical markers,False,False,False,False
+train_0547,train,train_0547,875,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0548,train,train_0414,1279,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0549,train,train_0549,57,2,2,0,2,0,2,Art. 64 Abs. 1 StGB,1,True,1,Other/undetermined lexical markers,True,False,False,False
+train_0550,train,train_0550,2078,3,3,0,3,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0551,dev,train_0551,251,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0552,train,train_0552,109,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0553,train,train_0553,1357,2,2,0,2,0,2,Art. 224 Abs. 2 StPO;Art. 255 Abs. 2 StPO,2,True,2,German lexical markers,True,False,False,False
+train_0554,train,train_0239,2861,1,1,0,1,0,1,Art. 14 Eurodac-Verordnung;Art. 17 Abs. 1 Dublin-III-VO,2,True,0,German lexical markers,True,False,False,False
+train_0555,train,train_0286,1144,5,2,3,2,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0556,train,train_0422,499,7,6,1,6,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0557,eval,train_0557,25310,7,5,2,3,2,5,Art. 55 Abs. 1 OG;Art. 63 Abs. 2 OG;Art. 64 OG;Art. 725 Abs. 2 OR;Art. 51 Abs. 1 OG;Art. 725 OR;Art. 725a OR;Art. 64 OR;Art. 729b Abs. 2 OR;BGE 126 III 10 E. 2;BGE 115 II 484 E. 2;BGE 115 II 83 E. 3;BGE 119 II 478 E. 1;BGE 120 II 296 E. 3;BGE 127 III 73 E. 4;BGE 116 II 533 E. 5;BGE 108 V 183 E. 2;BGE 122 III 166 E. 3;BGE 117 II 432 E. 1,19,True,5,German lexical markers,False,False,True,False
+train_0558,train,train_0558,138,2,0,2,0,0,2,Art. 206 ZGB;Art. 209 ZGB,2,True,2,German lexical markers,False,False,True,False
+train_0559,train,train_0006,3517,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0560,train,train_0560,169,1,1,0,1,0,1,BGE 121 III 219,1,True,0,German lexical markers,False,False,False,False
+train_0561,dev,train_0561,291,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0562,train,train_0562,3655,1,0,1,0,0,1,,0,False,0,German lexical markers,True,True,False,False
+train_0563,train,train_0563,799,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0564,train,train_0431,236,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0565,train,train_0565,744,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0566,eval,train_0566,91,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0567,train,train_0512,543,1,1,0,1,0,1,,0,False,0,English lexical markers,False,False,True,False
+train_0568,train,train_0568,623,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0569,train,train_0569,792,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0570,train,train_0246,1052,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0571,train,train_0571,607,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0572,train,train_0037,1752,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0573,train,train_0573,567,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0574,train,train_0042,2111,9,4,5,4,0,9,,0,False,0,German lexical markers,True,False,False,False
+train_0575,dev,train_0575,1118,1,1,0,0,1,0,,0,False,0,German lexical markers,False,False,False,False
+train_0576,train,train_0383,1205,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0577,train,train_0577,919,11,9,2,9,0,11,,0,False,0,German lexical markers,False,False,True,False
+train_0578,train,train_0342,1640,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0579,train,train_0579,832,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0580,train,train_0580,378,2,2,0,2,0,2,Art. 90 Abs. 2 IPRG,1,True,1,German lexical markers,False,False,False,False
+train_0581,train,train_0581,1813,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0582,train,train_0582,476,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0583,train,train_0583,646,5,2,3,2,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0584,train,train_0224,758,5,3,2,3,0,5,Art. 123 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0585,train,train_0585,1121,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0586,train,train_0586,1444,3,0,3,0,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0587,train,train_0459,1292,2,2,0,2,0,2,,0,False,0,German lexical markers,False,True,False,False
+train_0588,train,train_0271,1785,9,6,3,4,2,7,Art. 5d dahingehend;Art. 5d der,2,True,0,German lexical markers,False,False,False,False
+train_0589,train,train_0589,317,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0590,train,train_0590,143,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0591,train,train_0591,1452,1,1,0,0,1,0,,0,False,0,German lexical markers,False,False,False,False
+train_0592,train,train_0592,360,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0593,eval,train_0112,1642,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0594,eval,train_0173,1623,10,10,0,10,0,10,,0,False,0,German lexical markers,False,False,True,False
+train_0595,train,train_0395,4542,10,8,2,8,0,10,,0,False,0,German lexical markers,False,False,True,False
+train_0596,eval,train_0071,588,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0597,train,train_0265,1033,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0598,train,train_0598,1628,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0599,train,train_0599,131,6,4,2,4,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0600,train,train_0600,1242,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0601,train,train_0480,2301,8,0,8,0,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_0602,dev,train_0084,2267,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0603,train,train_0053,1347,2,2,0,2,0,2,,0,False,0,English lexical markers,False,False,False,False
+train_0604,train,train_0492,1500,4,4,0,4,0,4,Art. 685a ff,1,True,0,German lexical markers,False,False,True,False
+train_0605,train,train_0605,576,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0606,train,train_0606,760,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0607,train,train_0093,1924,15,14,1,14,0,15,,0,False,0,German lexical markers,False,False,False,False
+train_0608,train,train_0467,1508,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0609,train,train_0609,215,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0610,train,train_0183,1170,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0611,train,train_0577,921,14,9,5,9,0,14,,0,False,0,German lexical markers,False,False,True,False
+train_0612,train,train_0192,1620,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0613,train,train_0155,2023,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,True,False
+train_0614,eval,train_0614,277,3,2,1,2,0,3,Art. 120 FinfraG,1,True,1,German lexical markers,True,False,False,False
+train_0615,train,train_0615,1820,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0616,dev,train_0616,73,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0617,eval,train_0617,1019,7,5,2,5,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0618,train,train_0304,4329,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0619,train,train_0139,1514,1,1,0,1,0,1,Art. 839 Abs. 2 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0620,train,train_0620,146,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0621,eval,train_0621,1072,11,7,4,7,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_0622,train,train_0286,1119,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0623,train,train_0623,219,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0624,eval,train_0624,230,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0625,train,train_0625,324,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0626,train,train_0055,1490,1,1,0,1,0,1,Art. 41 Abs. 1 OR,1,True,1,German lexical markers,False,False,True,True
+train_0627,train,train_0006,2237,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0628,train,train_0628,1222,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0629,dev,train_0109,2477,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0630,train,train_0630,901,3,3,0,3,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0631,train,train_0313,2364,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0632,train,train_0632,2938,2,0,2,0,0,2,Art. 50quater Veranstaltungsverbot,1,True,0,German lexical markers,True,False,False,False
+train_0633,train,train_0633,590,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0634,train,train_0634,1959,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0635,train,train_0635,448,3,3,0,3,0,3,Art. 285 Abs. 2 ZGB;Art. 285 D,2,True,1,German lexical markers,False,False,True,False
+train_0636,train,train_0636,207,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0637,train,train_0369,3793,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0638,train,train_0492,1968,5,5,0,5,0,5,Art. 685a ff,1,True,0,German lexical markers,False,False,True,False
+train_0639,train,train_0639,808,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0640,train,train_0293,538,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0641,train,train_0179,2010,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0642,train,train_0642,551,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0643,train,train_0280,2505,10,7,3,7,0,10,,0,False,0,German lexical markers,False,False,True,False
+train_0644,train,train_0644,1639,6,2,4,2,0,6,Art. 102 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0645,train,train_0004,5980,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0646,train,train_0646,513,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0647,dev,train_0315,655,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0648,train,train_0648,919,3,3,0,3,0,3,Art. 2 Abs. 3 und;Art. 10 Abs. 3 URG,2,True,1,German lexical markers,False,False,False,False
+train_0649,train,train_0649,2209,5,3,2,3,0,5,Art. 216 ZGB;Art. 470 ZGB;Art. 471 ZGB,3,True,3,German lexical markers,False,True,True,False
+train_0650,train,train_0650,1179,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0651,dev,train_0651,357,2,2,0,2,0,2,,0,False,0,German lexical markers,False,True,False,False
+train_0652,train,train_0652,252,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0653,train,train_0270,2958,3,2,1,2,0,3,Art. 190 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0654,eval,train_0654,163,6,2,4,2,0,6,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_0655,train,train_0639,1010,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0656,train,train_0656,557,5,2,3,2,0,5,,0,False,0,German lexical markers,True,False,False,False
+train_0657,train,train_0004,4301,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0658,train,train_0658,1290,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0659,train,train_0439,653,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0660,train,train_0660,168,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0661,train,train_0661,387,2,1,1,1,0,2,Art. 15 IPRG,1,True,1,German lexical markers,False,False,False,False
+train_0662,dev,train_0662,2042,10,6,4,5,1,9,Art. 19 Abs. 1 Bst;Art. 19 Abs. 2 Bst;Art. 66a Abs. 1 Bst;Art. 19 BetmG;Art. 66a StGB,5,True,2,German lexical markers,True,False,False,False
+train_0663,train,train_0663,2333,12,6,6,6,0,12,Art. 394 f;Art. 395 Abs. 4 ZGB;Art. 781 ZGB,3,True,2,German lexical markers,False,False,True,False
+train_0664,train,train_0664,128,7,6,1,6,0,7,,0,False,0,German lexical markers,False,False,True,False
+train_0665,train,train_0665,62,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0666,train,train_0428,1195,5,2,3,2,0,5,,0,False,0,German lexical markers,False,False,True,False
+train_0667,dev,train_0109,1830,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0668,train,train_0668,76,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0669,train,train_0669,794,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0670,train,train_0670,364,1,0,1,0,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0671,train,train_0492,1487,1,1,0,1,0,1,Art. 685a ff,1,True,0,German lexical markers,False,False,True,False
+train_0672,train,train_0672,298,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0673,dev,train_0673,1314,4,3,1,3,0,4,Art. 20 OR,1,True,1,German lexical markers,False,False,True,False
+train_0674,dev,train_0263,1607,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0675,train,train_0004,5500,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0676,train,train_0676,563,3,1,2,1,0,3,,0,False,0,English lexical markers,False,False,False,False
+train_0677,train,train_0422,440,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0678,train,train_0057,1000,3,1,2,1,0,3,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0679,train,train_0679,1109,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0680,train,train_0585,917,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0681,train,train_0681,1278,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0682,train,train_0150,1274,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0683,train,train_0331,1292,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0684,train,train_0684,3503,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0685,train,train_0685,153,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0686,dev,train_0686,764,4,3,1,3,0,4,Art. 36a Aggressive;Art. 36b Strafbestimmung,2,True,0,German lexical markers,True,False,False,False
+train_0687,train,train_0687,1855,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0688,eval,train_0688,389,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0689,train,train_0217,1729,1,0,1,0,0,1,Art. 18 OECD-MA;Art. 5 DBG;Art. 5 zu,3,True,1,German lexical markers,False,False,True,False
+train_0690,train,train_0008,1115,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0691,train,train_0306,1960,1,1,0,1,0,1,Art. 14 ISV;Art. 14 ISV-Statuten,2,True,0,German lexical markers,False,False,False,False
+train_0692,train,train_0577,979,21,20,1,20,0,21,,0,False,0,German lexical markers,False,False,True,False
+train_0693,train,train_0693,419,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0694,train,train_0160,3304,10,6,4,6,0,10,Art. 41 Abs. 1 Bst;Art. 118 Abs. 2 Bst;Art. 281 beziehungsweise;Art. 282 des,4,True,0,German lexical markers,True,False,False,False
+train_0695,train,train_0293,528,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0696,train,train_0069,1499,11,6,5,6,0,11,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0697,train,train_0565,745,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0698,train,train_0179,1896,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0699,eval,train_0276,1878,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0700,train,train_0419,913,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0701,train,train_0311,1401,1,0,1,0,0,1,Art. 237 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0702,train,train_0069,1932,13,7,6,7,0,13,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0703,train,train_0703,1881,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0704,train,train_0016,2309,2,1,1,0,1,1,Art. 4 StromVV,1,True,1,German lexical markers,False,False,False,False
+train_0705,train,train_0705,893,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0706,train,train_0331,1313,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0707,train,train_0707,616,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0708,train,train_0708,341,9,6,3,6,0,9,,0,False,0,German lexical markers,True,False,False,False
+train_0709,train,train_0709,956,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0710,train,train_0634,1722,17,10,7,10,0,17,,0,False,0,German lexical markers,False,False,False,False
+train_0711,train,train_0711,142,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0712,eval,train_0617,2286,9,8,1,8,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_0713,train,train_0317,2378,4,1,3,1,0,4,Art. 177 StGB;Art. 332 StGB;Art. 123 Ziff,3,True,2,German lexical markers,True,False,False,False
+train_0714,dev,train_0714,1507,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0715,train,train_0715,2645,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0716,train,train_0037,1495,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0717,train,train_0717,904,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0718,eval,train_0348,4206,3,1,2,1,0,3,Art. 183 StGB;Art. 184 StGB,2,True,2,German lexical markers,True,False,False,False
+train_0719,train,train_0449,5373,1,1,0,1,0,1,Art. 1 Anspruch;Art. 2 Kostenbeteiligung;Art. 3 Vertr;Art. 4 Abgabeform;Art. 5 Sorgfaltspflicht;Art. 6 Gebrauchstraining;Art. 7 Inkrafttreten;Art. 1 Abs,8,True,0,German lexical markers,False,True,True,False
+train_0720,train,train_0720,332,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0721,dev,train_0022,938,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0722,train,train_0133,952,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0723,train,train_0016,2105,2,0,2,0,0,2,Art. 4 StromVV,1,True,1,German lexical markers,False,False,False,False
+train_0724,eval,train_0724,487,13,9,4,9,0,13,,0,False,0,German lexical markers,False,False,False,False
+train_0725,train,train_0725,366,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0726,train,train_0726,1687,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0727,train,train_0218,751,6,2,4,2,0,6,Art. 9 UVG,1,True,1,German lexical markers,False,True,False,False
+train_0728,train,train_0728,157,15,14,1,14,0,15,,0,False,0,German lexical markers,False,False,True,False
+train_0729,train,train_0729,110,4,3,1,3,0,4,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_0730,train,train_0730,167,10,8,2,8,0,10,,0,False,0,German lexical markers,False,False,False,False
+train_0731,train,train_0632,2075,10,8,2,8,0,10,,0,False,0,German lexical markers,True,False,False,False
+train_0732,train,train_0070,750,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0733,train,train_0194,2163,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,True,False
+train_0734,train,train_0734,179,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0735,train,train_0565,791,7,5,2,5,0,7,,0,False,0,German lexical markers,True,False,False,False
+train_0736,train,train_0736,191,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0737,train,train_0737,242,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0738,train,train_0738,64,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0739,dev,train_0739,711,5,4,1,4,0,5,Art. 143 Abs. 1 StGB;Art. 197 Abs. 4 Satz;Art. 198 StGB,3,True,2,German lexical markers,True,False,False,False
+train_0740,dev,train_0740,314,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0741,train,train_0321,6914,1,1,0,1,0,1,Art. 1 Rechtsetzung;Art. 2 Vollzug;Art. 3 Die;Art. 4 Pr;Art. 5 Regulierungskostensch;Art. 6 Monitoring;Art. 7 Bereichsstudien;Art. 8 Berichterstattung;Art. 9 bis;Art. 20 Ausf;Art. 21 Referendum,11,True,0,German lexical markers,False,False,False,False
+train_0742,train,train_0093,3657,5,3,2,3,0,5,,0,False,0,German lexical markers,False,False,True,False
+train_0743,train,train_0259,20150,8,6,2,6,0,8,Art. 101 Abs. 1 OR;Art. 399 Abs. 2 OR;Art. 44 und;Art. 1 Abs. 2 OR;Art. 39 Abs. 3 OR;Art. 101 OR;Art. 398 und;Art. 399 Abs;Art. 44 OR;Art. 8 ZGB;Art. 64 Abs. 1 OG;Art. 99 Abs. 2 OR;BGE 112 II 347;BGE 111 II 473 E. 2;BGE 82 IV 147 E. 2;BGE 107 II 245;BGE 110 II 373 E. 5,17,True,8,German lexical markers,False,False,True,False
+train_0744,train,train_0510,731,1,1,0,1,0,1,Art. 130 Bundesgerichtsgesetz;Art. 130 Abs. 3 BGG,2,True,1,German lexical markers,False,False,False,False
+train_0745,eval,train_0745,244,1,1,0,1,0,1,4A_74/2012;4A_268/2018,2,True,0,German lexical markers,False,False,False,False
+train_0746,eval,train_0371,903,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0747,train,train_0747,795,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0748,train,train_0050,590,5,1,4,1,0,5,Art. 35 Personalrecht,1,True,0,German lexical markers,False,False,False,False
+train_0749,train,train_0749,113,1,1,0,1,0,1,Art. 853 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0750,dev,train_0750,352,2,1,1,1,0,2,,0,False,0,German lexical markers,False,True,False,False
+train_0751,dev,train_0751,1290,1,1,0,0,1,0,,0,False,0,German lexical markers,True,False,False,False
+train_0752,train,train_0752,90,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0753,train,train_0753,711,1,1,0,1,0,1,Art. 141 Abs. 1 StPO,1,True,1,German lexical markers,True,False,False,False
+train_0754,train,train_0582,497,19,18,1,18,0,19,,0,False,0,German lexical markers,False,False,False,False
+train_0755,train,train_0017,1175,12,7,5,7,0,12,,0,False,0,German lexical markers,False,False,False,False
+train_0756,train,train_0562,3837,1,0,1,0,0,1,,0,False,0,German lexical markers,True,True,False,False
+train_0757,train,train_0059,703,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0758,train,train_0661,304,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0759,train,train_0759,262,7,1,6,1,0,7,,0,False,0,German lexical markers,True,False,False,False
+train_0760,train,train_0036,1293,10,9,1,9,0,10,Art. 8a SchKG,1,True,1,German lexical markers,False,True,False,False
+train_0761,train,train_0761,2971,6,3,3,3,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0762,train,train_0278,2471,8,8,0,8,0,8,,0,False,0,German lexical markers,False,False,False,True
+train_0763,dev,train_0763,784,23,13,10,13,0,23,,0,False,0,German lexical markers,True,False,False,False
+train_0764,train,train_0764,288,3,1,2,1,0,3,Art. 120 FinfraG,1,True,1,German lexical markers,True,False,False,False
+train_0765,eval,train_0765,210,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0766,dev,train_0766,96,3,2,1,2,0,3,Art. 195a ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0767,train,train_0767,369,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0768,train,train_0768,1168,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0769,train,train_0769,32729,12,6,6,5,1,11,Art. 678 OR;Art. 754 ff;Art. 680 Abs. 2 OR;Art. 671 Abs. 2 Ziff;Art. 42 und;Art. 44 OR;Art. 2 Abs. 1 ZGB;Art. 285 ff;Art. 214 SchKG;Art. 43 f;Art. 732 ff;Art. 660 OR;Art. 675 Abs. 2 OR;Art. 680 OR;Art. 659a Abs. 2 OR;Art. 675 OR;BGE 140 III 533;BGE 132 III 668 E. 3.2;BGE 117 IV 259 E. 5;BGE 61 I 147;BGE 109 II 128 E. 2;BGE 87 II 181 E. 9;4A_138/2014;4A_248/2012;4A_496/2010;4A_188/2007,26,True,11,English lexical markers,False,False,True,False
+train_0770,train,train_0770,202,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0771,train,train_0705,1011,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0772,dev,train_0772,1419,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0773,train,train_0550,2270,6,6,0,6,0,6,Art. 44 AsylG,1,True,1,German lexical markers,True,False,False,False
+train_0774,train,train_0093,3580,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,True,False
+train_0775,train,train_0158,2099,7,3,4,3,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_0776,train,train_0639,936,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0777,eval,train_0777,99,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0778,train,train_0778,142,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0779,train,train_0360,1407,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0780,dev,train_0780,504,3,3,0,3,0,3,Art. 45 Abs. 3 OR,1,True,1,German lexical markers,False,True,True,False
+train_0781,train,train_0116,1584,16,9,7,9,0,16,,0,False,0,German lexical markers,True,False,False,False
+train_0782,train,train_0527,2134,12,12,0,12,0,12,,0,False,0,German lexical markers,False,True,False,False
+train_0783,train,train_0144,2383,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0784,train,train_0784,508,2,1,1,1,0,2,,0,False,0,German lexical markers,False,True,False,False
+train_0785,train,train_0785,127,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0786,train,train_0684,3392,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,True,False
+train_0787,train,train_0787,137,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0788,train,train_0526,1361,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,True,False
+train_0789,dev,train_0018,388,5,2,3,2,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0790,dev,train_0790,105,1,1,0,1,0,1,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_0791,train,train_0139,1514,1,1,0,1,0,1,Art. 839 Abs. 2 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0792,train,train_0792,215,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0793,dev,train_0793,338,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0794,train,train_0428,1665,4,2,2,2,0,4,Art. 336 Abs. 1 OR;Art. 336a OR,2,True,2,German lexical markers,False,False,True,False
+train_0795,train,train_0369,1658,5,3,2,3,0,5,,0,False,0,German lexical markers,False,False,False,True
+train_0796,dev,train_0796,989,2,2,0,2,0,2,2C_709/2019,1,True,0,German lexical markers,False,False,False,False
+train_0797,train,train_0133,1148,2,2,0,2,0,2,,0,False,0,German lexical markers,False,True,False,False
+train_0798,train,train_0798,178,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0799,train,train_0799,313,3,0,3,0,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0800,train,train_0800,1392,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0801,train,train_0461,613,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0802,train,train_0802,1092,2,1,1,1,0,2,Art. 64 KVG,1,True,1,German lexical markers,False,True,False,False
+train_0803,train,train_0803,700,3,1,2,1,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0804,train,train_0369,1690,9,5,4,5,0,9,,0,False,0,German lexical markers,False,False,False,True
+train_0805,train,train_0036,1280,2,1,1,1,0,2,Art. 8a SchKG,1,True,1,German lexical markers,False,True,False,False
+train_0806,train,train_0382,1523,4,3,1,3,0,4,,0,False,0,German lexical markers,True,False,False,False
+train_0807,dev,train_0807,660,2,0,2,0,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0808,train,train_0649,1964,10,7,3,7,0,10,Art. 216 ZGB;Art. 470 ZGB;Art. 471 ZGB,3,True,3,German lexical markers,False,True,True,False
+train_0809,train,train_0809,610,2,1,1,1,0,2,Art. 221 Abs. 2 StPO;Art. 180 StGB,2,True,2,German lexical markers,True,False,False,False
+train_0810,dev,train_0810,1800,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0811,eval,train_0071,637,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0812,train,train_0285,4263,1,0,1,0,0,1,Art. 125 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0813,eval,train_0813,267,3,0,3,0,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0814,dev,train_0018,1007,6,4,2,4,0,6,Art. 9 SebG,1,True,1,German lexical markers,False,False,False,False
+train_0815,eval,train_0815,1096,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,True
+train_0816,train,train_0207,661,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0817,train,train_0028,1323,13,6,7,6,0,13,,0,False,0,German lexical markers,False,False,False,False
+train_0818,eval,train_0062,682,11,7,4,7,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_0819,train,train_0467,1411,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0820,dev,train_0751,1305,1,0,1,0,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0821,eval,train_0276,1335,3,1,2,1,0,3,,0,False,0,German lexical markers,False,True,False,False
+train_0822,train,train_0179,1659,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0823,dev,train_0823,450,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0824,train,train_0547,992,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0825,train,train_0093,2236,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0826,train,train_0492,1489,6,5,1,5,0,6,Art. 685a ff,1,True,0,German lexical markers,False,False,True,False
+train_0827,train,train_0023,544,3,2,1,2,0,3,Art. 15 Abs. 2 JStG,1,True,1,German lexical markers,False,False,False,False
+train_0828,train,train_0283,889,1,0,1,0,0,1,Art. 66a StGB,1,True,1,German lexical markers,True,False,False,False
+train_0829,train,train_0615,1881,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0830,train,train_0321,6993,1,1,0,1,0,1,Art. 1 Rechtsetzung;Art. 2 Vollzug;Art. 3 Die;Art. 4 Pr;Art. 5 Regulierungskostensch;Art. 6 Monitoring;Art. 7 Bereichsstudien;Art. 8 Berichterstattung;Art. 9 bis;Art. 20 Ausf;Art. 21 Referendum;Art. 1 UEG,12,True,1,German lexical markers,False,False,False,False
+train_0831,eval,train_0831,230,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0832,train,train_0360,1239,2,0,2,0,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0833,train,train_0833,299,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0834,train,train_0494,1894,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0835,dev,train_0315,699,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0836,eval,train_0836,1824,18,12,6,12,0,18,,0,False,0,German lexical markers,False,False,True,False
+train_0837,dev,train_0796,956,2,2,0,2,0,2,2C_709/2019,1,True,0,German lexical markers,False,False,False,False
+train_0838,train,train_0045,6831,8,5,3,4,1,7,Art. 191 ZPO;Art. 12 Abs. 1 DSG;Art. 13 DSG;Art. 13 Abs. 1 DSG;Art. 179 quater;BGE 142 III 263,6,True,4,German lexical markers,True,False,True,False
+train_0839,train,train_0059,690,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0840,train,train_0840,1225,8,5,3,5,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_0841,train,train_0339,25233,16,9,7,7,2,14,Art. 19 und;Art. 906 Abs. 2 ZGB;Art. 315 f;Art. 322ter ff;Art. 1 OR;Art. 31 OR;Art. 20 OR;Art. 316 aStGB;Art. 322quinquies f;Art. 158 StGB;Art. 26 OR;Art. 28 OR;Art. 23 OR;Art. 320 Abs. 3 OR;Art. 25 Abs. 1 OR;Art. 20 Abs. 2 OR;Art. 63 Abs. 2 OG;BGE 129 III 320;BGE 121 IV 94 E. 1;BGE 115 II 300 E. 2;BGE 111 II 398 E. 2;BGE 119 II 380 E. 4;BGE 40 II 534 E. 4;BGE 105 II 23 E. 2;BGE 127 III 543 E. 2;BGE 114 II 131 E. 3;BGE 111 II 195 E. 3;BGE 119 II 437 E. 3;BGE 110 II 244 E. 2;BGE 107 II 419 E. 3;BGE 123 III 292 E. 2,31,True,11,German lexical markers,True,True,True,False
+train_0842,train,train_0842,235,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0843,eval,train_0132,2343,15,14,1,14,0,15,,0,False,0,German lexical markers,False,False,False,False
+train_0844,train,train_0057,1629,5,3,2,3,0,5,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0845,train,train_0845,1414,9,8,1,8,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_0846,dev,train_0229,1177,5,4,1,4,0,5,,0,False,0,German lexical markers,True,False,False,False
+train_0847,train,train_0287,2370,6,4,2,4,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0848,eval,train_0244,1339,1,1,0,1,0,1,Art. 8 Bei;Art. 8 Anwesenheitsbewilligung,2,True,0,German lexical markers,False,False,False,False
+train_0849,train,train_0144,2335,2,1,1,1,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0850,eval,train_0850,75,1,0,1,0,0,1,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_0851,train,train_0167,563,5,4,1,4,0,5,Art. 134 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0852,dev,train_0852,866,1,0,1,0,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0853,train,train_0853,1724,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,True
+train_0854,train,train_0720,557,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0855,train,train_0047,877,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0856,train,train_0499,2006,5,4,1,4,0,5,Art. 5 ChemG;Art. 50 Abs. 1 Bst;Art. 50 Abs. 2 ChemG;Art. 51 ChemG;Art. 52 Abs. 1 ChemG,5,True,4,German lexical markers,True,False,False,False
+train_0857,train,train_0498,2075,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0858,train,train_0858,611,2,0,2,0,0,2,Art. 11a Abs. 2 DSG,1,True,1,German lexical markers,False,False,False,False
+train_0859,dev,train_0859,88,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0860,train,train_0858,681,5,0,5,0,0,5,Art. 11a Abs. 2 DSG,1,True,1,German lexical markers,False,False,False,False
+train_0861,train,train_0006,2922,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0862,train,train_0669,772,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0863,train,train_0863,74,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0864,train,train_0061,905,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0865,train,train_0239,2440,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_0866,train,train_0144,2333,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0867,dev,train_0263,2387,2,2,0,2,0,2,Art. 122 i;Art. 22 Abs. 1 StGB,2,True,1,German lexical markers,True,False,False,False
+train_0868,train,train_0461,564,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0869,eval,train_0268,1289,6,4,2,4,0,6,Art. 146 Abs. 1 StGB;Art. 179 StGB;Art. 138 Ziff;Art. 399 Abs. 1 StPO,4,True,3,German lexical markers,True,False,False,False
+train_0870,train,train_0870,1109,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0871,train,train_0871,2991,4,2,2,2,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0872,train,train_0872,997,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0873,train,train_0873,986,5,4,1,4,0,5,Art. 91 SVG;Art. 42 Abs. 4 StGB;Art. 197 Abs. 1 StGB,3,True,3,German lexical markers,True,False,False,False
+train_0874,train,train_0133,1255,5,3,2,3,0,5,,0,False,0,German lexical markers,False,True,False,False
+train_0875,train,train_0875,103,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0876,train,train_0270,2468,3,2,1,2,0,3,Art. 190 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0877,dev,train_0877,528,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0878,train,train_0878,291,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0879,train,train_0800,1247,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0880,train,train_0880,1139,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0881,train,train_0881,88,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0882,train,train_0882,2385,3,3,0,3,0,3,Art. 8 und,1,True,0,German lexical markers,False,False,False,True
+train_0883,train,train_0182,988,6,3,3,3,0,6,,0,False,0,German lexical markers,False,False,True,False
+train_0884,train,train_0884,430,2,2,0,2,0,2,,0,False,0,German lexical markers,False,True,False,False
+train_0885,dev,train_0191,1236,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0886,train,train_0886,251,2,1,1,1,0,2,,0,False,0,German lexical markers,False,True,False,False
+train_0887,train,train_0887,196,1,1,0,1,0,1,Art. 70 Abs. 4 DBG,1,True,1,German lexical markers,False,False,False,False
+train_0888,train,train_0888,59,6,4,2,4,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0889,train,train_0889,1727,5,3,2,3,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0890,train,train_0890,2456,14,12,2,12,0,14,Art. 321 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0891,train,train_0891,563,24,14,10,14,0,24,,0,False,0,German lexical markers,False,False,False,False
+train_0892,train,train_0205,775,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0893,train,train_0893,269,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0894,eval,train_0894,143,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0895,train,train_0560,165,3,3,0,3,0,3,BGE 121 III 219,1,True,0,German lexical markers,False,False,False,False
+train_0896,eval,train_0130,21032,14,10,4,10,0,14,Art. 59 Abs. 1 und;Art. 59 Abs. 3 StGB;Art. 76 Abs. 2 StGB;Art. 59 StGB;Art. 64 StGB;Art. 19 Abs. 2 und;Art. 82 Abs. 1 StPO;Art. 60 Abs. 1 sowie;Art. 62a Abs. 1 und;Art. 62c Abs;Art. 63 Abs;Art. 64 Abs. 1 und;Art. 64c Abs. 3 sowie;Art. 65 StGB;Art. 62 Abs. 3 Satz;Art. 64 ff;Art. 64 Abs. 1 StGB;Art. 76 StGB;Art. 64 Abs. 1bis StGB;Art. 59 Abs. 1 StGB;Art. 59 Abs;Art. 62c Abs. 6 StGB;Art. 363 ff;Art. 59 Abs. 2 StGB;Art. 64 Abs. 4 StGB;Art. 90 Abs. 2bis i;Art. 77a Abs. 2 und;Art. 19 Abs. 2 StPO;Art. 439 Abs. 2 StPO;BGE 142 IV 1,30,True,14,English lexical markers,True,False,False,False
+train_0897,train,train_0515,1213,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0898,train,train_0679,1049,8,6,2,5,1,7,,0,False,0,German lexical markers,False,False,False,False
+train_0899,train,train_0472,1494,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0900,train,train_0059,683,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_0901,train,train_0901,1400,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0902,train,train_0341,375,6,4,2,4,0,6,,0,False,0,German lexical markers,True,False,False,False
+train_0903,train,train_0271,2593,3,2,1,2,0,3,Art. 5d dahingehend;Art. 5d der;Art. 5d Covid-19,3,True,0,German lexical markers,False,False,False,False
+train_0904,train,train_0904,221,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0905,train,train_0905,1197,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0906,train,train_0331,1191,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0907,train,train_0907,383,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0908,train,train_0032,2131,7,2,5,2,0,7,,0,False,0,German lexical markers,True,False,False,True
+train_0909,train,train_0287,2274,10,7,3,7,0,10,,0,False,0,German lexical markers,False,False,False,False
+train_0910,train,train_0045,5293,14,12,2,11,1,13,Art. 12 Abs. 1 DSG;Art. 13 DSG;Art. 13 Abs. 1 DSG;Art. 179 quater;BGE 142 III 263,5,True,3,German lexical markers,True,False,False,False
+train_0911,dev,train_0911,297,1,0,1,0,0,1,Art. 655 des,1,True,0,German lexical markers,False,False,False,False
+train_0912,train,train_0912,75,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0913,train,train_0913,2230,2,1,1,1,0,2,Art. 205 ff,1,True,0,German lexical markers,False,True,True,False
+train_0914,train,train_0914,2182,9,6,3,6,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_0915,train,train_0165,1446,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_0916,train,train_0916,687,5,2,3,2,0,5,Art. 13b Abs. 1 URG,1,True,1,German lexical markers,False,False,False,False
+train_0917,train,train_0917,1512,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0918,eval,train_0075,516,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0919,train,train_0717,982,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0920,train,train_0460,576,6,6,0,6,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0921,train,train_0207,659,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0922,train,train_0922,110,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0923,train,train_0449,5380,4,4,0,4,0,4,Art. 1 Anspruch;Art. 2 Kostenbeteiligung;Art. 3 Vertr;Art. 4 Abgabeform;Art. 5 Sorgfaltspflicht;Art. 6 Gebrauchstraining;Art. 7 Inkrafttreten;Art. 1 Abs,8,True,0,German lexical markers,False,True,True,False
+train_0924,train,train_0924,431,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0925,train,train_0925,204,3,2,1,2,0,3,4A_268/2018,1,True,0,German lexical markers,False,False,False,False
+train_0926,train,train_0168,2600,10,7,3,7,0,10,Art. 60 ff,1,True,0,German lexical markers,False,False,True,False
+train_0927,train,train_0366,1638,3,0,3,0,0,3,Art. 279 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0928,train,train_0928,201,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0929,train,train_0254,370,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0930,dev,train_0018,1509,7,5,2,5,0,7,Art. 9 SebG,1,True,1,German lexical markers,False,False,False,False
+train_0931,train,train_0029,1503,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0932,train,train_0932,587,10,7,3,7,0,10,,0,False,0,German lexical markers,False,False,True,False
+train_0933,train,train_0367,388,6,3,3,3,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0934,train,train_0934,365,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0935,train,train_0133,1094,2,0,2,0,0,2,,0,False,0,German lexical markers,True,True,False,False
+train_0936,train,train_0936,324,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0937,train,train_0355,443,1,1,0,1,0,1,Art. 21 Abs. 1 B,1,True,0,German lexical markers,False,False,False,False
+train_0938,train,train_0281,1169,6,5,1,5,0,6,,0,False,0,German lexical markers,False,True,False,False
+train_0939,train,train_0165,1235,5,1,4,1,0,5,,0,False,0,German lexical markers,False,False,True,False
+train_0940,train,train_0940,71,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0941,train,train_0941,1181,10,8,2,8,0,10,,0,False,0,German lexical markers,False,False,False,True
+train_0942,train,train_0081,2032,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0943,train,train_0943,114,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0944,train,train_0944,297,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0945,train,train_0945,237,8,8,0,8,0,8,,0,False,0,German lexical markers,False,False,True,False
+train_0946,train,train_0946,327,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0947,train,train_0947,1370,9,9,0,9,0,9,,0,False,0,German lexical markers,False,False,True,False
+train_0948,train,train_0948,703,9,8,1,8,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_0949,train,train_0339,25374,13,7,6,5,2,11,Art. 19 und;Art. 906 Abs. 2 ZGB;Art. 315 f;Art. 322ter ff;Art. 1 OR;Art. 31 OR;Art. 20 OR;Art. 316 aStGB;Art. 322quinquies f;Art. 158 StGB;Art. 26 OR;Art. 28 OR;Art. 23 OR;Art. 320 Abs. 3 OR;Art. 25 Abs. 1 OR;Art. 20 Abs. 2 OR;Art. 63 Abs. 2 OG;BGE 129 III 320;BGE 121 IV 94 E. 1;BGE 115 II 300 E. 2;BGE 111 II 398 E. 2;BGE 119 II 380 E. 4;BGE 40 II 534 E. 4;BGE 105 II 23 E. 2;BGE 127 III 543 E. 2;BGE 114 II 131 E. 3;BGE 111 II 195 E. 3;BGE 119 II 437 E. 3;BGE 110 II 244 E. 2;BGE 107 II 419 E. 3;BGE 123 III 292 E. 2,31,True,11,German lexical markers,True,True,True,False
+train_0950,eval,train_0400,749,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0951,dev,train_0951,2205,3,1,2,1,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0952,train,train_0316,1171,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0953,train,train_0953,92,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0954,train,train_0954,80,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0955,eval,train_0955,870,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0956,train,train_0573,584,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0957,train,train_0957,141,1,0,1,0,0,1,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_0958,train,train_0958,139,3,2,1,2,0,3,,0,False,0,German lexical markers,False,True,False,False
+train_0959,train,train_0167,554,10,6,4,6,0,10,Art. 134 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0960,train,train_0265,1029,4,2,2,2,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0961,train,train_0961,323,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0962,dev,train_0318,173,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0963,train,train_0963,74,4,2,2,2,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_0964,train,train_0964,147,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0965,train,train_0176,1362,8,8,0,8,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_0966,train,train_0966,1708,12,10,2,10,0,12,,0,False,0,German lexical markers,False,False,True,False
+train_0967,train,train_0967,1299,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0968,train,train_0968,722,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0969,eval,train_0348,4105,8,6,2,6,0,8,Art. 183 StGB;Art. 184 StGB,2,True,2,German lexical markers,True,False,False,False
+train_0970,train,train_0283,995,1,0,1,0,0,1,Art. 66a StGB,1,True,1,German lexical markers,True,False,False,False
+train_0971,train,train_0971,311,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_0972,train,train_0972,377,3,0,3,0,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_0973,dev,train_0973,171,2,1,1,1,0,2,Art. 3 Abs. 2 BankG;Art. 33 FINMAG,2,True,2,German lexical markers,False,False,False,False
+train_0974,train,train_0036,2733,2,1,1,1,0,2,Art. 8a SchKG,1,True,1,German lexical markers,False,True,False,False
+train_0975,train,train_0019,776,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_0976,train,train_0679,1037,3,3,0,2,1,2,,0,False,0,German lexical markers,False,False,False,False
+train_0977,eval,train_0340,2072,9,7,2,7,0,9,Art. 34 Abs;Art. 35 Abs. 4 und;Art. 47 Abs. 2 SVG,3,True,1,German lexical markers,False,False,False,False
+train_0978,train,train_0207,767,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0979,train,train_0979,1515,14,11,3,11,0,14,,0,False,0,German lexical markers,False,True,False,False
+train_0980,train,train_0980,155,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0981,train,train_0006,2808,3,2,1,2,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_0982,train,train_0091,1916,6,5,1,5,0,6,Art. 16 Abs. 1 Elektrizit,1,True,0,German lexical markers,False,False,False,False
+train_0983,train,train_0983,1010,6,6,0,6,0,6,Art. 960a Abs. 3 OR;Art. 63 Abs. 2 DBG,2,True,2,German lexical markers,False,False,True,False
+train_0984,train,train_0139,1514,1,1,0,1,0,1,Art. 839 Abs. 2 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_0985,train,train_0032,2387,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,True
+train_0986,train,train_0768,927,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0987,train,train_0029,2295,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_0988,train,train_0283,872,2,1,1,1,0,2,Art. 66a StGB,1,True,1,German lexical markers,True,False,False,False
+train_0989,dev,train_0989,202,1,0,1,0,0,1,Art. 8 DSG,1,True,1,Other/undetermined lexical markers,False,False,False,False
+train_0990,train,train_0369,3845,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,True
+train_0991,train,train_0991,453,2,2,0,2,0,2,Art. 717 Abs. 2 OR;Art. 706 Abs. 2 Ziff,2,True,1,German lexical markers,False,False,True,False
+train_0992,train,train_0027,5916,2,0,2,0,0,2,Art. 16 Abs;Art. 21 Die;Art. 22 Der;Art. 23 Gegen;Art. 1 Eidgen;Art. 41 Luftfahrthindernisse;Art. 63 Erstellung;Art. 64 Gesuch;Art. 66 Pr,9,True,0,German lexical markers,False,False,True,True
+train_0993,train,train_0403,1346,2,0,2,0,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_0994,train,train_0456,1093,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0995,train,train_0088,793,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_0996,train,train_0996,827,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_0997,eval,train_0997,1446,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_0998,train,train_0057,1018,1,0,1,0,0,1,Art. 144 StGB,1,True,1,German lexical markers,True,False,False,False
+train_0999,dev,train_0999,483,11,7,4,7,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_1000,train,train_0425,2089,5,4,1,4,0,5,,0,False,0,German lexical markers,False,False,True,False
+train_1001,train,train_0023,569,2,2,0,2,0,2,Art. 15 Abs. 2 JStG,1,True,1,German lexical markers,False,False,False,False
+train_1002,train,train_0663,1995,21,19,2,19,0,21,Art. 394 f;Art. 395 Abs. 4 ZGB;Art. 781 ZGB,3,True,2,German lexical markers,False,False,True,False
+train_1003,train,train_0051,2321,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1004,train,train_1004,274,8,6,2,6,0,8,,0,False,0,German lexical markers,True,False,False,False
+train_1005,train,train_0187,2077,1,1,0,1,0,1,Art. 4 Zul;Art. 12 Es,2,True,0,German lexical markers,False,False,False,False
+train_1006,train,train_0153,2247,9,7,2,7,0,9,Art. 2 Zweck,1,True,0,German lexical markers,False,False,False,True
+train_1007,train,train_0093,3743,10,8,2,8,0,10,,0,False,0,German lexical markers,False,False,True,False
+train_1008,train,train_0128,1596,6,2,4,2,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_1009,eval,train_1009,663,5,2,3,2,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_1010,train,train_1010,165,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1011,dev,train_0101,3164,11,7,4,7,0,11,,0,False,0,German lexical markers,False,False,True,False
+train_1012,train,train_0761,2954,4,2,2,2,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_1013,dev,train_0263,1580,6,5,1,5,0,6,,0,False,0,German lexical markers,True,False,False,False
+train_1014,train,train_0533,1259,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1015,train,train_1015,146,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1016,train,train_1016,3458,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_1017,train,train_1017,180,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_1018,train,train_1018,346,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1019,train,train_0585,965,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1020,train,train_1020,425,3,2,1,2,0,3,Art. 49 Abs. 1 ATSG;Art. 51 ATSG,2,True,2,German lexical markers,False,True,False,False
+train_1021,dev,train_0823,456,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_1022,train,train_1022,209,4,3,1,3,0,4,Art. 725 OR,1,True,1,German lexical markers,False,False,True,False
+train_1023,train,train_0506,845,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_1024,train,train_0028,1442,11,4,7,4,0,11,,0,False,0,German lexical markers,False,False,False,False
+train_1025,eval,train_1009,657,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1026,dev,train_0018,1454,6,3,3,3,0,6,Art. 9 SebG,1,True,1,German lexical markers,False,False,False,False
+train_1027,eval,train_1027,375,8,6,2,6,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_1028,train,train_0705,998,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1029,train,train_1029,3552,1,1,0,0,1,0,,0,False,0,English lexical markers,False,False,True,False
+train_1030,train,train_0007,893,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1031,train,train_0004,3443,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_1032,train,train_0220,1270,5,3,2,3,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_1033,train,train_1033,2252,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,False,False
+train_1034,train,train_1034,962,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1035,train,train_1035,494,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+train_1036,train,train_1036,91,3,3,0,2,1,2,,0,False,0,German lexical markers,True,False,False,False
+train_1037,train,train_0845,1438,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1038,dev,train_0026,4307,12,4,8,4,0,12,,0,False,0,German lexical markers,False,False,False,False
+train_1039,train,train_1039,131,27,22,5,22,0,27,,0,False,0,German lexical markers,False,False,False,False
+train_1040,train,train_0168,2032,44,34,10,33,1,43,Art. 60 ff,1,True,0,German lexical markers,False,False,True,False
+train_1041,eval,train_1041,246,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1042,dev,train_0263,2336,5,3,2,3,0,5,Art. 122 i;Art. 22 Abs. 1 StGB,2,True,1,German lexical markers,True,False,False,False
+train_1043,train,train_1043,68,7,5,2,5,0,7,,0,False,0,Other/undetermined lexical markers,False,False,False,False
+train_1044,train,train_0407,550,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1045,train,train_0039,1538,19,17,2,17,0,19,,0,False,0,German lexical markers,False,False,False,False
+train_1046,eval,train_0997,1151,7,6,1,6,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_1047,eval,train_1047,2424,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_1048,train,train_0116,2222,4,3,1,3,0,4,,0,False,0,German lexical markers,True,False,False,False
+train_1049,train,train_0467,1485,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1050,train,train_0090,165,7,4,3,4,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_1051,train,train_1051,134,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1052,train,train_1052,491,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1053,train,train_0403,1788,10,7,3,7,0,10,,0,False,0,German lexical markers,False,False,False,False
+train_1054,train,train_0582,796,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_1055,eval,train_0034,1777,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_1056,dev,train_1056,1710,1,1,0,1,0,1,Art. 19 Abs. 2 BetmG,1,True,1,German lexical markers,True,False,False,False
+train_1057,train,train_1057,1034,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1058,eval,train_1058,332,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_1059,train,train_0630,1050,1,1,0,1,0,1,,0,False,0,German lexical markers,True,False,False,False
+train_1060,train,train_1060,675,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_1061,train,train_1061,103,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1062,train,train_0871,2986,15,7,8,7,0,15,,0,False,0,German lexical markers,False,False,True,False
+train_1063,train,train_0270,3338,6,4,2,4,0,6,Art. 190 StGB;Art. 70 Abs. 1 StPO,2,True,2,German lexical markers,True,False,False,False
+train_1064,train,train_0453,1218,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1065,train,train_0238,1790,9,4,5,4,0,9,,0,False,0,German lexical markers,False,False,True,False
+train_1066,train,train_1066,372,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1067,train,train_1067,202,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1068,train,train_0081,1921,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1069,train,train_0531,804,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1070,train,train_0499,2005,5,4,1,4,0,5,Art. 5 ChemG;Art. 50 Abs. 1 Bst;Art. 50 Abs. 2 ChemG;Art. 51 ChemG;Art. 52 Abs. 1 ChemG,5,True,4,German lexical markers,True,False,False,False
+train_1071,train,train_0025,631,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1072,train,train_0456,1958,7,5,2,5,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_1073,train,train_1073,819,5,2,3,2,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_1074,train,train_0086,1385,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1075,train,train_1075,492,10,7,3,7,0,10,,0,False,0,German lexical markers,False,False,False,False
+train_1076,train,train_1076,102,5,3,2,3,0,5,Art. 64 Abs. 1 StGB,1,True,1,German lexical markers,True,False,False,False
+train_1077,train,train_0966,1654,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_1078,train,train_0967,1033,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1079,train,train_1079,468,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1080,train,train_1080,325,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1081,train,train_1073,867,9,4,5,4,0,9,,0,False,0,German lexical markers,False,False,False,False
+train_1082,train,train_1082,283,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1083,train,train_0349,551,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1084,train,train_0176,1225,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1085,train,train_1085,1477,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1086,train,train_0465,676,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_1087,train,train_0144,2349,3,3,0,3,0,3,,0,False,0,German lexical markers,True,False,False,False
+train_1088,train,train_0190,1325,2,2,0,2,0,2,Art. 123 Ziff;Art. 140 Ziff,2,True,0,German lexical markers,True,False,False,False
+train_1089,train,train_0179,2249,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1090,train,train_0550,2082,2,2,0,2,0,2,,0,False,0,German lexical markers,True,False,False,False
+train_1091,train,train_1091,140,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1092,train,train_0258,1062,4,1,3,1,0,4,Art. 139 Ziff;Art. 123 Ziff;Art. 126 Abs. 1 StGB,3,True,1,German lexical markers,True,False,False,False
+train_1093,train,train_1093,505,5,5,0,5,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_1094,train,train_1094,262,1,1,0,1,0,1,Art. 4 ATSG,1,True,1,German lexical markers,False,True,False,False
+train_1095,dev,train_0018,1384,3,2,1,2,0,3,Art. 9 SebG,1,True,1,German lexical markers,False,False,False,False
+train_1096,train,train_0190,1285,2,1,1,1,0,2,Art. 123 Ziff;Art. 140 Ziff,2,True,0,German lexical markers,True,False,False,False
+train_1097,train,train_1097,884,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1098,train,train_0133,1099,1,0,1,0,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_1099,train,train_0369,4032,12,10,2,10,0,12,,0,False,0,German lexical markers,False,False,False,True
+train_1100,eval,train_0034,1701,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1101,train,train_1101,186,3,3,0,3,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1102,train,train_0403,1645,27,14,13,14,0,27,,0,False,0,German lexical markers,False,False,True,False
+train_1103,train,train_0218,1260,4,3,1,3,0,4,Art. 9 UVG,1,True,1,German lexical markers,False,True,False,False
+train_1104,eval,train_1104,455,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1105,train,train_1105,2208,1,1,0,1,0,1,Art. 86 Abs. 1 StGB,1,True,1,German lexical markers,True,False,False,False
+train_1106,train,train_0025,773,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1107,train,train_1107,489,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1108,train,train_1108,379,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,False,False
+train_1109,dev,train_0330,2558,4,2,2,2,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_1110,train,train_0319,780,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_1111,train,train_1111,1327,13,7,6,7,0,13,Art. 221 ff;Art. 198 ZGB;Art. 222 ZGB,3,True,2,German lexical markers,False,False,True,False
+train_1112,train,train_1112,843,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1113,train,train_1113,360,1,1,0,1,0,1,,0,False,0,German lexical markers,False,True,False,False
+train_1114,eval,train_1114,128,1,1,0,1,0,1,,0,False,0,Other/undetermined lexical markers,False,False,False,True
+train_1115,train,train_1115,303,10,3,7,3,0,10,,0,False,0,German lexical markers,False,False,False,False
+train_1116,train,train_1116,13942,9,5,4,2,3,6,Art. 718a und;Art. 718b OR;Art. 55 ZPO;Art. 29 Abs. 2 BV;Art. 285 ff;Art. 754 OR;Art. 625 OR;BGE 144 III 388;BGE 127 III 332 E. 2;BGE 126 III 361 E. 3;BGE 140 III 602;BGE 131 III 636;BGE 126 III 361 E. 5;BGE 126 III 361;BGE 50 II 168;4A_645/2017;4A_195/2014;4A_197/2014;4A_55/2017,19,True,6,German lexical markers,False,False,True,False
+train_1117,dev,train_0810,1843,2,1,1,1,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_1118,train,train_0845,1420,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1119,train,train_0709,999,3,2,1,2,0,3,,0,False,0,German lexical markers,False,False,False,False
+train_1120,train,train_0087,1506,4,4,0,4,0,4,,0,False,0,German lexical markers,False,False,True,True
+train_1121,train,train_0165,1435,2,2,0,2,0,2,,0,False,0,German lexical markers,False,False,True,False
+train_1122,train,train_1122,1336,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1123,dev,train_0191,1264,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_1124,train,train_0285,4733,1,0,1,0,0,1,Art. 125 ZGB,1,True,1,German lexical markers,False,False,True,False
+train_1125,dev,train_1125,97,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1126,train,train_0707,620,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_1127,train,train_0382,1769,5,4,1,4,0,5,,0,False,0,German lexical markers,True,False,False,False
+train_1128,train,train_0880,1124,1,0,1,0,0,1,,0,False,0,German lexical markers,False,False,True,False
+train_1129,train,train_0407,820,4,3,1,3,0,4,,0,False,0,German lexical markers,False,False,True,False
+train_1130,dev,train_1130,1538,7,5,2,5,0,7,,0,False,0,German lexical markers,False,False,False,True
+train_1131,train,train_0224,1070,8,7,1,7,0,8,Art. 123 StGB,1,True,1,German lexical markers,True,False,False,False
+train_1132,train,train_0006,3129,7,5,2,4,1,6,,0,False,0,German lexical markers,True,False,False,False
+train_1133,train,train_0231,1681,8,8,0,8,0,8,,0,False,0,German lexical markers,False,False,False,False
+train_1134,train,train_1134,377,7,6,1,6,0,7,,0,False,0,German lexical markers,False,False,False,False
+train_1135,train,train_0410,414,5,3,2,3,0,5,,0,False,0,German lexical markers,False,False,False,False
+train_1136,dev,train_1136,1745,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1137,train,train_1137,1317,9,7,2,7,0,9,,0,False,0,German lexical markers,True,False,False,False
+train_1138,dev,train_0022,868,1,1,0,1,0,1,,0,False,0,German lexical markers,False,False,False,False
+train_1139,train,train_1139,105,6,5,1,5,0,6,,0,False,0,German lexical markers,False,False,False,False
+val_001,official_val,val_001,1068,42,42,0,19,23,19,Art. 221 Abs. 1 StPO,1,True,1,English lexical markers,True,False,False,False
+val_002,official_val,val_002,1636,36,36,0,20,16,20,Art. 17 LAI,1,True,0,English lexical markers,False,True,False,True
+val_003,official_val,val_003,1677,47,47,0,24,23,24,,0,False,0,English lexical markers,True,False,False,False
+val_004,official_val,val_004,1147,10,10,0,9,1,9,,0,False,0,English lexical markers,False,False,False,False
+val_005,official_val,val_005,1581,11,11,0,6,5,6,,0,False,0,English lexical markers,True,False,False,False
+val_006,official_val,val_006,1437,18,18,0,11,7,11,Art. 364 Abs. 1 OR;Art. 248 Abs. 1 OR;Art. 41 OR,3,True,2,English lexical markers,False,False,True,False
+val_007,official_val,val_007,1742,19,19,0,15,4,15,Art. 4519 CPLR;Art. 934 ZGB;Art. 936 ZGB,3,True,0,English lexical markers,False,True,True,False
+val_008,official_val,val_008,1527,29,29,0,20,9,20,,0,False,0,English lexical markers,False,False,True,False
+val_009,official_val,val_009,1116,14,14,0,11,3,11,,0,False,0,English lexical markers,False,False,False,False
+val_010,official_val,val_010,1695,25,25,0,14,11,14,,0,False,0,English lexical markers,False,False,True,False

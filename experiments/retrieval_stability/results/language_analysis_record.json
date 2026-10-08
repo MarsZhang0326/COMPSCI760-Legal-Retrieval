@@ -1,0 +1,9 @@
+{
+  "new_local_analysis": true,
+  "queries": 1149,
+  "tool": "langid 1.1.6, archived vendor",
+  "vendor_sha256": "5e4d499193c82f7de6c3835109bb6631d6bc19ef8bdc56058638d8f67772f655",
+  "max_body_characters": 5000,
+  "human_validation": false,
+  "no_remote_query_transmission": true
+}

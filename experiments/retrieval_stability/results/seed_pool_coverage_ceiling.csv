@@ -1,0 +1,3 @@
+split,queries,full_pool_citation_macro_recall_ceiling,encoder_independent,gold_injected
+eval,114,0.13483456574487235,True,False
+official_val,10,0.05121804511278196,True,False
